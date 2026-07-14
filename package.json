@@ -15,7 +15,7 @@
     "clean": "hexo clean"
   },
   "dependencies": {
-    "hexo": "^7.1.1",
+    "hexo": "^6.3.0",
     "hexo-cli": "^4.3.2",
     "hexo-renderer-marked": "^6.1.0",
     "hexo-renderer-stylus": "^3.0.1",
