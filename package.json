@@ -27,7 +27,6 @@
     "hexo-generator-search": "^3.0.0",
     "hexo-generator-json-content": "^4.2.2",
     "hexo-filter-nofollow": "^1.0.1",
-    "hexo-filter-nofollow-external": "^1.0.0",
     "hexo-theme-butterfly": "^5.3.0"
   },
   "engines": {
