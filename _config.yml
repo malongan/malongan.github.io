@@ -133,3 +133,15 @@ search:
   field: post
   format: html
   limit: 10000
+
+## JSON Content API
+jsonContent:
+  meta: true
+  keywords: false
+  posts:
+    title: true
+    date: true
+    path: true
+    excerpt: true
+    cover: false
+  pages: true
