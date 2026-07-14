@@ -87,7 +87,7 @@ post_edit:
   url: https://github.com/malongan/malongan.github.io/edit/main/source/${path}
 
 # 文章置顶
-sticky: 100
+# sticky: 100
 
 # 文章加密
 encrypt:
