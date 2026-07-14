@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>malongan</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <icon>https://malongan.github.io/icon.png</icon>
+  <id>https://malongan.github.io/</id>
+  <link href="https://malongan.github.io/" rel="alternate"/>
+  <link href="https://malongan.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, malongan</rights>
+  <subtitle>技术博客，记录成长与分享</subtitle>
+  <title>malongan</title>
+  <updated>2026-07-14T12:26:20.440Z</updated>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="Agent准则" scheme="https://malongan.github.io/categories/Agent%E5%87%86%E5%88%99/"/>
+    <category term="Agent" scheme="https://malongan.github.io/tags/Agent/"/>
+    <category term="准则" scheme="https://malongan.github.io/tags/%E5%87%86%E5%88%99/"/>
+    <category term="自我提升" scheme="https://malongan.github.io/tags/%E8%87%AA%E6%88%91%E6%8F%90%E5%8D%87/"/>
+    <id>https://malongan.github.io/2026/07/14/agent-self-improvement/</id>
+    <link href="https://malongan.github.io/2026/07/14/agent-self-improvement/"/>
+    <published>2026-07-14T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>Agent 自我提升行为准则<br>一个适用于任何 Agent 的自我进化框架。参照 penpot 助手经验编写，可直接适配到任何域名的 Agent。</p>
+<p>一、角色定位<br>每个 Agent 都应该有清晰的身份定位。明确：<br>•]]>
+    </summary>
+    <title>Agent 自我提升行为准则</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="Agent文档" scheme="https://malongan.github.io/categories/Agent%E6%96%87%E6%A1%A3/"/>
+    <category term="Agent" scheme="https://malongan.github.io/tags/Agent/"/>
+    <category term="飞书" scheme="https://malongan.github.io/tags/%E9%A3%9E%E4%B9%A6/"/>
+    <category term="文档" scheme="https://malongan.github.io/tags/%E6%96%87%E6%A1%A3/"/>
+    <id>https://malongan.github.io/2026/07/14/feishu-agent-docs/</id>
+    <link href="https://malongan.github.io/2026/07/14/feishu-agent-docs/"/>
+    <published>2026-07-14T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>🤖 飞书 Agent 简介<br>专注飞书文档 &amp; 多维表格管理的专用 Agent。精确、高效、安全。<br>📋 API 配置<br>APP_ID: cli_aab252c1c23a9bc1<br>Token 有效期: 2小时，到期需重新获取<br>基础]]>
+    </summary>
+    <title>飞书 Agent 文档合集</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="设计指南" scheme="https://malongan.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/"/>
+    <category term="IP" scheme="https://malongan.github.io/tags/IP/"/>
+    <category term="电商" scheme="https://malongan.github.io/tags/%E7%94%B5%E5%95%86/"/>
+    <category term="KV" scheme="https://malongan.github.io/tags/KV/"/>
+    <id>https://malongan.github.io/2026/07/14/ip-ecommerce-kv-guide/</id>
+    <link href="https://malongan.github.io/2026/07/14/ip-ecommerce-kv-guide/"/>
+    <published>2026-07-14T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>IP电商KV制作指南<br>📌 什么是IP KV？<br>IP KV（Key Visual）是品牌IP形象与活动主题结合的营销主视觉海报，用于电商活动、品牌宣传等场景。</p>
+<p>🎯]]>
+    </summary>
+    <title>IP电商KV制作指南</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="QwenPaw" scheme="https://malongan.github.io/categories/QwenPaw/"/>
+    <category term="QwenPaw" scheme="https://malongan.github.io/tags/QwenPaw/"/>
+    <category term="技能共享" scheme="https://malongan.github.io/tags/%E6%8A%80%E8%83%BD%E5%85%B1%E4%BA%AB/"/>
+    <id>https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/</id>
+    <link href="https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/"/>
+    <published>2026-07-14T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>QwenPaw 技能共享方案：外部技能路径配置指南<br>一、方案概述<br>目标：在单一位置创建技能，自动共享给所有 Agent，无需手动复制<br>原理：通过 config.json 配置外部技能根目录，QwenPaw]]>
+    </summary>
+    <title>QwenPaw技能共享方案</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="QwenPaw" scheme="https://malongan.github.io/categories/QwenPaw/"/>
+    <category term="QwenPaw" scheme="https://malongan.github.io/tags/QwenPaw/"/>
+    <category term="技能共享" scheme="https://malongan.github.io/tags/%E6%8A%80%E8%83%BD%E5%85%B1%E4%BA%AB/"/>
+    <category term="软链" scheme="https://malongan.github.io/tags/%E8%BD%AF%E9%93%BE/"/>
+    <id>https://malongan.github.io/2026/07/14/qwenpaw-symlink-sharing/</id>
+    <link href="https://malongan.github.io/2026/07/14/qwenpaw-symlink-sharing/"/>
+    <published>2026-07-14T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>QwenPaw Skill 软链共享方案<br>QwenPaw Skill 软链共享方案<br>版本：v1.0 | 日期：2026-06-25 | 状态：规划中<br>一、背景与现状<br>1.1 当前问题<br>QwenPaw 各 workspace 的 skill]]>
+    </summary>
+    <title>QwenPaw Skill软链共享方案</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="工具教程" scheme="https://malongan.github.io/categories/%E5%B7%A5%E5%85%B7%E6%95%99%E7%A8%8B/"/>
+    <category term="TuZi" scheme="https://malongan.github.io/tags/TuZi/"/>
+    <category term="API" scheme="https://malongan.github.io/tags/API/"/>
+    <category term="生图" scheme="https://malongan.github.io/tags/%E7%94%9F%E5%9B%BE/"/>
+    <id>https://malongan.github.io/2026/07/14/tuzi-api-guide/</id>
+    <link href="https://malongan.github.io/2026/07/14/tuzi-api-guide/"/>
+    <published>2026-07-14T10:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>TuZi API 生图使用规范</p>
+<blockquote>
+<p>版本：v1.0 | 用途：通用生图 API 参考文档</p>
+</blockquote>
+<ol>
+<li><p>API]]>
+    </summary>
+    <title>TuZi API 生图使用规范</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>malongan</name>
+    </author>
+    <category term="教程" scheme="https://malongan.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="Hexo" scheme="https://malongan.github.io/tags/Hexo/"/>
+    <category term="GitHub Pages" scheme="https://malongan.github.io/tags/GitHub-Pages/"/>
+    <category term="博客搭建" scheme="https://malongan.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>https://malongan.github.io/2024/01/01/welcome-to-hexo-blog/</id>
+    <link href="https://malongan.github.io/2024/01/01/welcome-to-hexo-blog/"/>
+    <published>2024-01-01T04:00:00.000Z</published>
+    <summary>这是一篇欢迎文章，介绍如何使用 Hexo + GitHub Pages 快速搭建个人技术博客</summary>
+    <title>欢迎使用 Hexo + GitHub Pages 博客</title>
+    <updated>2026-07-14T12:26:20.440Z</updated>
+  </entry>
+</feed>

@@ -1,0 +1,320 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>QwenPaw技能共享方案 | malongan</title><meta name="author" content="malongan"><meta name="copyright" content="malongan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="QwenPaw 技能共享方案：外部技能路径配置指南一、方案概述目标：在单一位置创建技能，自动共享给所有 Agent，无需手动复制原理：通过 config.json 配置外部技能根目录，QwenPaw 会将这些目录中的技能自动纳入技能池视图二、目录结构设计（待补充）三、配置步骤步骤 1：创建外部技能目录（待补充）步骤 2：放置技能文件每个技能目录下包含 SKILL.md：（待补充）步骤 3：修改配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QwenPaw技能共享方案">
+<meta property="og:url" content="https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/index.html">
+<meta property="og:site_name" content="malongan">
+<meta property="og:description" content="QwenPaw 技能共享方案：外部技能路径配置指南一、方案概述目标：在单一位置创建技能，自动共享给所有 Agent，无需手动复制原理：通过 config.json 配置外部技能根目录，QwenPaw 会将这些目录中的技能自动纳入技能池视图二、目录结构设计（待补充）三、配置步骤步骤 1：创建外部技能目录（待补充）步骤 2：放置技能文件每个技能目录下包含 SKILL.md：（待补充）步骤 3：修改配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://malongan.github.io/img/default_cover.jpg">
+<meta property="article:published_time" content="2026-07-14T10:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-14T12:26:20.440Z">
+<meta property="article:author" content="malongan">
+<meta property="article:tag" content="QwenPaw">
+<meta property="article:tag" content="技能共享">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://malongan.github.io/img/default_cover.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "QwenPaw技能共享方案",
+  "url": "https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/",
+  "image": "https://malongan.github.io/img/default_cover.jpg",
+  "datePublished": "2026-07-14T10:00:00.000Z",
+  "dateModified": "2026-07-14T12:26:20.440Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "malongan",
+      "url": "https://github.com/malongan"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="manifest" href="/manifest.json"/><meta name="msapplication-TileColor" content="#fff"/><link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png"/><link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css?v=5.5.5"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: malongan","link":"链接: ","source":"来源: malongan","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'QwenPaw技能共享方案',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="preconnect" href="https://cdn.jsdelivr.net"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (true) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/default_cover.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">malongan</span></a><a class="nav-page-title" href="/"><span class="site-name">QwenPaw技能共享方案</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">QwenPaw技能共享方案<a class="post-edit-link" href="https://github.com/malongan/malongan.github.io/edit/main/source/${path}_posts/qwenpaw-skill-sharing.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-07-14T10:00:00.000Z" title="发表于 2026-07-14 18:00:00">2026-07-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-07-14T12:26:20.440Z" title="更新于 2026-07-14 20:26:20">2026-07-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/QwenPaw/">QwenPaw</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>QwenPaw 技能共享方案：外部技能路径配置指南<br>一、方案概述<br>目标：在单一位置创建技能，自动共享给所有 Agent，无需手动复制<br>原理：通过 config.json 配置外部技能根目录，QwenPaw 会将这些目录中的技能自动纳入技能池视图<br>二、目录结构设计<br>（待补充）<br>三、配置步骤<br>步骤 1：创建外部技能目录<br>（待补充）<br>步骤 2：放置技能文件<br>每个技能目录下包含 SKILL.md：（待补充）<br>步骤 3：修改配置文件<br>编辑 ~&#x2F;.qwenpaw&#x2F;config.json，添加 skill_paths 字段：（待补充）<br>⚠️ 注意：</p>
+<ul>
+<li>skill_paths 是数组，支持配置多个路径</li>
+<li>路径支持 ~ 展开到用户主目录</li>
+<li>顺序决定优先级：先写的路径优先<br>步骤 4：重启 QwenPaw 或刷新技能池<br>重启后，在技能池页面应该能看到外部技能，标记为「安装来源：外部路径」<br>四、多路径配置示例<br>（待补充）<br>优先级规则：</li>
+<li>索引 0 优先级最高</li>
+<li>同名 skill 靠前的胜出，其他被遮蔽<br>五、与软链接方案对比<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>外部技能路径</th>
+<th>软链接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>官方支持</td>
+<td>✅ 是</td>
+<td>❌ 否</td>
+</tr>
+<tr>
+<td>manifest 管理</td>
+<td>✅ 正常</td>
+<td>⚠️ 可能异常</td>
+</tr>
+<tr>
+<td>跨平台兼容</td>
+<td>✅</td>
+<td>❌ Windows 不支持</td>
+</tr>
+<tr>
+<td>推荐度</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐</td>
+</tr>
+<tr>
+<td>六、常见问题</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q：外部技能路径支持网络路径吗？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A：支持 Samba、NFS 等网络挂载，但注意延迟和可用性</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q：可以同时用外部路径和技能池吗？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A：可以，两者合并展示</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q：外部技能会被写入吗？</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A：不会，manifest 只写主池，外部目录保持原样</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a target="_blank" rel="noopener" href="https://github.com/malongan">malongan</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/">https://malongan.github.io/2026/07/14/qwenpaw-skill-sharing/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://malongan.github.io" target="_blank">malongan</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/QwenPaw/">QwenPaw</a><a class="post-meta__tags" href="/tags/%E6%8A%80%E8%83%BD%E5%85%B1%E4%BA%AB/">技能共享</a></div><div class="post-share"><div class="social-share" data-image="/img/default_cover.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/07/14/qwenpaw-symlink-sharing/" title="QwenPaw Skill软链共享方案"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">QwenPaw Skill软链共享方案</div></div><div class="info-2"><div class="info-item-1">QwenPaw Skill 软链共享方案QwenPaw Skill 软链共享方案版本：v1.0 | 日期：2026-06-25 | 状态：规划中一、背景与现状1.1 当前问题QwenPaw 各 workspace 的 skill 目前以独立副本形式存在，存在以下问题： 问题 说明 磁盘浪费 同一份 SKILL.md 在每个 workspace 都存一份 修改不同步 更新 skill 内容需要在多个 workspace 逐个修改 安装繁琐 新装 skill 需要逐个 workspace 复制注册1.2 当前 skill 存放位置~&#x2F;.qwenpaw&#x2F;workspaces&#x2F;&#x2F;skills&#x2F;   # 各 workspace 独立副本~&#x2F;.qwenpaw&#x2F;skill_pool&#x2F;                      # 内置技能池（不直接下发）~&#x2F;.agents&#x2F;skills&#x2F;                           # 外部 CLI 安装位置（杂散）1.3 相关...</div></div></div></a><a class="pagination-related" href="/2026/07/14/ip-ecommerce-kv-guide/" title="IP电商KV制作指南"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">IP电商KV制作指南</div></div><div class="info-2"><div class="info-item-1">IP电商KV制作指南📌 什么是IP KV？IP KV（Key Visual）是品牌IP形象与活动主题结合的营销主视觉海报，用于电商活动、品牌宣传等场景。 🎯 快速开始方式一：飞书表格提交任务  打开设计任务管理表格 新建记录，填写以下信息：任务名称：活动名称IP角色：选择要使用的IP（如喜猫、芒果仔）主题&#x2F;场景：活动主题描述尺寸比例：3:4 或 9:16风格参考图：上传参考图（可选） 状态改为「待策划」方式二：直接对话直接告诉设计师需求，例如：“用喜猫做一个夏日露营主题的KV”“批量生成芒果仔4个场景的KV”“同时生成喜猫和云一朵的KV，都是音乐主题”📋 标准流程四阶段流程阶段1 - 需求创建：用户在表格填写基础信息 → 状态：待策划阶段2 - 策划方案：设计师给出2-3个文案+风格方案 → 状态：待确认阶段3 - 审核确认：用户选择方案 → 状态：确认生图阶段4 - 执行生成：设计师生成图片 → 状态：已完成💬 对话触发关键词基础生图“用XX IP做海报”“制作电商IP KV”“吉祥物KV”并发生图“一次生成4张” → n参数模式“多个场景” &#x2F; “...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/07/14/qwenpaw-symlink-sharing/" title="QwenPaw Skill软链共享方案"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-07-14</div><div class="info-item-2">QwenPaw Skill软链共享方案</div></div><div class="info-2"><div class="info-item-1">QwenPaw Skill 软链共享方案QwenPaw Skill 软链共享方案版本：v1.0 | 日期：2026-06-25 | 状态：规划中一、背景与现状1.1 当前问题QwenPaw 各 workspace 的 skill 目前以独立副本形式存在，存在以下问题： 问题 说明 磁盘浪费 同一份 SKILL.md 在每个 workspace 都存一份 修改不同步 更新 skill 内容需要在多个 workspace 逐个修改 安装繁琐 新装 skill 需要逐个 workspace 复制注册1.2 当前 skill 存放位置~&#x2F;.qwenpaw&#x2F;workspaces&#x2F;&#x2F;skills&#x2F;   # 各 workspace 独立副本~&#x2F;.qwenpaw&#x2F;skill_pool&#x2F;                      # 内置技能池（不直接下发）~&#x2F;.agents&#x2F;skills&#x2F;                           # 外部 CLI 安装位置（杂散）1.3 相关...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">malongan</div><div class="author-info-description">保持热爱，奔赴山海 🚀</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/malongan"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/malongan" target="_blank" title="fab fa-github"><i class="GitHub"></i></a><a class="social-icon" href="mailto:你的邮箱@example.com" target="_blank" title="fas fa-envelope"><i class="Email"></i></a><a class="social-icon" href="https://twitter.com/你的用户名" target="_blank" title="fab fa-twitter"><i class="Twitter"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="fas fa-rss"><i class="RSS"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的技术博客！</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/07/14/agent-self-improvement/" title="Agent 自我提升行为准则"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Agent 自我提升行为准则"/></a><div class="content"><a class="title" href="/2026/07/14/agent-self-improvement/" title="Agent 自我提升行为准则">Agent 自我提升行为准则</a><time datetime="2026-07-14T10:00:00.000Z" title="发表于 2026-07-14 18:00:00">2026-07-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/07/14/feishu-agent-docs/" title="飞书 Agent 文档合集"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="飞书 Agent 文档合集"/></a><div class="content"><a class="title" href="/2026/07/14/feishu-agent-docs/" title="飞书 Agent 文档合集">飞书 Agent 文档合集</a><time datetime="2026-07-14T10:00:00.000Z" title="发表于 2026-07-14 18:00:00">2026-07-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/07/14/ip-ecommerce-kv-guide/" title="IP电商KV制作指南"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="IP电商KV制作指南"/></a><div class="content"><a class="title" href="/2026/07/14/ip-ecommerce-kv-guide/" title="IP电商KV制作指南">IP电商KV制作指南</a><time datetime="2026-07-14T10:00:00.000Z" title="发表于 2026-07-14 18:00:00">2026-07-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/07/14/qwenpaw-skill-sharing/" title="QwenPaw技能共享方案"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="QwenPaw技能共享方案"/></a><div class="content"><a class="title" href="/2026/07/14/qwenpaw-skill-sharing/" title="QwenPaw技能共享方案">QwenPaw技能共享方案</a><time datetime="2026-07-14T10:00:00.000Z" title="发表于 2026-07-14 18:00:00">2026-07-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/07/14/qwenpaw-symlink-sharing/" title="QwenPaw Skill软链共享方案"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/default_cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="QwenPaw Skill软链共享方案"/></a><div class="content"><a class="title" href="/2026/07/14/qwenpaw-symlink-sharing/" title="QwenPaw Skill软链共享方案">QwenPaw Skill软链共享方案</a><time datetime="2026-07-14T10:00:00.000Z" title="发表于 2026-07-14 18:00:00">2026-07-14</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2024 - 2026 By malongan</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 6.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.5</a></span></div><div class="footer_custom_text">Hosted on GitHub Pages</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.5"></script><script src="/js/main.js?v=5.5.5"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.iife.min.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/click-heart.min.js" async="async" mobile="false"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"]):not([href="/search/"]):not([href="/archives/"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      true
+        ? pjax.loadUrl('/404.html')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
