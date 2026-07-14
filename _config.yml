@@ -1,0 +1,146 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+
+## Site
+title: 你的博客标题
+subtitle: 你的博客副标题 / Slogan
+description: 你的博客描述，用于 SEO
+keywords: 博客,技术,前端,后端,分享
+author: 你的名字/昵称
+language: zh-CN
+timezone: Asia/Shanghai
+
+## URL
+## If your site is put in a subdirectory, set url as 'https://username.github.io/blog' and root as '/blog/'
+url: https://malongan.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+## Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+  - '**/*.md'  # 可按需排除
+
+## Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: true
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+## Home page setting
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+## Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+## Metadata elements
+meta_generator: true
+
+## Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: mtime
+
+## Pagination
+per_page: 10
+pagination_dir: page
+
+## Extensions
+## Plugins: https://hexo.io/plugins/
+theme: butterfly
+
+## Deployment
+## Docs: https://hexo.io/docs/one-command-deployment.html
+deploy:
+  type: git
+  repo: https://github.com/malongan/malongan.github.io.git
+  branch: gh-pages
+  message: 'Site updated: {{ now("YYYY-MM-DD HH:mm:ss") }}'
+  # token: ${GITHUB_TOKEN}  # 通过环境变量注入，不要硬编码
+
+## Markdown
+## Docs: https://hexo.io/docs/markdown.html
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - hexo-filter-nofollow
+    - hexo-filter-nofollow-external
+
+## Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+## Sitemap
+sitemap:
+  path: sitemap.xml
+  template: 
+  rel: false
+  tags: true
+  categories: true
+
+## Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+## JSON Content API
+jsonContent:
+  meta: true
+  pages: true
+  posts: true
+  categories: true
+  tags: true
+  date: true
+  updated: true
