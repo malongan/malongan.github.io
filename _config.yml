@@ -2,11 +2,11 @@
 ## Docs: https://hexo.io/docs/configuration.html
 
 ## Site
-title: 你的博客标题
-subtitle: 你的博客副标题 / Slogan
-description: 你的博客描述，用于 SEO
+title: malongan
+subtitle: 技术博客，记录成长与分享
+description: 个人技术博客，记录成长与分享
 keywords: 博客,技术,前端,后端,分享
-author: 你的名字/昵称
+author: malongan
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -28,8 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
-  - '**/*.md'  # 可按需排除
+skip_render: []
 
 ## Writing
 new_post_name: :title.md
