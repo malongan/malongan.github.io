@@ -1,8 +1,11 @@
 ---
 title: QwenPaw技能共享方案
 date: 2026-07-14 18:00:00
-tags: ['QwenPaw', '技能共享']
-categories: [QwenPaw]
+tags:
+  - QwenPaw
+  - 技能共享
+categories:
+  - QwenPaw
 ---
 
 QwenPaw 技能共享方案：外部技能路径配置指南

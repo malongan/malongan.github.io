@@ -1,8 +1,12 @@
 ---
 title: QwenPaw Skill软链共享方案
 date: 2026-07-14 18:00:00
-tags: ['QwenPaw', '软链', '技能共享']
-categories: [QwenPaw]
+tags:
+  - QwenPaw
+  - 软链
+  - 技能共享
+categories:
+  - QwenPaw
 ---
 
 QwenPaw Skill 软链共享方案

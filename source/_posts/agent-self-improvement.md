@@ -1,8 +1,12 @@
 ---
 title: Agent 自我提升行为准则
 date: 2026-07-14 18:00:00
-tags: ['Agent', '准则', '自我提升']
-categories: [Agent准则]
+tags:
+  - Agent
+  - 准则
+  - 自我提升
+categories:
+  - Agent准则
 ---
 
 Agent 自我提升行为准则

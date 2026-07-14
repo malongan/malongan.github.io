@@ -1,8 +1,12 @@
 ---
 title: IP电商KV制作指南
 date: 2026-07-14 18:00:00
-tags: ['IP', '电商', 'KV']
-categories: [设计指南]
+tags:
+  - IP
+  - 电商
+  - KV
+categories:
+  - 设计指南
 ---
 
 IP电商KV制作指南

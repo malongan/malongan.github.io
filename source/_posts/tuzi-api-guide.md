@@ -1,8 +1,12 @@
 ---
 title: TuZi API 生图使用规范
 date: 2026-07-14 18:00:00
-tags: ['TuZi', 'API', '生图']
-categories: [工具教程]
+tags:
+  - TuZi
+  - API
+  - 生图
+categories:
+  - 工具教程
 ---
 
 TuZi API 生图使用规范

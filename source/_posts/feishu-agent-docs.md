@@ -1,8 +1,12 @@
 ---
 title: 飞书 Agent 文档合集
 date: 2026-07-14 18:00:00
-tags: ['Agent', '飞书', '文档']
-categories: [Agent文档]
+tags:
+  - Agent
+  - 飞书
+  - 文档
+categories:
+  - Agent文档
 ---
 
 🤖 飞书 Agent 简介
