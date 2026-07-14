@@ -4,7 +4,7 @@
   "private": true,
   "description": "Hexo + GitHub Pages 个人博客",
   "scripts": {
-    "build": "hexo clean && hexo generate",
+    "build": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo generate",
     "serve": "hexo server",
     "deploy": "bash deploy.sh",
     "deploy:ci": "bash deploy.sh --ci",
