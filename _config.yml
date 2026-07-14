@@ -87,7 +87,7 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/malongan/malongan.github.io.git
-  branch: gh-pages
+  branch: main
   message: 'Site updated: {{ now("YYYY-MM-DD HH:mm:ss") }}'
   # token: ${GITHUB_TOKEN}  # 通过环境变量注入，不要硬编码
 
