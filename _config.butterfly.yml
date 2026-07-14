@@ -113,6 +113,7 @@ toc:
   number: true
   wrap: true
   expand_all: false
+  auto_expand: true
   max_depth: 3
 
 # =====================
@@ -480,8 +481,8 @@ code_block:
   fold_height: 300
 
 # 文章目录自动展开
-toc:
-  auto_expand: true
+# toc:
+#   auto_expand: true
 
 # 夜间模式
 darkmode:
