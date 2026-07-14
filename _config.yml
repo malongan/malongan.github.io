@@ -137,9 +137,33 @@ search:
 ## JSON Content API
 jsonContent:
   meta: true
-  pages: true
-  posts: true
-  categories: true
-  tags: true
-  date: true
-  updated: true
+  dateFormat: "YYYY-MM-DD HH:mm:ss"
+  pages:
+    title: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    permalink: true
+    excerpt: true
+    content: true
+  posts:
+    title: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    permalink: true
+    excerpt: true
+    content: true
+    author: true
+    categories: true
+    tags: true
+  categories:
+    name: true
+    slug: true
+    path: true
+  tags:
+    name: true
+    slug: true
+    path: true
