@@ -7,95 +7,28 @@
   var fallback = document.getElementById("pretext-hero-fallback");
   var font = canvas.dataset.font || "14px JetBrains Mono";
 
-  // --- Multiple bunny ASCII arts ---
-  var BUNNIES = [
-    // #1 Bug bunny (by bug)
-    [
-      "                              __       ",
-      "                     /\\    .-\" /       ",
-      "                    /  ; .'  .'        ",
-      "                   :   :/  .'          ",
-      "                    \\  ;-.'            ",
-      "       .--\"\"\"\"--..__ /     `.          ",
-      "     .'           .'    `o  \\          ",
-      "    /                    `   ;         ",
-      "   :                  \\      :         ",
-      " .-;        -.         `.__.-'         ",
-      ":  ;          \\     ,   ;              ",
-      "'._:           ;   :   (               ",
-      "    \\/  .__    ;    \\   `-.            ",
-      " bug ;     \"-,/_..--\"`-..__)          ",
-      '     \'""--.._ :                        ',
-    ],
-    // #2 Standing bunny with long ears
-    [
-      "     / \\                    ",
-      "    / _ \\                   ",
-      "   | / \\ |                  ",
-      "   ||   || _______          ",
-      "   ||   || |\\     \\         ",
-      "   ||   || ||\\     \\        ",
-      "   ||   || || \\    |        ",
-      "   ||   || ||  \\__/         ",
-      "   ||   || ||   ||          ",
-      "    \\\\_/ \\_/ \\_//           ",
-      "   /   _     _   \\         ",
-      "  /               \\        ",
-      "  |    O     O    |        ",
-      "  |   \\  ___  /   |        ",
-      " /     \\ \\_/ /     \\       ",
-      "/  -----  |  -----  \\      ",
-      "|     \\__/|\\__/     |      ",
-      "\\       |_|_|       /      ",
-      " \\_____       _____/       ",
-      "       \\     /              ",
-      "       |     |              ",
-    ],
-    // #3 Star bunny
-    [
-      "   ***                      ",
-      "  ** **                     ",
-      " **   **                    ",
-      " **   **         ****      ",
-      " **   **       **   ****   ",
-      " **  **       *   **   **  ",
-      "  **  *      *  **  ***  **",
-      "   **  *    *  **     **  *",
-      "    ** **  ** **        ** ",
-      "    **   **  **            ",
-      "   *           *           ",
-      "  *             *          ",
-      " *    0     0    *         ",
-      " *   /   @   \\   *        ",
-      " *   \\__/ \\__/   *        ",
-      "   *     W     *           ",
-      "     **     **             ",
-      "       *****               ",
-    ],
-    // #4 Sparkle bunny (original tall)
-    [
-      "                      /|      __        ",
-      "*             +      / |   ,-~ /        ",
-      "     .              Y :|  //  /         ",
-      "         .          | jj /( .^     *    ",
-      "               *    >-\"~\"-v\"            ",
-      "*                  /       Y            ",
-      "   .     .        jo  o    |     .      ",
-      "                 ( ~T~     j            ",
-      "      +           >._-' _./         +  ",
-      "               /| ;-\"~ _  l             ",
-      "  .           / l/ ,-\"~    \\     +      ",
-      "              \\//\\/      .- \\            ",
-      "       +       Y        /    Y          ",
-      "               l       I     !          ",
-      "               ]\\      _\\    /\"\\        ",
-      "              (\" ~----( ~   Y.  )       ",
-      "          ~~~~~~~~~~~~~~~~~~~~~~~~~~    ",
-    ],
+  // --- Fire-breathing Godzilla ASCII art ---
+  var GODZILLA = [
+    "             *  .  *       .            ",
+    "        .    ~*+~   *+.  .    .   *    ",
+    "    .      *******      *+.              ",
+    "              '`'~~~'~`*+.              ",
+    "   .      .  v        v   +      .      ",
+    "       /|  /|          |#|  |\\          ",
+    "      / |_/ |   FIRE   | \\ | | \\        ",
+    "   *  Y  Y  |  ~~~~~   |  | Y  Y        ",
+    "      |   | | /~~~~~\\  |  |   |    *    ",
+    "   .  |   | |||^^^^||| |  |   |  .      ",
+    "      j   l | ||||||| | l   l             ",
+    "     /|   /   \\^^^^^^/   \\   |\\   .    ",
+    "   _/ |  /  *  ' `--'  *   \\  | \\_     ",
+    "  /  | /  +           +   \\  |   \\     ",
+    "  |  ||   *    .  .    *   ||  |        ",
+    "  l  l    '~~~~~~~~~~~~~~'    l  j      ",
+    "  '~~'~~~~~~~~~~~~~~~~~~~~~~~~' '~~'   ",
   ];
 
-  // Pick a random bunny
-  var bunnyLines = BUNNIES[Math.floor(Math.random() * BUNNIES.length)];
+  var bunnyLines = GODZILLA;
 
   var prepareWithSegments;
   try {
@@ -227,7 +160,7 @@
     var startX = (width - artWidth) / 2;
 
     // Detect special characters for coloring
-    // Face chars: eyes (O, o, 0, @), wave (~), sparkle (*, +, .)
+    // Face chars: eyes (v, O, @), wave/fire (~), sparkle (*, +, .)
     for (var li = 0; li < bunnyLines.length; li++) {
       var line = bunnyLines[li];
       try {
@@ -239,11 +172,12 @@
         if (ch === " ") continue;
 
         var isSpecial = false;
-        var isWave = ch === "~" && li >= bunnyLines.length - 2;
+        // All ~ in godzilla fire should be wave-like
+        var isWave = (ch === "~");
         var isSparkle = (ch === "*" || ch === "+" || ch === ".");
 
-        // Detect face region: look for eye-like chars
-        if ((ch === "O" || ch === "o" || ch === "0" || ch === "@") && !isSparkle) {
+        // Detect face eyes: v shape godzilla eyes, or classic O/@
+        if ((ch === "v" || ch === "O" || ch === "@" || ch === "#") && !isSparkle) {
           isSpecial = true;
         }
 
