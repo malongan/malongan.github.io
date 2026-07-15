@@ -451,6 +451,9 @@ navbar:
 # 首页顶部图片
 index_img: /img/banner.jpg
 
+# 归档页顶部图片
+archive_img: /img/archives-cover.jpg
+
 # 文章页默认顶部图片
 top_img:
   enable: true
