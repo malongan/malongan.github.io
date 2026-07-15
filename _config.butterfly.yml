@@ -448,7 +448,10 @@ navbar:
     image: /img/logo.png
     text: 你的博客名称
 
-# 页面顶部图片
+# 首页顶部图片
+index_img: /img/banner.jpg
+
+# 文章页默认顶部图片
 top_img:
   enable: true
   source: /img/banner.jpg
