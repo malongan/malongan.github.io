@@ -7,7 +7,6 @@ tags:
   - 生图
 categories:
   - 工具教程
-cover: /img/tuzi-api-guide.jpg
 ---
 
 TuZi API 生图使用规范

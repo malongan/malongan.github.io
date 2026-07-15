@@ -7,7 +7,6 @@ tags:
   - 博客搭建
 categories:
   - 教程
-cover: /img/welcome-cover.jpg
 description: 这是一篇欢迎文章，介绍如何使用 Hexo + GitHub Pages 快速搭建个人技术博客
 ---
 

@@ -6,7 +6,6 @@ tags:
   - 技能共享
 categories:
   - QwenPaw
-cover: /img/qwenpaw-skill-sharing.jpg
 ---
 
 QwenPaw 技能共享方案：外部技能路径配置指南

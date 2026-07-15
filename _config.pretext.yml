@@ -1,0 +1,63 @@
+# Navigation
+menu:
+  首页: /
+  归档: /archives
+  分类: /categories
+  标签: /tags
+  关于: /about
+
+# Profile
+profile:
+  name: "malongan"
+  avatar: /img/avatar.png
+  bio: "保持热爱，奔赴山海 🚀"
+  social:
+    github: malongan
+    email: your-email@example.com
+
+# Pretext animations
+pretext:
+  hero:
+    enable: true
+    text: "malongan"
+    font: "16px JetBrains Mono"
+    animation: "wave"
+  post_ornament:
+    enable: true
+    style: "geometric"
+  archive_flow:
+    enable: true
+  page_404:
+    enable: true
+    art: "cat"
+
+# Comments
+comments:
+  provider: giscus
+  giscus:
+    repo: malongan/malongan.github.io
+    repo_id: ""
+    category: Announcements
+    category_id: ""
+    mapping: "pathname"
+    reactions_enabled: 1
+    emit_metadata: 0
+
+# Features
+features:
+  toc: true
+  reading_time: true
+  word_count: true
+  code_copy: true
+  back_to_top: true
+  search:
+    enable: false
+    type: "local"
+
+# Code highlight
+highlight:
+  theme: "github-dark"
+  theme_light: "github"
+
+# RSS
+rss: /atom.xml
