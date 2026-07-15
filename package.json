@@ -2,7 +2,9 @@
   "name": "hexo-blog",
   "version": "1.0.0",
   "private": true,
-  "hexo": {},
+  "hexo": {
+    "version": "6.3.0"
+  },
   "description": "Hexo + GitHub Pages 个人博客",
   "scripts": {
     "build": "npx hexo clean && npx hexo generate",
