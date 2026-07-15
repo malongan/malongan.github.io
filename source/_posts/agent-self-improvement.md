@@ -7,6 +7,7 @@ tags:
   - 自我提升
 categories:
   - Agent准则
+cover: /img/agent-self-improvement.jpg
 ---
 
 Agent 自我提升行为准则

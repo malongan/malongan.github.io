@@ -7,6 +7,7 @@ tags:
   - 技能共享
 categories:
   - QwenPaw
+cover: /img/qwenpaw-symlink.jpg
 ---
 
 QwenPaw Skill 软链共享方案

@@ -7,6 +7,7 @@ tags:
   - KV
 categories:
   - 设计指南
+cover: /img/ip-ecommerce-kv.jpg
 ---
 
 IP电商KV制作指南

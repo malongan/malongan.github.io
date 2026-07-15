@@ -7,6 +7,7 @@ tags:
   - 文档
 categories:
   - Agent文档
+cover: /img/feishu-agent-docs.jpg
 ---
 
 🤖 飞书 Agent 简介
