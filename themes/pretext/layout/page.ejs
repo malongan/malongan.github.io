@@ -1,3 +1,15 @@
+<%
+  // Check if this is a categories or tags index page
+  if (page.type === 'categories') {
+%>
+<%- partial('category') %>
+<%
+  } else if (page.type === 'tags') {
+%>
+<%- partial('tag') %>
+<%
+  } else {
+%>
 <article class="max-w-content mx-auto">
   <header class="mb-8 sm:mb-12">
     <h1 class="font-heading text-3xl sm:text-4xl font-medium leading-tight">
@@ -14,6 +26,9 @@
     <%- page.content %>
   </div>
 </article>
+<%
+  }
+%>
 
 <% if (theme.comments && theme.comments.provider && page.comments !== false) { %>
 <div class="max-w-content mx-auto mt-12">
