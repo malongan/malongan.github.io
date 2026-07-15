@@ -36,9 +36,9 @@ comments:
   provider: giscus
   giscus:
     repo: malongan/malongan.github.io
-    repo_id: ""
+    repo_id: "MDEwOlJlcG9zaXRvcnkxNjU3ODg4ODU="
     category: Announcements
-    category_id: ""
+    category_id: "DIC_kwDOCeG81c4DBSHA"
     mapping: "pathname"
     reactions_enabled: 1
     emit_metadata: 0
