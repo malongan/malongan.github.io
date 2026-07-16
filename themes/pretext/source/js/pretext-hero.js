@@ -7,22 +7,16 @@
   var fallback = document.getElementById("pretext-hero-fallback");
   var font = canvas.dataset.font || "14px JetBrains Mono";
 
-  // --- Bunny + Cat + Flowers with Rainbow & Big Clouds ---
+  // --- Bunny + Cat + Flowers ASCII scene ---
   var SCENE = [
-    "              .-~~~-.                                        ",
-    "          .-~\" ~ \"~-.",
-    "        /\"~       ~\"\\    .-~~~-.      .-~~~-.                ",
-    "      //  .-~~~-.  \\\\  /       \\    /       \\                ",
-    "     ||  /       \\  || |  x  x  |  |  ^  ^  |    .-~~~-.   ",
-    "      \\\\ \\  ~~~  / /  \\ |  v  v  |  \\  @  @  /   /       \\  ",
-    "       \"-.  ---  .-\"     \\|  ~~~  |   \\  ~~~  /   |  o  o  | ",
-    "         \"-.....-\"        \"-.....-\"     \"-.....-\"    \\  ~~~  /  ",
-    "                                                           ",
-    "   ~~~~~~~~      ~~~~~~~~      ~~~~~~~~      ~~~~~~~~       ",
-    "  ~~~~~~~~~~    ~~~~~~~~~~    ~~~~~~~~~~    ~~~~~~~~~~      ",
-    " ~~~~~~~~~~~~  ~~~~~~~~~~~~  ~~~~~~~~~~~~  ~~~~~~~~~~~~     ",
-    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
-    "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "    .  (\\(\\  /\\_/\\  .                 ",
+    "   /|\\ ( -.-)( o.o )/|\\               ",
+    "    |  o_(\")(\") > ^ <  |              ",
+    "                                      ",
+    "       ~~~~     ~~~~     ~~~~         ",
+    "       ~~~~~~~~~~~~~~~~~~~~~~~~       ",
+    "      ~~~~~~~~~~~~~~~~~~~~~~~~~~      ",
+    "     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~     ",
   ];
 
   var bunnyLines = SCENE;
@@ -55,14 +49,6 @@
   };
   var getSecondary = function () {
     return isDark() ? "#8A8A8A" : "#6B6B6B";
-  };
-  // Rainbow colors per line (indices 0-7 of the scene)
-  var rainbowPalette = [
-    "#FF3B30", "#FF9500", "#FFCC00",
-    "#34C759", "#007AFF", "#5856D6", "#AF52DE", "#FF2D55",
-  ];
-  var getRainbow = function (lineIndex) {
-    return rainbowPalette[lineIndex % rainbowPalette.length];
   };
 
   var BASE_LINE_H = 16;
@@ -181,9 +167,6 @@
         var isWave = (ch === "~");
         var isSparkle = (ch === "*" || ch === "+" || ch === ".");
 
-        // Rainbow rows (0-7): arcs made of ~ - . " chars → rainbow color
-        var isRainbow = isWave && li <= 7;
-
         // Detect face eyes: ^ godzilla eye, or v/O/@
         if ((ch === "^" || ch === "v" || ch === "O" || ch === "@") && !isSparkle) {
           isSpecial = true;
@@ -195,10 +178,9 @@
           baseY: startY + li * lineH,
           lineIndex: li,
           charIndex: ci,
-          isWave: isWave && !isRainbow,
+          isWave: isWave,
           isFace: isSpecial,
           isSparkle: isSparkle,
-          isRainbow: isRainbow,
         });
       }
     }
@@ -241,7 +223,7 @@
       }
 
       ctx.globalAlpha = Math.max(0.1, Math.min(1, alpha));
-      ctx.fillStyle = c.isFace ? accent : c.isRainbow ? getRainbow(c.lineIndex) : (c.isWave || c.isSparkle) ? secondary : color;
+      ctx.fillStyle = c.isFace ? accent : (c.isWave || c.isSparkle) ? secondary : color;
       ctx.fillText(c.ch, c.baseX + dx, c.baseY + dy);
     }
 
