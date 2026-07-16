@@ -7,29 +7,16 @@
   var fallback = document.getElementById("pretext-hero-fallback");
   var font = canvas.dataset.font || "14px JetBrains Mono";
 
-  // --- Cute ASCII bunny art ---
-  var BUNNY = [
-    "                                    ",
-    "                                    ",
-    "         (\\(\\                      ",
-    "         ( -.-)                     ",
-    "         o_(\")(\")                   ",
-    "                                    ",
-    "    ~  ~  ~  ~  ~  ~  ~  ~  ~  ~   ",
-    "  ~                              ~ ",
-    " ~    ~  ~  ~  ~  ~  ~  ~  ~     ~ ",
-    "~   ~                          ~   ~",
-    "   ~   ~  ~  ~  ~  ~  ~  ~   ~     ",
-    "  ~   ~                    ~   ~   ",
-    " ~   ~  ~  ~  ~  ~  ~  ~   ~   ~   ",
-    "  ~   ~                    ~   ~    ",
-    "    ~   ~  ~  ~  ~  ~  ~   ~       ",
-    "       ~                  ~         ",
-    "         ~  ~  ~  ~  ~  ~          ",
-    "                                    ",
+  // --- Bunny + Cat + Flowers ASCII scene ---
+  var SCENE = [
+    "        .             (\\(\\            /\\_/\\              .         ",
+    "       /|\\            ( -.-)          ( o.o )            /|\\        ",
+    "        |             o_(\")(\")          > ^ <              |         ",
+    "                                                                     ",
+    "   ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~  ~   ",
   ];
 
-  var bunnyLines = BUNNY;
+  var bunnyLines = SCENE;
 
   var prepareWithSegments;
   try {
