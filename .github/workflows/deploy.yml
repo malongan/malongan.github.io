@@ -17,30 +17,21 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout source
+      - name: Checkout
         uses: actions/checkout@v4
         with:
+          submodules: recursive
           fetch-depth: 0
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Install dependencies
-        run: npm install
-      - name: Clone butterfly theme
-        run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-      - name: Build site
-        run: ./node_modules/.bin/hexo generate
-      - name: Check public directory
-        run: ls -la public/ || echo "public not found"
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy Hexo site
+        uses: peaceiris/actions-hexo@v3
         with:
-          path: ./public
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          deploy-git: true
+          deploy-repo: ${{ github.repositoryUrl }}
+          deploy-branch: gh-pages
+          user-name: github-actions[bot]
+          user-email: github-actions[bot]@users.noreply.github.com
