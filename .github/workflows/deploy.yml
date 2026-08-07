@@ -28,13 +28,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '20'
       - name: Install dependencies
         run: npm install
       - name: Clone butterfly theme
         run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
       - name: Build site
-        run: node node_modules/hexo-cli/bin/hexo generate
+        run: npx hexo generate
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
