@@ -33,8 +33,16 @@ jobs:
         run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
       - name: Install hexo
         run: npm install hexo@5
-      - name: Generate site
-        run: npx hexo generate
+      - name: Debug hexo
+        run: |
+          which hexo || echo "no hexo in PATH"
+          which npx
+          ls -la node_modules/.bin/ | head -20
+          ls node_modules/ | grep hexo
+          ./node_modules/.bin/hexo version 2>&1 || echo "failed"
+          ./node_modules/.bin/hexo --version 2>&1 || echo "failed"
+          ./node_modules/.bin/hexo help 2>&1 | head -20
+          PATH="./node_modules/.bin:$PATH" ./node_modules/.bin/hexo generate 2>&1 | head -20
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
