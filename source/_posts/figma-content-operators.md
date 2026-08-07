@@ -1,6 +1,6 @@
 ---
 title: "Figma 内容操作技能：figma-content-operator 与 react-to-figma-make"
-date: 2026-08-06
+date: 2026-08-06 12:00:00
 description: "两个 Figma 技能的安装与使用：网页复制到 Figma，以及 React 代码转 Figma Make"
 slug: figma-content-operators
 tags: [Figma, 技能安装, UI设计, React]
