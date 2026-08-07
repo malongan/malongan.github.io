@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npx hexo generate",
-    "clean": "npx hexo clean",
-    "deploy": "npx hexo deploy",
-    "server": "npx hexo server"
+    "build": "./node_modules/.bin/hexo generate",
+    "clean": "./node_modules/.bin/hexo clean",
+    "deploy": "./node_modules/.bin/hexo deploy",
+    "server": "./node_modules/.bin/hexo server"
   },
   "dependencies": {
     "hexo": "^5.4.0",
-    "hexo-cli": "^4.3.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",

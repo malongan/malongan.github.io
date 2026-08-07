@@ -34,7 +34,9 @@ jobs:
       - name: Clone butterfly theme
         run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
       - name: Build site
-        run: npx hexo generate
+        run: ./node_modules/.bin/hexo generate
+      - name: Check public directory
+        run: ls -la public/ || echo "public not found"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
