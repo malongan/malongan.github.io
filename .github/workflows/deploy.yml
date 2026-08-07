@@ -19,18 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: \${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: recursive
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
       - name: Install dependencies
         run: npm install
+      - name: Install butterfly theme
+        run: npm install hexo-theme-butterfly
       - name: Build site
         run: npm run build
       - name: Upload Pages artifact
