@@ -1,26 +1,38 @@
 {
-  "name": "malongan-github-io",
+  "name": "hexo-blog",
   "version": "1.0.0",
   "private": true,
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "description": "Hexo + GitHub Pages 个人博客",
   "scripts": {
-    "build": "./node_modules/.bin/hexo generate",
-    "clean": "./node_modules/.bin/hexo clean",
-    "deploy": "./node_modules/.bin/hexo deploy",
-    "server": "./node_modules/.bin/hexo server"
+    "build": "npx hexo clean && npx hexo generate",
+    "serve": "hexo server",
+    "deploy": "bash deploy.sh",
+    "deploy:ci": "bash deploy.sh --ci",
+    "new": "hexo new",
+    "new:post": "hexo new post",
+    "new:page": "hexo new page",
+    "clean": "hexo clean"
   },
   "dependencies": {
-    "hexo": "^5.4.0",
-    "hexo-deployer-git": "^3.0.0",
+    "hexo": "^6.3.0",
+    "hexo-cli": "^4.3.2",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.1.0",
+    "hexo-renderer-stylus": "^3.0.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-sitemap": "^3.0.0",
+    "hexo-generator-index": "^3.0.0",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^4.0.0",
-    "hexo-renderer-stylus": "^3.0.0",
-    "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-generator-sitemap": "^3.0.0",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-json-content": "^4.2.3",
+    "hexo-filter-nofollow": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

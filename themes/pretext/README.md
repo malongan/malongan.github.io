@@ -1,86 +1,171 @@
-IyBoZXhvLXRoZW1lLXByZXRleHQKCuaegeeugOmjjuagvCBIZXhvIOWNmuWu
-ouS4u+mimO+8jOmbhuaIkCBbQGNoZW5nbG91L3ByZXRleHRdKGh0dHBzOi8v
-Z2l0aHViLmNvbS9jaGVuZ2xvdS9wcmV0ZXh0KSBBU0NJSSDliqjnlLvmlYjm
-npzjgIIKCue9keermemihOiniDogaHR0cHM6Ly95aW5nbXV6LmdpdGh1Yi5p
-by9sdWx1LWJsb2ctcHJldGV4dC8KCkEgbWluaW1hbCBIZXhvIGJsb2cgdGhl
-bWUgd2l0aCBBU0NJSSBhbmltYXRpb25zIHBvd2VyZWQgYnkgW0BjaGVuZ2xv
-dS9wcmV0ZXh0XShodHRwczovL2dpdGh1Yi5jb20vY2hlbmdsb3UvcHJldGV4
-dCkuCgotLS0KCiMjIEZlYXR1cmVzCgotIENsZWFuLCBzcGFjaW91cyB0eXBv
-Z3JhcGh5IHdpdGggZ2VuZXJvdXMgd2hpdGVzcGFjZQotIERhcmsgbW9kZSAo
-YXV0byArIG1hbnVhbCB0b2dnbGUpCi0gQVNDSUkgYW5pbWF0aW9ucyB2aWEg
-YEBjaGVuZ2xvdS9wcmV0ZXh0YCAocHJvZ3Jlc3NpdmUgZW5oYW5jZW1lbnQp
-Ci0gUmVzcG9uc2l2ZSwgbW9iaWxlLWZpcnN0IGRlc2lnbgotIE11bHRpcGxl
-IGNvbW1lbnQgc3lzdGVtcyAoR2lzY3VzLCBEaXNxdXMsIFdhbGluZSkKLSBp
-MThuIHN1cHBvcnQgKHpoLUNOLCBlbikKLSBSU1MgYXV0b2Rpc2NvdmVyeQot
-IENvZGUgY29weSBidXR0b25zCi0gVGFibGUgb2YgQ29udGVudHMKCiMjIFBy
-ZXJlcXVpc2l0ZXMKCi0gW0hleG9dKGh0dHBzOi8vaGV4by5pby8pID49IDUu
-MAotIFtoZXhvLXJlbmRlcmVyLWVqc10oaHR0cHM6Ly9naXRodWIuY29tL2hl
-eG9qcy9oZXhvLXJlbmRlcmVyLWVqcykgPj0gMi4wCgojIyBJbnN0YWxsYXRp
-b24gLyDlronoo4UKCiMjIyBWaWEgbnBtIChyZWNvbW1lbmRlZCkKCmBgYGJh
-c2gKbnBtIGluc3RhbGwgaGV4by10aGVtZS1wcmV0ZXh0IGhleG8tcmVuZGVy
-ZXItZWpzCmBgYAoKRWRpdCB5b3VyIHNpdGUgYF9jb25maWcueW1sYDoKCmBg
-YHlhbWwKdGhlbWU6IHByZXRleHQKYGBgCgojIyMgVmlhIGdpdAoKYGBgYmFz
-aApnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL2hleG8tdGhlbWUtcHJl
-dGV4dC9oZXhvLXRoZW1lLXByZXRleHQuZ2l0IHRoZW1lcy9wcmV0ZXh0Cm5w
-bSBpbnN0YWxsIGhleG8tcmVuZGVyZXItZWpzCmBgYAoKRWRpdCB5b3VyIHNp
-dGUgYF9jb25maWcueW1sYDoKCmBgYHlhbWwKdGhlbWU6IHByZXRleHQKYGBg
-CgojIyBDb25maWd1cmF0aW9uIC8g6YWN572uCgpDcmVhdGUgYF9jb25maWcu
-cHJldGV4dC55bWxgIGluIHlvdXIgc2l0ZSByb290IChIZXhvIDUrKSwgb3Ig
-ZWRpdCBgdGhlbWVzL3ByZXRleHQvX2NvbmZpZy55bWxgLgoKYGBgeWFtbAoj
-IE5hdmlnYXRpb24KbWVudToKICBIb21lOiAvCiAgQXJjaGl2ZXM6IC9hcmNo
-aXZlcwogIFRhZ3M6IC90YWdzCiAgQWJvdXQ6IC9hYm91dAoKIyBQcm9maWxl
-CnByb2ZpbGU6CiAgbmFtZTogIllvdXIgTmFtZSIKICBhdmF0YXI6IC9pbWFn
-ZXMvYXZhdGFyLnBuZwogIGJpbzogIkEgc2hvcnQgYmlvIgogIHNvY2lhbDoK
-ICAgIGdpdGh1YjogeW91ci11c2VybmFtZQogICAgdHdpdHRlcjogeW91ci1o
-YW5kbGUKICAgIGVtYWlsOiB5b3VAZXhhbXBsZS5jb20KCiMgUHJldGV4dCBB
-U0NJSSBhbmltYXRpb25zCnByZXRleHQ6CiAgaGVybzoKICAgIGVuYWJsZTog
-dHJ1ZQogICAgdGV4dDogIllvdXIgQmxvZyBUaXRsZSIKICAgIGFuaW1hdGlv
-bjogIndhdmUiICAgICAgICMgd2F2ZSB8IGJyZWF0aGUgfCBnbGl0Y2gKICBw
-b3N0X29ybmFtZW50OgogICAgZW5hYmxlOiB0cnVlCiAgICBzdHlsZTogImdl
-b21ldHJpYyIgICAgICAjIGdlb21ldHJpYyB8IGRvdHMgfCBsaW5lcwogIGFy
-Y2hpdmVfZmxvdzoKICAgIGVuYWJsZTogdHJ1ZQogIHBhZ2VfNDA0OgogICAg
-ZW5hYmxlOiB0cnVlCiAgICBhcnQ6ICJjYXQiICAgICAgICAgICAgICAjIGNh
-dCB8IG1vdW50YWluIHwgbWF6ZQoKIyBDb21tZW50cwpjb21tZW50czoKICBw
-cm92aWRlcjogZmFsc2UgICAgICAgICAgICMgZ2lzY3VzIHwgZGlzcXVzIHwg
-d2FsaW5lIHwgZmFsc2UKICBnaXNjdXM6CiAgICByZXBvOiAiIgogICAgcmVw
-b19pZDogIiIKICAgIGNhdGVnb3J5OiAiIgogICAgY2F0ZWdvcnlfaWQ6ICIi
-CiAgZGlzcXVzOgogICAgc2hvcnRuYW1lOiAiIgogIHdhbGluZToKICAgIHNl
-cnZlcl91cmw6ICIiCgojIEZlYXR1cmVzCmZlYXR1cmVzOgogIHRvYzogdHJ1
-ZQogIHJlYWRpbmdfdGltZTogdHJ1ZQogIGNvZGVfY29weTogdHJ1ZQogIGJh
-Y2tfdG9fdG9wOiB0cnVlCmBgYAoKU2VlIGBfY29uZmlnLnltbGAgaW4gdGhl
-IHRoZW1lIGRpcmVjdG9yeSBmb3IgYWxsIGF2YWlsYWJsZSBvcHRpb25zLgoK
-IyMgUHJldGV4dCBJbnRlZ3JhdGlvbgoKUHJldGV4dCBpcyB1c2VkIGFzIGEg
-Kipwcm9ncmVzc2l2ZSBlbmhhbmNlbWVudCBsYXllcioqIOKAlCBhbGwgY29u
-dGVudCBpcyBmdWxseSByZWFkYWJsZSB3aXRob3V0IEphdmFTY3JpcHQuIFRo
-ZSBmb3VyIGFuaW1hdGlvbiBzY2VuZXMgKGhlcm8sIHBvc3Qgb3JuYW1lbnQs
-IGFyY2hpdmUgZmxvdywgNDA0IGVhc3RlciBlZ2cpIGxvYWQgYEBjaGVuZ2xv
-dS9wcmV0ZXh0YCBmcm9tIENETiBvbiBkZW1hbmQgYW5kIGdyYWNlZnVsbHkg
-ZGVncmFkZSB0byBDU1MgZmFsbGJhY2tzLgoKIyMgUGFzc3dvcmQgUHJvdGVj
-dGlvbiAvIOaWh+eroOWvhueggeS/neaKpAoKVGhpcyB0aGVtZSBoYXMgYnVp
-bHQtaW4gc3R5bGUgc3VwcG9ydCBmb3IgW2hleG8tYmxvZy1lbmNyeXB0XSho
-dHRwczovL2dpdGh1Yi5jb20vRDBuOVgxbi9oZXhvLWJsb2ctZW5jcnlwdCku
-IEluc3RhbGwgdGhlIHBsdWdpbiBpbiB5b3VyIHNpdGUgcm9vdDoKCuacrOS4
-u+mimOWGhee9ruS6hiBbaGV4by1ibG9nLWVuY3J5cHRdKGh0dHBzOi8vZ2l0
-aHViLmNvbS9EMG45WDFuL2hleG8tYmxvZy1lbmNyeXB0KSDnmoTmoLflvI/p
-gILphY3jgILlnKjnq5nngrnmoLnnm67lvZXlronoo4Xmj5Lku7bvvJoKCmBg
-YGJhc2gKbnBtIGluc3RhbGwgaGV4by1ibG9nLWVuY3J5cHQgLS1zYXZlCmBg
-YAoKQWRkIHRvIHlvdXIgc2l0ZSBgX2NvbmZpZy55bWxgOgoKYGBgeWFtbApl
-bmNyeXB0OgogIGVuYWJsZTogdHJ1ZQogIGFic3RyYWN0OiAiVGhpcyBwb3N0
-IGlzIHBhc3N3b3JkIHByb3RlY3RlZC4iCiAgbWVzc2FnZTogIkVudGVyIHBh
-c3N3b3JkIgpgYGAKClRoZW4gYWRkIGBwYXNzd29yZGAgdG8gYW55IHBvc3Qn
-cyBmcm9udC1tYXR0ZXI6CgpgYGB5YW1sCi0tLQp0aXRsZTogTXkgU2VjcmV0
-IFBvc3QKcGFzc3dvcmQ6IHlvdXItcGFzc3dvcmQtaGVyZQphYnN0cmFjdDog
-VGhpcyBpcyBhIHByb3RlY3RlZCBwb3N0LgptZXNzYWdlOiBFbnRlciBwYXNz
-d29yZCB0byByZWFkCi0tLQpgYGAKClRoZSBwYXNzd29yZCBpbnB1dCBVSSB3
-aWxsIGF1dG9tYXRpY2FsbHkgbWF0Y2ggdGhlIHRoZW1lJ3MgbGlnaHQvZGFy
-ayBtb2RlIGFuZCB0eXBvZ3JhcGh5LgoKIyMgRGlzcXVzIFN1cHBvcnQKClRv
-IGVuYWJsZSBEaXNxdXMsIHNldCBgZGlzcXVzX3Nob3J0bmFtZWAgaW4geW91
-ciBzaXRlJ3MgYF9jb25maWcueW1sYCwgb3IgY29uZmlndXJlIHZpYSB0aGUg
-dGhlbWUncyBjb21tZW50IHNldHRpbmdzOgoKYGBgeWFtbAojIFNpdGUgX2Nv
-bmZpZy55bWwKZGlzcXVzX3Nob3J0bmFtZTogeW91ci1zaG9ydG5hbWUKCiMg
-T3IgdGhlbWUgX2NvbmZpZy5wcmV0ZXh0LnltbApjb21tZW50czoKICBwcm92
-aWRlcjogZGlzcXVzCiAgZGlzcXVzOgogICAgc2hvcnRuYW1lOiB5b3VyLXNo
-b3J0bmFtZQpgYGAKCiMjIExpY2Vuc2UKCltNSVRdKExJQ0VOU0UpCgpUaGVt
-ZSBieSBoZXhvLXRoZW1lLXByZXRleHQgY29udHJpYnV0b3JzLgpbUHJldGV4
-dF0oaHR0cHM6Ly9naXRodWIuY29tL2NoZW5nbG91L3ByZXRleHQpIChNSVQp
-IGJ5IENoZW5nIExvdS4K
+# hexo-theme-pretext
+
+极简风格 Hexo 博客主题，集成 [@chenglou/pretext](https://github.com/chenglou/pretext) ASCII 动画效果。
+
+网站预览: https://yingmuz.github.io/lulu-blog-pretext/
+
+A minimal Hexo blog theme with ASCII animations powered by [@chenglou/pretext](https://github.com/chenglou/pretext).
+
+---
+
+## Features
+
+- Clean, spacious typography with generous whitespace
+- Dark mode (auto + manual toggle)
+- ASCII animations via `@chenglou/pretext` (progressive enhancement)
+- Responsive, mobile-first design
+- Multiple comment systems (Giscus, Disqus, Waline)
+- i18n support (zh-CN, en)
+- RSS autodiscovery
+- Code copy buttons
+- Table of Contents
+
+## Prerequisites
+
+- [Hexo](https://hexo.io/) >= 5.0
+- [hexo-renderer-ejs](https://github.com/hexojs/hexo-renderer-ejs) >= 2.0
+
+## Installation / 安装
+
+### Via npm (recommended)
+
+```bash
+npm install hexo-theme-pretext hexo-renderer-ejs
+```
+
+Edit your site `_config.yml`:
+
+```yaml
+theme: pretext
+```
+
+### Via git
+
+```bash
+git clone https://github.com/hexo-theme-pretext/hexo-theme-pretext.git themes/pretext
+npm install hexo-renderer-ejs
+```
+
+Edit your site `_config.yml`:
+
+```yaml
+theme: pretext
+```
+
+## Configuration / 配置
+
+Create `_config.pretext.yml` in your site root (Hexo 5+), or edit `themes/pretext/_config.yml`.
+
+```yaml
+# Navigation
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  About: /about
+
+# Profile
+profile:
+  name: "Your Name"
+  avatar: /images/avatar.png
+  bio: "A short bio"
+  social:
+    github: your-username
+    twitter: your-handle
+    email: you@example.com
+
+# Pretext ASCII animations
+pretext:
+  hero:
+    enable: true
+    text: "Your Blog Title"
+    animation: "wave"       # wave | breathe | glitch
+  post_ornament:
+    enable: true
+    style: "geometric"      # geometric | dots | lines
+  archive_flow:
+    enable: true
+  page_404:
+    enable: true
+    art: "cat"              # cat | mountain | maze
+
+# Comments
+comments:
+  provider: false           # giscus | disqus | waline | false
+  giscus:
+    repo: ""
+    repo_id: ""
+    category: ""
+    category_id: ""
+  disqus:
+    shortname: ""
+  waline:
+    server_url: ""
+
+# Features
+features:
+  toc: true
+  reading_time: true
+  code_copy: true
+  back_to_top: true
+```
+
+See `_config.yml` in the theme directory for all available options.
+
+## Pretext Integration
+
+Pretext is used as a **progressive enhancement layer** — all content is fully readable without JavaScript. The four animation scenes (hero, post ornament, archive flow, 404 easter egg) load `@chenglou/pretext` from CDN on demand and gracefully degrade to CSS fallbacks.
+
+## Password Protection / 文章密码保护
+
+This theme has built-in style support for [hexo-blog-encrypt](https://github.com/D0n9X1n/hexo-blog-encrypt). Install the plugin in your site root:
+
+本主题内置了 [hexo-blog-encrypt](https://github.com/D0n9X1n/hexo-blog-encrypt) 的样式适配。在站点根目录安装插件：
+
+```bash
+npm install hexo-blog-encrypt --save
+```
+
+Add to your site `_config.yml`:
+
+```yaml
+encrypt:
+  enable: true
+  abstract: "This post is password protected."
+  message: "Enter password"
+```
+
+Then add `password` to any post's front-matter:
+
+```yaml
+---
+title: My Secret Post
+password: your-password-here
+abstract: This is a protected post.
+message: Enter password to read
+---
+```
+
+The password input UI will automatically match the theme's light/dark mode and typography.
+
+## Disqus Support
+
+To enable Disqus, set `disqus_shortname` in your site's `_config.yml`, or configure via the theme's comment settings:
+
+```yaml
+# Site _config.yml
+disqus_shortname: your-shortname
+
+# Or theme _config.pretext.yml
+comments:
+  provider: disqus
+  disqus:
+    shortname: your-shortname
+```
+
+## License
+
+[MIT](LICENSE)
+
+Theme by hexo-theme-pretext contributors.
+[Pretext](https://github.com/chenglou/pretext) (MIT) by Cheng Lou.

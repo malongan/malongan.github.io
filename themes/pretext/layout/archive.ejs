@@ -1,32 +1,39 @@
-PGRpdiBjbGFzcz0ibWF4LXctY29udGVudCBteC1hdXRvIj4KICA8aDEgY2xh
-c3M9ImZvbnQtaGVhZGluZyB0ZXh0LTN4bCBzbTp0ZXh0LTR4bCBmb250LW1l
-ZGl1bSBtYi0xMCI+CiAgICA8JT0gX18oJ21lbnUuYXJjaGl2ZXMnKSB8fCAn
-QXJjaGl2ZXMnICU+CiAgPC9oMT4KCiAgPCUgaWYgKHRoZW1lLnByZXRleHQg
-JiYgdGhlbWUucHJldGV4dC5hcmNoaXZlX2Zsb3cgJiYgdGhlbWUucHJldGV4
-dC5hcmNoaXZlX2Zsb3cuZW5hYmxlKSB7ICU+CiAgPCUtIHBhcnRpYWwoJ19w
-YXJ0aWFsL3ByZXRleHQvYXJjaGl2ZS1mbG93JykgJT4KICA8JSB9ICU+Cgog
-IDwlCiAgdmFyIHllYXJzID0ge307CiAgcGFnZS5wb3N0cy5mb3JFYWNoKGZ1
-bmN0aW9uKHBvc3QpIHsKICAgIHZhciB5ID0gcG9zdC5kYXRlLnllYXIoKTsK
-ICAgIGlmICgheWVhcnNbeV0pIHllYXJzW3ldID0gW107CiAgICB5ZWFyc1t5
-XS5wdXNoKHBvc3QpOwogIH0pOwogIHZhciBzb3J0ZWRZZWFycyA9IE9iamVj
-dC5rZXlzKHllYXJzKS5zb3J0KGZ1bmN0aW9uKGEsYil7IHJldHVybiBiIC0g
-YTsgfSk7CiAgJT4KCiAgPCUgc29ydGVkWWVhcnMuZm9yRWFjaChmdW5jdGlv
-bih5ZWFyKSB7ICU+CiAgPHNlY3Rpb24gY2xhc3M9Im1iLTEwIGFyY2hpdmUt
-eWVhciIgZGF0YS15ZWFyPSI8JT0geWVhciAlPiI+CiAgICA8aDIgY2xhc3M9
-ImZvbnQtaGVhZGluZyB0ZXh0LXhsIGZvbnQtbWVkaXVtIHRleHQtdGV4dC1z
-ZWNvbmRhcnkgZGFyazp0ZXh0LXRleHQtc2Vjb25kYXJ5LWRhcmsgbWItNCB0
-cmFja2luZy13aWRlciI+PCU9IHllYXIgJT48L2gyPgogICAgPHVsIGNsYXNz
-PSJzcGFjZS15LTMiPgogICAgICA8JSB5ZWFyc1t5ZWFyXS5mb3JFYWNoKGZ1
-bmN0aW9uKHBvc3QpIHsgJT4KICAgICAgPGxpIGNsYXNzPSJmbGV4IGl0ZW1z
-LWJhc2VsaW5lIGdhcC00Ij4KICAgICAgICA8dGltZSBjbGFzcz0iZmxleC1z
-aHJpbmstMCB0ZXh0LXNtIHRleHQtdGV4dC1zZWNvbmRhcnkgZGFyazp0ZXh0
-LXRleHQtc2Vjb25kYXJ5LWRhcmsgZm9udC1tb25vIHRhYnVsYXItbnVtcyIg
-ZGF0ZXRpbWU9IjwlPSBkYXRlX3htbChwb3N0LmRhdGUpICU+Ij4KICAgICAg
-ICAgIDwlPSBkYXRlKHBvc3QuZGF0ZSwgJ01NLUREJykgJT4KICAgICAgICA8
-L3RpbWU+CiAgICAgICAgPGEgaHJlZj0iPCUtIHVybF9mb3IocG9zdC5wYXRo
-KSAlPiIgY2xhc3M9ImhvdmVyOnRleHQtYWNjZW50IGRhcms6aG92ZXI6dGV4
-dC1hY2NlbnQtZGFyayB0cmFuc2l0aW9uLWNvbG9ycyI+CiAgICAgICAgICA8
-JT0gcG9zdC50aXRsZSB8fCAoX18oJ3Bvc3QudW50aXRsZWQnKSB8fCAnVW50
-aXRsZWQnKSAlPgogICAgICAgIDwvYT4KICAgICAgPC9saT4KICAgICAgPCUg
-fSkgJT4KICAgIDwvdWw+CiAgPC9zZWN0aW9uPgogIDwlIH0pICU+CgogIDwl
-LSBwYXJ0aWFsKCdfcGFydGlhbC9wYWdpbmF0aW9uJykgJT4KPC9kaXY+Cg==
+<div class="max-w-content mx-auto">
+  <h1 class="font-heading text-3xl sm:text-4xl font-medium mb-10">
+    <%= __('menu.archives') || 'Archives' %>
+  </h1>
+
+  <% if (theme.pretext && theme.pretext.archive_flow && theme.pretext.archive_flow.enable) { %>
+  <%- partial('_partial/pretext/archive-flow') %>
+  <% } %>
+
+  <%
+  var years = {};
+  page.posts.forEach(function(post) {
+    var y = post.date.year();
+    if (!years[y]) years[y] = [];
+    years[y].push(post);
+  });
+  var sortedYears = Object.keys(years).sort(function(a,b){ return b - a; });
+  %>
+
+  <% sortedYears.forEach(function(year) { %>
+  <section class="mb-10 archive-year" data-year="<%= year %>">
+    <h2 class="font-heading text-xl font-medium text-text-secondary dark:text-text-secondary-dark mb-4 tracking-wider"><%= year %></h2>
+    <ul class="space-y-3">
+      <% years[year].forEach(function(post) { %>
+      <li class="flex items-baseline gap-4">
+        <time class="flex-shrink-0 text-sm text-text-secondary dark:text-text-secondary-dark font-mono tabular-nums" datetime="<%= date_xml(post.date) %>">
+          <%= date(post.date, 'MM-DD') %>
+        </time>
+        <a href="<%- url_for(post.path) %>" class="hover:text-accent dark:hover:text-accent-dark transition-colors">
+          <%= post.title || (__('post.untitled') || 'Untitled') %>
+        </a>
+      </li>
+      <% }) %>
+    </ul>
+  </section>
+  <% }) %>
+
+  <%- partial('_partial/pagination') %>
+</div>

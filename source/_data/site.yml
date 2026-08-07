@@ -1,0 +1,44 @@
+# 站点数据文件
+
+# 友情链接数据
+# 格式参考：source/_pages/friends/index.md
+
+# 社交链接数据
+social:
+  - name: GitHub
+    icon: fab fa-github
+    link: https://github.com/你的用户名
+    color: "#181717"
+  - name: Twitter
+    icon: fab fa-twitter
+    link: https://twitter.com/你的用户名
+    color: "#1DA1F2"
+  - name: Email
+    icon: fas fa-envelope
+    link: mailto:你的邮箱@example.com
+    color: "#EA4335"
+  - name: RSS
+    icon: fas fa-rss
+    link: /atom.xml
+    color: "#F26522"
+
+# 菜单配置
+menu:
+  - name: 首页
+    icon: fas fa-home
+    link: /
+  - name: 归档
+    icon: fas fa-archive
+    link: /archives/
+  - name: 分类
+    icon: fas fa-folder
+    link: /categories/
+  - name: 标签
+    icon: fas fa-tags
+    link: /tags/
+  - name: 关于
+    icon: fas fa-user
+    link: /about/
+  - name: 友链
+    icon: fas fa-link
+    link: /friends/

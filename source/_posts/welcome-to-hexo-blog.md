@@ -1,95 +1,189 @@
-LS0tCnRpdGxlOiDmrKLov47kvb/nlKggSGV4byArIEdpdEh1YiBQYWdlcyDl
-jZrlrqIKZGF0ZTogMjAyNC0wMS0wMSAxMjowMDowMAp0YWdzOgogIC0gSGV4
-bwogIC0gR2l0SHViIFBhZ2VzCiAgLSDljZrlrqLmkK3lu7oKY2F0ZWdvcmll
-czoKICAtIOaVmeeoiwpkZXNjcmlwdGlvbjog6L+Z5piv5LiA56+H5qyi6L+O
-5paH56ug77yM5LuL57uN5aaC5L2V5L2/55SoIEhleG8gKyBHaXRIdWIgUGFn
-ZXMg5b+r6YCf5pCt5bu65Liq5Lq65oqA5pyv5Y2a5a6iCi0tLQoKIyDwn46J
-IOasoui/juadpeWIsOS9oOeahOaWsOWNmuWuou+8gQoK6L+Z5piv5L2g5L2/
-55SoICoqSGV4byArIEJ1dHRlcmZseSDkuLvpopggKyBHaXRIdWIgUGFnZXMq
-KiDmkK3lu7rnmoTnrKzkuIDnr4fmlofnq6DjgIIKCiMjIPCfmoAg5b+r6YCf
-5byA5aeLCgojIyMgMS4g5Yib5bu65paw5paH56ugCmBgYGJhc2gKbnBtIHJ1
-biBuZXc6cG9zdCAi5paH56ug5qCH6aKYIgojIOaIlgpucHggaGV4byBuZXcg
-cG9zdCAi5paH56ug5qCH6aKYIgpgYGAKCiMjIyAyLiDliJvlu7rmlrDpobXp
-naIKYGBgYmFzaApucG0gcnVuIG5ldzpwYWdlICLpobXpnaLlkI3np7AiCiMg
-5oiWCm5weCBoZXhvIG5ldyBwYWdlICLpobXpnaLlkI3np7AiCmBgYAoKIyMj
-IDMuIOacrOWcsOmihOiniApgYGBiYXNoCm5wbSBydW4gc2VydmUKIyDorr/p
-l64gaHR0cDovL2xvY2FsaG9zdDo0MDAwCmBgYAoKIyMjIDQuIOaehOW7uumD
-qOe9sgpgYGBiYXNoCiMg5pys5Zyw6YOo572yCm5wbSBydW4gZGVwbG95Cgoj
-IOaIluS9v+eUqCBHaXRIdWIgQWN0aW9ucyDoh6rliqjpg6jnvbLvvIjmjqjp
-gIHliLAgbWFpbiDliIbmlK/ljbPlj6/vvIkKZ2l0IHB1c2ggb3JpZ2luIG1h
-aW4KYGBgCgojIyDwn5OdIEZyb250LW1hdHRlciDor7TmmI4KCuavj+evh+aW
-h+eroOmhtumDqOeahOmFjee9rumhue+8mgoKYGBgeWFtbAotLS0KdGl0bGU6
-IOaWh+eroOagh+mimCAgICAgICAgICAgICAgICAgICAgIyDlv4XloasKZGF0
-ZTogMjAyNC0wMS0wMSAxMjowMDowMCAgICAgICAgICMg5b+F5aGr77yM5Y+R
-5biD5pe26Ze0CnVwZGF0ZWQ6IDIwMjQtMDEtMDIgMTA6MDA6MDAgICAgICAj
-IOWPr+mAie+8jOabtOaWsOaXtumXtAp0YWdzOiAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgIyDlj6/pgInvvIzmoIfnrb4KICAtIOagh+etvjEKICAt
-IOagh+etvjIKY2F0ZWdvcmllczogICAgICAgICAgICAgICAgICAgICAgICMg
-5Y+v6YCJ77yM5YiG57G7CiAgLSDliIbnsbsxCiAgLSDliIbnsbsyCmNvdmVy
-OiAvaW1nL2NvdmVyLmpwZyAgICAgICAgICAgICAjIOWPr+mAie+8jOWwgemd
-ouWbvgpkZXNjcmlwdGlvbjog5paH56ug5pGY6KaBICAgICAgICAgICAgICAj
-IOWPr+mAie+8jFNFTyDmj4/ov7AKa2V5d29yZHM6IOWFs+mUruivjTEsIOWF
-s+mUruivjTIgICAgICAgICAjIOWPr+mAie+8jFNFTyDlhbPplK7or40KdG9w
-X2ltZzogL2ltZy90b3AuanBnICAgICAgICAgICAgICMg5Y+v6YCJ77yM5paH
-56ug6aG26YOo5aSn5Zu+CmNvbW1lbnRzOiB0cnVlICAgICAgICAgICAgICAg
-ICAgICAjIOWPr+mAie+8jOaYr+WQpuW8gOWQr+ivhOiuugp0b2M6IHRydWUg
-ICAgICAgICAgICAgICAgICAgICAgICAgIyDlj6/pgInvvIzmmK/lkKbmmL7n
-pLrnm67lvZUKdG9jX251bWJlcjogdHJ1ZSAgICAgICAgICAgICAgICAgICMg
-5Y+v6YCJ77yM55uu5b2V57yW5Y+3CmNvcHlyaWdodDogdHJ1ZSAgICAgICAg
-ICAgICAgICAgICAjIOWPr+mAie+8jOeJiOadg+WjsOaYjgptYXRoamF4OiBm
-YWxzZSAgICAgICAgICAgICAgICAgICAgIyDlj6/pgInvvIzmlbDlrablhazl
-vI8Ka2F0ZXg6IGZhbHNlICAgICAgICAgICAgICAgICAgICAgICMg5Y+v6YCJ
-77yMS2FUZVgg5pWw5a2m5YWs5byPCi0tLQpgYGAKCiMjIPCfjqggTWFya2Rv
-d24g6K+t5rOV56S65L6LCgojIyMg5Luj56CB5Z2X77yI5pSv5oyB6auY5Lqu
-44CB6KGM5Y+344CB5aSN5Yi277yJCmBgYGphdmFzY3JpcHQKLy8gSmF2YVNj
-cmlwdCDnpLrkvosKZnVuY3Rpb24gZ3JlZXQobmFtZSkgewogIGNvbnNvbGUu
-bG9nKGBIZWxsbywgJHtuYW1lfSFgKTsKfQoKZ3JlZXQoJ1dvcmxkJyk7IC8v
-IEhlbGxvLCBXb3JsZCEKYGBgCgpgYGBweXRob24KIyBQeXRob24g56S65L6L
-CmRlZiBmaWJvbmFjY2kobik6CiAgICBhLCBiID0gMCwgMQogICAgZm9yIF8g
-aW4gcmFuZ2Uobik6CiAgICAgICAgeWllbGQgYQogICAgICAgIGEsIGIgPSBi
-LCBhICsgYgoKcHJpbnQobGlzdChmaWJvbmFjY2koMTApKSkKYGBgCgojIyMg
-6KGo5qC8Cnwg5Yqf6IO9IHwg5pSv5oyB5oOF5Ya1IHwg5aSH5rOoIHwKfC0t
-LS0tLXwtLS0tLS0tLS0tfC0tLS0tLXwKfCDku6PnoIHpq5jkuq4gfCDinIUg
-fCBoaWdobGlnaHQuanMgfAp8IOihjOWPtyB8IOKchSB8IOWPr+mFjee9riB8
-Cnwg5aSN5Yi25oyJ6ZKuIHwg4pyFIHwg5Y+z5LiK6KeSIHwKfCDmipjlj6Dp
-lb/ku6PnoIEgfCDinIUgfCDotoXov4cgMzAwcHggfAoKIyMjIOS7u+WKoeWI
-l+ihqAotIFt4XSDlrozmiJDljZrlrqLmkK3lu7oKLSBbeF0g6YWN572u5Li7
-6aKYCi0gWyBdIOWGmeesrOS4gOevh+aKgOacr+aWh+eroAotIFsgXSDorr7n
-va7oh6rlrprkuYnln5/lkI0KLSBbIF0g6YWN572u6K+E6K6657O757ufCgoj
-IyMg5byV55So5Z2XCj4gKirlrabkuaDnrJTorrAqKgo+IOWGmeS9nOaYr+ac
-gOWlveeahOaAneiAg+aWueW8j+OAgumAmui/h+i+k+WHuuWAkumAvOi+k+WF
-pe+8jOiuqeefpeivhuecn+ato+WGheWMluOAggo+IOKAlCDkvaDnmoTlkI3l
-rZcKCiMjIyDmlbDlrablhazlvI8K6KGM5YaF5YWs5byP77yaJEUgPSBtY14y
-JAoK5Z2X57qn5YWs5byP77yaCiQkClxmcmFje1xwYXJ0aWFsXjIgdX17XHBh
-cnRpYWwgdF4yfSA9IGNeMiBcbmFibGFeMiB1CiQkCgojIyMg5Zu+54mHCiFb
-56S65L6L5Zu+54mHXSgvaW1nL2V4YW1wbGUuanBnKQoKIyMg8J+TgSDnm67l
-vZXnu5PmnoTlu7rorq4KCmBgYApzb3VyY2UvCuKUnOKUgOKUgCBfcG9zdHMv
-ICAgICAgICAgICAjIOaWh+eroArilIIgICDilJzilIDilIAgMjAyNC8K4pSC
-ICAg4pSCICAg4pSc4pSA4pSAIDAxLWhlbGxvLWhleG8ubWQK4pSCICAg4pSC
-ICAg4pSU4pSA4pSAIDAyLWFkdmFuY2VkLWNvbmZpZy5tZArilIIgICDilJTi
-lIDilIAgMjAyNS8K4pSc4pSA4pSAIF9wYWdlcy8gICAgICAgICAgICMg6aG1
-6Z2iCuKUgiAgIOKUnOKUgOKUgCBhYm91dC8K4pSCICAg4pSc4pSA4pSAIHRh
-Z3MvCuKUgiAgIOKUnOKUgOKUgCBjYXRlZ29yaWVzLwrilIIgICDilJTilIDi
-lIAgZnJpZW5kcy8K4pSc4pSA4pSAIF9kYXRhLyAgICAgICAgICAgICMg5pWw
-5o2u5paH5Lu2CuKUgiAgIOKUlOKUgOKUgCBsaW5rcy55bWwK4pSU4pSA4pSA
-IGltZy8gICAgICAgICAgICAgICMg5Zu+54mH6LWE5rqQCiAgICDilJzilIDi
-lIAgYXZhdGFyLnBuZwogICAg4pSc4pSA4pSAIGNvdmVyLwogICAg4pSU4pSA
-4pSAIHBvc3QvCmBgYAoKIyMg8J+UpyDov5vpmLbphY3nva4KCiMjIyDoh6rl
-rprkuYnmoLflvI8K57yW6L6RIGBzb3VyY2UvY3NzL19jdXN0b20uc3R5bGDv
-vJoKYGBgc3R5bHVzCi8vIOiHquWumuS5ieWtl+S9k+Wkp+WwjwoucG9zdC1j
-b250ZW50IHsKICBmb250LXNpemU6IDE3cHg7CiAgbGluZS1oZWlnaHQ6IDEu
-ODsKfQoKLy8g6Ieq5a6a5LmJ5Luj56CB5Z2X5qC35byPCi5oaWdobGlnaHQg
-LmxpbmUgewogIHBhZGRpbmc6IDAgMTJweDsKfQpgYGAKCiMjIyDoh6rlrprk
-uYnohJrmnKwK57yW6L6RIGBzb3VyY2UvanMvX2N1c3RvbS5qc2DvvJoKYGBg
-amF2YXNjcmlwdAovLyDpobXpnaLliqDovb3lrozmiJDlkI7miafooYwKZG9j
-dW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsICgp
-ID0+IHsKICBjb25zb2xlLmxvZygn5Y2a5a6i5Yqg6L295a6M5oiQIPCfjokn
-KTsKfSk7CmBgYAoKIyMg8J+TmiDmjqjojZDpmIXor7sKCi0gW0hleG8g5a6Y
-5pa55paH5qGjXShodHRwczovL2hleG8uaW8vZG9jcy8pCi0gW0J1dHRlcmZs
-eSDkuLvpopjmlofmoaNdKGh0dHBzOi8vYnV0dGVyZmx5LmpzLm9yZy8pCi0g
-W0dpdEh1YiBQYWdlcyDmlofmoaNdKGh0dHBzOi8vZG9jcy5naXRodWIuY29t
-L2VuL3BhZ2VzKQotIFtNYXJrZG93biDor63ms5XmjIfljZddKGh0dHBzOi8v
-d3d3Lm1hcmtkb3duZ3VpZGUub3JnLykKCi0tLQoKPiDwn5KhICoq5o+Q56S6
-Kio6IOS/ruaUueaWh+eroOWQjuiusOW+l+aJp+ihjCBgbnBtIHJ1biBidWls
-ZGAg6aKE6KeI5pWI5p6c77yM54S25ZCOIGBnaXQgcHVzaGAg6Ieq5Yqo6YOo
-572y44CCCgoqKuelneS9oOWGmeS9nOaEieW/q++8gSoqIOKcje+4j/CfmoA=
+---
+title: 欢迎使用 Hexo + GitHub Pages 博客
+date: 2024-01-01 12:00:00
+tags:
+  - Hexo
+  - GitHub Pages
+  - 博客搭建
+categories:
+  - 教程
+description: 这是一篇欢迎文章，介绍如何使用 Hexo + GitHub Pages 快速搭建个人技术博客
+---
+
+# 🎉 欢迎来到你的新博客！
+
+这是你使用 **Hexo + Butterfly 主题 + GitHub Pages** 搭建的第一篇文章。
+
+## 🚀 快速开始
+
+### 1. 创建新文章
+```bash
+npm run new:post "文章标题"
+# 或
+npx hexo new post "文章标题"
+```
+
+### 2. 创建新页面
+```bash
+npm run new:page "页面名称"
+# 或
+npx hexo new page "页面名称"
+```
+
+### 3. 本地预览
+```bash
+npm run serve
+# 访问 http://localhost:4000
+```
+
+### 4. 构建部署
+```bash
+# 本地部署
+npm run deploy
+
+# 或使用 GitHub Actions 自动部署（推送到 main 分支即可）
+git push origin main
+```
+
+## 📝 Front-matter 说明
+
+每篇文章顶部的配置项：
+
+```yaml
+---
+title: 文章标题                    # 必填
+date: 2024-01-01 12:00:00         # 必填，发布时间
+updated: 2024-01-02 10:00:00      # 可选，更新时间
+tags:                             # 可选，标签
+  - 标签1
+  - 标签2
+categories:                       # 可选，分类
+  - 分类1
+  - 分类2
+cover: /img/cover.jpg             # 可选，封面图
+description: 文章摘要              # 可选，SEO 描述
+keywords: 关键词1, 关键词2         # 可选，SEO 关键词
+top_img: /img/top.jpg             # 可选，文章顶部大图
+comments: true                    # 可选，是否开启评论
+toc: true                         # 可选，是否显示目录
+toc_number: true                  # 可选，目录编号
+copyright: true                   # 可选，版权声明
+mathjax: false                    # 可选，数学公式
+katex: false                      # 可选，KaTeX 数学公式
+---
+```
+
+## 🎨 Markdown 语法示例
+
+### 代码块（支持高亮、行号、复制）
+```javascript
+// JavaScript 示例
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+greet('World'); // Hello, World!
+```
+
+```python
+# Python 示例
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b
+
+print(list(fibonacci(10)))
+```
+
+### 表格
+| 功能 | 支持情况 | 备注 |
+|------|----------|------|
+| 代码高亮 | ✅ | highlight.js |
+| 行号 | ✅ | 可配置 |
+| 复制按钮 | ✅ | 右上角 |
+| 折叠长代码 | ✅ | 超过 300px |
+
+### 任务列表
+- [x] 完成博客搭建
+- [x] 配置主题
+- [ ] 写第一篇技术文章
+- [ ] 设置自定义域名
+- [ ] 配置评论系统
+
+### 引用块
+> **学习笔记**
+> 写作是最好的思考方式。通过输出倒逼输入，让知识真正内化。
+> — 你的名字
+
+### 数学公式
+行内公式：$E = mc^2$
+
+块级公式：
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u
+$$
+
+### 图片
+![示例图片](/img/example.jpg)
+
+## 📁 目录结构建议
+
+```
+source/
+├── _posts/           # 文章
+│   ├── 2024/
+│   │   ├── 01-hello-hexo.md
+│   │   └── 02-advanced-config.md
+│   └── 2025/
+├── _pages/           # 页面
+│   ├── about/
+│   ├── tags/
+│   ├── categories/
+│   └── friends/
+├── _data/            # 数据文件
+│   └── links.yml
+└── img/              # 图片资源
+    ├── avatar.png
+    ├── cover/
+    └── post/
+```
+
+## 🔧 进阶配置
+
+### 自定义样式
+编辑 `source/css/_custom.styl`：
+```stylus
+// 自定义字体大小
+.post-content {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+// 自定义代码块样式
+.highlight .line {
+  padding: 0 12px;
+}
+```
+
+### 自定义脚本
+编辑 `source/js/_custom.js`：
+```javascript
+// 页面加载完成后执行
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('博客加载完成 🎉');
+});
+```
+
+## 📚 推荐阅读
+
+- [Hexo 官方文档](https://hexo.io/docs/)
+- [Butterfly 主题文档](https://butterfly.js.org/)
+- [GitHub Pages 文档](https://docs.github.com/en/pages)
+- [Markdown 语法指南](https://www.markdownguide.org/)
+
+---
+
+> 💡 **提示**: 修改文章后记得执行 `npm run build` 预览效果，然后 `git push` 自动部署。
+
+**祝你写作愉快！** ✍️🚀

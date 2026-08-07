@@ -21,25 +21,21 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      - name: Clone butterfly theme
-        run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-      - name: Install hexo@4.2.0
-        run: npm install hexo@4.2.0 --force
-      - name: Check hexo
+          node-version: '22'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build site
+        run: npx hexo generate
+      - name: Verify build output
         run: |
-          ls -la node_modules/.bin/hexo
-          wc -c node_modules/hexo/bin/hexo
-          ./node_modules/.bin/hexo version
-      - name: Generate site
-        run: ./node_modules/.bin/hexo generate
+          test -d public && test -n "$(ls -A public)" && echo "public OK: $(find public -type f | wc -l) files" || (echo "BUILD FAILED: public missing or empty" && exit 1)
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

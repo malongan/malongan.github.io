@@ -1,65 +1,122 @@
-InVzZSBzdHJpY3QiOwoKKGFzeW5jIGZ1bmN0aW9uICgpIHsKICBjb25zdCBj
-YW52YXMgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicHJldGV4dC1vcm5h
-bWVudC1jYW52YXMiKTsKICBpZiAoIWNhbnZhcykgcmV0dXJuOwoKICBjb25z
-dCBmYWxsYmFjayA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJwcmV0ZXh0
-LW9ybmFtZW50LWZhbGxiYWNrIik7CgogIGxldCBwcmVwYXJlV2l0aFNlZ21l
-bnRzOwogIHRyeSB7CiAgICBjb25zdCBtb2QgPSBhd2FpdCBpbXBvcnQoCiAg
-ICAgICJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL0BjaGVuZ2xvdS9w
-cmV0ZXh0Lytlc20iCiAgICApOwogICAgcHJlcGFyZVdpdGhTZWdtZW50cyA9
-IG1vZC5wcmVwYXJlV2l0aFNlZ21lbnRzOwogIH0gY2F0Y2ggewogICAgc2hv
-d0ZhbGxiYWNrKCk7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBjdHggPSBj
-YW52YXMuZ2V0Q29udGV4dCgiMmQiKTsKICBpZiAoIWN0eCkgewogICAgc2hv
-d0ZhbGxiYWNrKCk7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBpc0Rhcmsg
-PSAoKSA9PiBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LmNv
-bnRhaW5zKCJkYXJrIik7CiAgY29uc3QgZ2V0Q29sb3IgPSAoKSA9PiAoaXNE
-YXJrKCkgPyAiI0UwREVEOCIgOiAiIzFBMUExQSIpOwogIGNvbnN0IGdldEFj
-Y2VudCA9ICgpID0+IChpc0RhcmsoKSA/ICIjRTg1NjNBIiA6ICIjM2FjY2U4
-Iik7CgogIGNvbnN0IFcgPSA4MDsKICBjb25zdCBIID0gNTY7CiAgY29uc3Qg
-ZHByID0gd2luZG93LmRldmljZVBpeGVsUmF0aW8gfHwgMTsKICBjYW52YXMu
-d2lkdGggPSBXICogZHByOwogIGNhbnZhcy5oZWlnaHQgPSBIICogZHByOwog
-IGN0eC5zY2FsZShkcHIsIGRwcik7CgogIC8vIEFTQ0lJIGJvb2sKICB2YXIg
-Ym9va0xpbmVzID0gWwogICAgIiBfX19fX19fIiwKICAgICIvICAgICAgLywi
-LAogICAgIi8gICAgICAvLyIsCiAgICAiL19fX19fXy8vIiwKICAgICIoX19f
-X19fKC8iLAogIF07CgogIHZhciBmb250ID0gIjlweCBKZXRCcmFpbnMgTW9u
-byI7CgogIC8vIFByZS1tZWFzdXJlCiAgdHJ5IHsKICAgIHByZXBhcmVXaXRo
-U2VnbWVudHMoYm9va0xpbmVzLmpvaW4oIiIpLCBmb250KTsKICB9IGNhdGNo
-IHsKICAgIC8vIE5vbi1jcml0aWNhbAogIH0KCiAgLy8gUGFyc2UgaW50byBj
-aGFyYWN0ZXIgcG9zaXRpb25zCiAgdmFyIGJvb2tDaGFycyA9IFtdOwogIGN0
-eC5mb250ID0gZm9udDsKICB2YXIgY2hhclcgPSBjdHgubWVhc3VyZVRleHQo
-Ik0iKS53aWR0aDsKICB2YXIgbGluZUggPSAxMTsKCiAgdmFyIG1heExlbiA9
-IDA7CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBib29rTGluZXMubGVuZ3RoOyBp
-KyspIHsKICAgIGlmIChib29rTGluZXNbaV0ubGVuZ3RoID4gbWF4TGVuKSBt
-YXhMZW4gPSBib29rTGluZXNbaV0ubGVuZ3RoOwogIH0KCiAgdmFyIHRvdGFs
-VyA9IG1heExlbiAqIGNoYXJXOwogIHZhciB0b3RhbEggPSBib29rTGluZXMu
-bGVuZ3RoICogbGluZUg7CiAgdmFyIG9mZnNldFggPSAoVyAtIHRvdGFsVykg
-LyAyOwogIHZhciBvZmZzZXRZID0gKEggLSB0b3RhbEgpIC8gMjsKCiAgZm9y
-ICh2YXIgbGkgPSAwOyBsaSA8IGJvb2tMaW5lcy5sZW5ndGg7IGxpKyspIHsK
-ICAgIHZhciBsaW5lID0gYm9va0xpbmVzW2xpXTsKICAgIGZvciAodmFyIGNp
-ID0gMDsgY2kgPCBsaW5lLmxlbmd0aDsgY2krKykgewogICAgICB2YXIgY2gg
-PSBsaW5lW2NpXTsKICAgICAgaWYgKGNoID09PSAiICIpIGNvbnRpbnVlOwog
-ICAgICBib29rQ2hhcnMucHVzaCh7CiAgICAgICAgY2g6IGNoLAogICAgICAg
-IGJhc2VYOiBvZmZzZXRYICsgY2kgKiBjaGFyVywKICAgICAgICBiYXNlWTog
-b2Zmc2V0WSArIGxpICogbGluZUgsCiAgICAgICAgaXNFZGdlOiBjaCA9PT0g
-Ii8iIHx8IGNoID09PSAiKCIgfHwgY2ggPT09ICIpIiB8fCBjaCA9PT0gIiwi
-LAogICAgICB9KTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIGFuaW1hdGUodGlt
-ZSkgewogICAgY3R4LmNsZWFyUmVjdCgwLCAwLCBXLCBIKTsKICAgIGN0eC5m
-b250ID0gZm9udDsKICAgIGN0eC50ZXh0QmFzZWxpbmUgPSAidG9wIjsKCiAg
-ICB2YXIgY29sb3IgPSBnZXRDb2xvcigpOwogICAgdmFyIGFjY2VudCA9IGdl
-dEFjY2VudCgpOwoKICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYm9va0NoYXJz
-Lmxlbmd0aDsgaSsrKSB7CiAgICAgIHZhciBjID0gYm9va0NoYXJzW2ldOwoK
-ICAgICAgLy8gR2VudGxlIHNoaW1tZXI6IHNsaWdodCByYW5kb20taXNoIGRp
-c3BsYWNlbWVudCBwZXIgY2hhcmFjdGVyCiAgICAgIHZhciBwaGFzZSA9IHRp
-bWUgKiAwLjAwMDggKyBpICogMC43OwogICAgICB2YXIgZHggPSBNYXRoLnNp
-bihwaGFzZSkgKiAwLjQ7CiAgICAgIHZhciBkeSA9IE1hdGguY29zKHBoYXNl
-ICogMC45KSAqIDAuMzsKCiAgICAgIC8vIFNvZnQgYWxwaGEgYnJlYXRoaW5n
-CiAgICAgIHZhciBhbHBoYSA9IDAuNzUgKyAwLjI1ICogTWF0aC5zaW4odGlt
-ZSAqIDAuMDAxNSArIGkgKiAwLjUpOwoKICAgICAgY3R4Lmdsb2JhbEFscGhh
-ID0gYWxwaGE7CiAgICAgIGN0eC5maWxsU3R5bGUgPSBjLmlzRWRnZSA/IGFj
-Y2VudCA6IGNvbG9yOwogICAgICBjdHguZmlsbFRleHQoYy5jaCwgYy5iYXNl
-WCArIGR4LCBjLmJhc2VZICsgZHkpOwogICAgfQoKICAgIGN0eC5nbG9iYWxB
-bHBoYSA9IDE7CiAgICByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoYW5pbWF0ZSk7
-CiAgfQoKICBmdW5jdGlvbiBzaG93RmFsbGJhY2soKSB7CiAgICBjYW52YXMu
-c3R5bGUuZGlzcGxheSA9ICJub25lIjsKICAgIGlmIChmYWxsYmFjaykgewog
-ICAgICBmYWxsYmFjay5jbGFzc0xpc3QucmVtb3ZlKCJoaWRkZW4iKTsKICAg
-ICAgZmFsbGJhY2suY2xhc3NMaXN0LmFkZCgiZmxleCIpOwogICAgfQogIH0K
-CiAgcmVxdWVzdEFuaW1hdGlvbkZyYW1lKGFuaW1hdGUpOwp9KSgpOwo=
+"use strict";
+
+(async function () {
+  const canvas = document.getElementById("pretext-ornament-canvas");
+  if (!canvas) return;
+
+  const fallback = document.getElementById("pretext-ornament-fallback");
+
+  let prepareWithSegments;
+  try {
+    const mod = await import(
+      "https://cdn.jsdelivr.net/npm/@chenglou/pretext/+esm"
+    );
+    prepareWithSegments = mod.prepareWithSegments;
+  } catch {
+    showFallback();
+    return;
+  }
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) {
+    showFallback();
+    return;
+  }
+
+  const isDark = () => document.documentElement.classList.contains("dark");
+  const getColor = () => (isDark() ? "#E0DED8" : "#1A1A1A");
+  const getAccent = () => (isDark() ? "#E8563A" : "#3acce8");
+
+  const W = 80;
+  const H = 56;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  ctx.scale(dpr, dpr);
+
+  // ASCII book
+  var bookLines = [
+    " _______",
+    "/      /,",
+    "/      //",
+    "/______//",
+    "(______(/",
+  ];
+
+  var font = "9px JetBrains Mono";
+
+  // Pre-measure
+  try {
+    prepareWithSegments(bookLines.join(""), font);
+  } catch {
+    // Non-critical
+  }
+
+  // Parse into character positions
+  var bookChars = [];
+  ctx.font = font;
+  var charW = ctx.measureText("M").width;
+  var lineH = 11;
+
+  var maxLen = 0;
+  for (var i = 0; i < bookLines.length; i++) {
+    if (bookLines[i].length > maxLen) maxLen = bookLines[i].length;
+  }
+
+  var totalW = maxLen * charW;
+  var totalH = bookLines.length * lineH;
+  var offsetX = (W - totalW) / 2;
+  var offsetY = (H - totalH) / 2;
+
+  for (var li = 0; li < bookLines.length; li++) {
+    var line = bookLines[li];
+    for (var ci = 0; ci < line.length; ci++) {
+      var ch = line[ci];
+      if (ch === " ") continue;
+      bookChars.push({
+        ch: ch,
+        baseX: offsetX + ci * charW,
+        baseY: offsetY + li * lineH,
+        isEdge: ch === "/" || ch === "(" || ch === ")" || ch === ",",
+      });
+    }
+  }
+
+  function animate(time) {
+    ctx.clearRect(0, 0, W, H);
+    ctx.font = font;
+    ctx.textBaseline = "top";
+
+    var color = getColor();
+    var accent = getAccent();
+
+    for (var i = 0; i < bookChars.length; i++) {
+      var c = bookChars[i];
+
+      // Gentle shimmer: slight random-ish displacement per character
+      var phase = time * 0.0008 + i * 0.7;
+      var dx = Math.sin(phase) * 0.4;
+      var dy = Math.cos(phase * 0.9) * 0.3;
+
+      // Soft alpha breathing
+      var alpha = 0.75 + 0.25 * Math.sin(time * 0.0015 + i * 0.5);
+
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = c.isEdge ? accent : color;
+      ctx.fillText(c.ch, c.baseX + dx, c.baseY + dy);
+    }
+
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(animate);
+  }
+
+  function showFallback() {
+    canvas.style.display = "none";
+    if (fallback) {
+      fallback.classList.remove("hidden");
+      fallback.classList.add("flex");
+    }
+  }
+
+  requestAnimationFrame(animate);
+})();

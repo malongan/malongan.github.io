@@ -1,11 +1,27 @@
-bWVudToKICBob21lOiDpppbpobUKICBhcmNoaXZlczog5b2S5qGjCiAgdGFn
-czog5qCH562+CiAgY2F0ZWdvcmllczog5YiG57G7CiAgYWJvdXQ6IOWFs+S6
-jgpwb3N0OgogIHJlYWRfbW9yZTog6ZiF6K+75YWo5paHCiAgcG9zdGVkX29u
-OiDlj5HluIPkuo4KICB1cGRhdGVkX29uOiDmm7TmlrDkuo4KICB0YWdzOiDm
-oIfnrb4KICBjYXRlZ29yaWVzOiDliIbnsbsKICB0b2M6IOebruW9lQogIHBy
-ZXY6IOS4iuS4gOevhwogIG5leHQ6IOS4i+S4gOevhwogIGNvbW1lbnRzOiDo
-r4TorroKICB1bnRpdGxlZDog5peg5qCH6aKYCiAgd29yZHM6IOWtlwpwYWdp
-bmF0aW9uOgogIHByZXY6IOS4iuS4gOmhtQogIG5leHQ6IOS4i+S4gOmhtQpm
-b290ZXI6CiAgcG93ZXJlZF9ieTog6amx5YqoCiAgdGhlbWU6IOS4u+mimApl
-cnJvcjoKICBub3RfZm91bmQ6IOmhtemdouacquaJvuWIsAogIGJhY2tfaG9t
-ZTog6L+U5Zue6aaW6aG1Cg==
+menu:
+  home: 首页
+  archives: 归档
+  tags: 标签
+  categories: 分类
+  about: 关于
+post:
+  read_more: 阅读全文
+  posted_on: 发布于
+  updated_on: 更新于
+  tags: 标签
+  categories: 分类
+  toc: 目录
+  prev: 上一篇
+  next: 下一篇
+  comments: 评论
+  untitled: 无标题
+  words: 字
+pagination:
+  prev: 上一页
+  next: 下一页
+footer:
+  powered_by: 驱动
+  theme: 主题
+error:
+  not_found: 页面未找到
+  back_home: 返回首页

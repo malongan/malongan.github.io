@@ -1,61 +1,90 @@
-InVzZSBzdHJpY3QiOwoKKGFzeW5jIGZ1bmN0aW9uICgpIHsKICB2YXIgY29u
-dGFpbmVyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInByZXRleHQtYXJj
-aGl2ZS1mbG93Iik7CiAgaWYgKCFjb250YWluZXIpIHJldHVybjsKCiAgdmFy
-IHNlY3Rpb25zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmFyY2hp
-dmUteWVhciIpOwogIGlmICghc2VjdGlvbnMubGVuZ3RoKSByZXR1cm47Cgog
-IGxldCBwcmVwYXJlLCBsYXlvdXQ7CiAgdHJ5IHsKICAgIHZhciBtb2QgPSBh
-d2FpdCBpbXBvcnQoCiAgICAgICJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQv
-bnBtL0BjaGVuZ2xvdS9wcmV0ZXh0Lytlc20iCiAgICApOwogICAgcHJlcGFy
-ZSA9IG1vZC5wcmVwYXJlOwogICAgbGF5b3V0ID0gbW9kLmxheW91dDsKICB9
-IGNhdGNoIHsKICAgIC8vIEZhbGxiYWNrOiBqdXN0IHVzZSBDU1MgdHJhbnNp
-dGlvbnMKICAgIGVuYWJsZUNTU0ZhbGxiYWNrKCk7CiAgICByZXR1cm47CiAg
-fQoKICAvLyBQcmUtY2FsY3VsYXRlIGhlaWdodHMgZm9yIHNtb290aCB0cmFu
-c2l0aW9ucwogIHZhciBmb250ID0gIjE2cHggSmV0QnJhaW5zIE1vbm8iOwog
-IHNlY3Rpb25zLmZvckVhY2goZnVuY3Rpb24gKHNlY3Rpb24pIHsKICAgIHZh
-ciBpdGVtcyA9IHNlY3Rpb24ucXVlcnlTZWxlY3RvckFsbCgibGkiKTsKICAg
-IGl0ZW1zLmZvckVhY2goZnVuY3Rpb24gKGl0ZW0pIHsKICAgICAgdmFyIHRl
-eHQgPSBpdGVtLnRleHRDb250ZW50IHx8ICIiOwogICAgICB0cnkgewogICAg
-ICAgIHZhciBwcmVwYXJlZCA9IHByZXBhcmUodGV4dC50cmltKCksIGZvbnQp
-OwogICAgICAgIHZhciByZXN1bHQgPSBsYXlvdXQocHJlcGFyZWQsIHNlY3Rp
-b24ub2Zmc2V0V2lkdGgsIDI0KTsKICAgICAgICBpdGVtLnN0eWxlLnNldFBy
-b3BlcnR5KCItLXByZXRleHQtaGVpZ2h0IiwgcmVzdWx0LmhlaWdodCArICJw
-eCIpOwogICAgICB9IGNhdGNoIHsKICAgICAgICAvLyBOb24tY3JpdGljYWwK
-ICAgICAgfQogICAgfSk7CiAgfSk7CgogIC8vIEFkZCBzbW9vdGggY29sbGFw
-c2UvZXhwYW5kIG9uIHllYXIgaGVhZGVycwogIHNlY3Rpb25zLmZvckVhY2go
-ZnVuY3Rpb24gKHNlY3Rpb24pIHsKICAgIHZhciBoZWFkaW5nID0gc2VjdGlv
-bi5xdWVyeVNlbGVjdG9yKCJoMiIpOwogICAgdmFyIGxpc3QgPSBzZWN0aW9u
-LnF1ZXJ5U2VsZWN0b3IoInVsIik7CiAgICBpZiAoIWhlYWRpbmcgfHwgIWxp
-c3QpIHJldHVybjsKCiAgICBoZWFkaW5nLnN0eWxlLmN1cnNvciA9ICJwb2lu
-dGVyIjsKICAgIGhlYWRpbmcuc2V0QXR0cmlidXRlKCJyb2xlIiwgImJ1dHRv
-biIpOwogICAgaGVhZGluZy5zZXRBdHRyaWJ1dGUoImFyaWEtZXhwYW5kZWQi
-LCAidHJ1ZSIpOwoKICAgIGhlYWRpbmcuYWRkRXZlbnRMaXN0ZW5lcigiY2xp
-Y2siLCBmdW5jdGlvbiAoKSB7CiAgICAgIHZhciBpc0V4cGFuZGVkID0gaGVh
-ZGluZy5nZXRBdHRyaWJ1dGUoImFyaWEtZXhwYW5kZWQiKSA9PT0gInRydWUi
-OwogICAgICBoZWFkaW5nLnNldEF0dHJpYnV0ZSgiYXJpYS1leHBhbmRlZCIs
-IFN0cmluZyghaXNFeHBhbmRlZCkpOwogICAgICBpZiAoaXNFeHBhbmRlZCkg
-ewogICAgICAgIGxpc3Quc3R5bGUubWF4SGVpZ2h0ID0gbGlzdC5zY3JvbGxI
-ZWlnaHQgKyAicHgiOwogICAgICAgIGxpc3Qub2Zmc2V0SGVpZ2h0OyAvLyBm
-b3JjZSByZWZsb3cKICAgICAgICBsaXN0LnN0eWxlLm1heEhlaWdodCA9ICIw
-IjsKICAgICAgICBsaXN0LnN0eWxlLm92ZXJmbG93ID0gImhpZGRlbiI7CiAg
-ICAgIH0gZWxzZSB7CiAgICAgICAgbGlzdC5zdHlsZS5tYXhIZWlnaHQgPSBs
-aXN0LnNjcm9sbEhlaWdodCArICJweCI7CiAgICAgICAgbGlzdC5zdHlsZS5v
-dmVyZmxvdyA9ICIiOwogICAgICAgIGxpc3QuYWRkRXZlbnRMaXN0ZW5lcigK
-ICAgICAgICAgICJ0cmFuc2l0aW9uZW5kIiwKICAgICAgICAgIGZ1bmN0aW9u
-ICgpIHsKICAgICAgICAgICAgbGlzdC5zdHlsZS5tYXhIZWlnaHQgPSAiIjsK
-ICAgICAgICAgIH0sCiAgICAgICAgICB7IG9uY2U6IHRydWUgfQogICAgICAg
-ICk7CiAgICAgIH0KICAgIH0pOwoKICAgIGxpc3Quc3R5bGUudHJhbnNpdGlv
-biA9ICJtYXgtaGVpZ2h0IDAuM3MgZWFzZSI7CiAgfSk7CgogIGZ1bmN0aW9u
-IGVuYWJsZUNTU0ZhbGxiYWNrKCkgewogICAgc2VjdGlvbnMuZm9yRWFjaChm
-dW5jdGlvbiAoc2VjdGlvbikgewogICAgICB2YXIgaGVhZGluZyA9IHNlY3Rp
-b24ucXVlcnlTZWxlY3RvcigiaDIiKTsKICAgICAgdmFyIGxpc3QgPSBzZWN0
-aW9uLnF1ZXJ5U2VsZWN0b3IoInVsIik7CiAgICAgIGlmICghaGVhZGluZyB8
-fCAhbGlzdCkgcmV0dXJuOwoKICAgICAgaGVhZGluZy5zdHlsZS5jdXJzb3Ig
-PSAicG9pbnRlciI7CiAgICAgIGhlYWRpbmcuc2V0QXR0cmlidXRlKCJyb2xl
-IiwgImJ1dHRvbiIpOwogICAgICBoZWFkaW5nLnNldEF0dHJpYnV0ZSgiYXJp
-YS1leHBhbmRlZCIsICJ0cnVlIik7CgogICAgICBoZWFkaW5nLmFkZEV2ZW50
-TGlzdGVuZXIoImNsaWNrIiwgZnVuY3Rpb24gKCkgewogICAgICAgIHZhciBp
-c0V4cGFuZGVkID0gaGVhZGluZy5nZXRBdHRyaWJ1dGUoImFyaWEtZXhwYW5k
-ZWQiKSA9PT0gInRydWUiOwogICAgICAgIGhlYWRpbmcuc2V0QXR0cmlidXRl
-KCJhcmlhLWV4cGFuZGVkIiwgU3RyaW5nKCFpc0V4cGFuZGVkKSk7CiAgICAg
-ICAgbGlzdC5zdHlsZS5kaXNwbGF5ID0gaXNFeHBhbmRlZCA/ICJub25lIiA6
-ICIiOwogICAgICB9KTsKICAgIH0pOwogIH0KfSkoKTsK
+"use strict";
+
+(async function () {
+  var container = document.getElementById("pretext-archive-flow");
+  if (!container) return;
+
+  var sections = document.querySelectorAll(".archive-year");
+  if (!sections.length) return;
+
+  let prepare, layout;
+  try {
+    var mod = await import(
+      "https://cdn.jsdelivr.net/npm/@chenglou/pretext/+esm"
+    );
+    prepare = mod.prepare;
+    layout = mod.layout;
+  } catch {
+    // Fallback: just use CSS transitions
+    enableCSSFallback();
+    return;
+  }
+
+  // Pre-calculate heights for smooth transitions
+  var font = "16px JetBrains Mono";
+  sections.forEach(function (section) {
+    var items = section.querySelectorAll("li");
+    items.forEach(function (item) {
+      var text = item.textContent || "";
+      try {
+        var prepared = prepare(text.trim(), font);
+        var result = layout(prepared, section.offsetWidth, 24);
+        item.style.setProperty("--pretext-height", result.height + "px");
+      } catch {
+        // Non-critical
+      }
+    });
+  });
+
+  // Add smooth collapse/expand on year headers
+  sections.forEach(function (section) {
+    var heading = section.querySelector("h2");
+    var list = section.querySelector("ul");
+    if (!heading || !list) return;
+
+    heading.style.cursor = "pointer";
+    heading.setAttribute("role", "button");
+    heading.setAttribute("aria-expanded", "true");
+
+    heading.addEventListener("click", function () {
+      var isExpanded = heading.getAttribute("aria-expanded") === "true";
+      heading.setAttribute("aria-expanded", String(!isExpanded));
+      if (isExpanded) {
+        list.style.maxHeight = list.scrollHeight + "px";
+        list.offsetHeight; // force reflow
+        list.style.maxHeight = "0";
+        list.style.overflow = "hidden";
+      } else {
+        list.style.maxHeight = list.scrollHeight + "px";
+        list.style.overflow = "";
+        list.addEventListener(
+          "transitionend",
+          function () {
+            list.style.maxHeight = "";
+          },
+          { once: true }
+        );
+      }
+    });
+
+    list.style.transition = "max-height 0.3s ease";
+  });
+
+  function enableCSSFallback() {
+    sections.forEach(function (section) {
+      var heading = section.querySelector("h2");
+      var list = section.querySelector("ul");
+      if (!heading || !list) return;
+
+      heading.style.cursor = "pointer";
+      heading.setAttribute("role", "button");
+      heading.setAttribute("aria-expanded", "true");
+
+      heading.addEventListener("click", function () {
+        var isExpanded = heading.getAttribute("aria-expanded") === "true";
+        heading.setAttribute("aria-expanded", String(!isExpanded));
+        list.style.display = isExpanded ? "none" : "";
+      });
+    });
+  }
+})();

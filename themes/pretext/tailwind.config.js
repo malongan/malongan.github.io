@@ -1,24 +1,46 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ3RhaWx3aW5kY3NzJykuQ29uZmlnfSAqLwpt
-b2R1bGUuZXhwb3J0cyA9IHsKICBjb250ZW50OiBbIi4vbGF5b3V0LyoqLyou
-ZWpzIl0sCiAgZGFya01vZGU6ICJjbGFzcyIsCiAgdGhlbWU6IHsKICAgIGV4
-dGVuZDogewogICAgICBjb2xvcnM6IHsKICAgICAgICBiZzogewogICAgICAg
-ICAgbGlnaHQ6ICIjRkFGQUY4IiwKICAgICAgICAgIGRhcms6ICIjMTIxMjEy
-IiwKICAgICAgICB9LAogICAgICAgIHRleHQ6IHsKICAgICAgICAgIHByaW1h
-cnk6ICIjMUExQTFBIiwKICAgICAgICAgIHNlY29uZGFyeTogIiM2QjZCNkIi
-LAogICAgICAgICAgInByaW1hcnktZGFyayI6ICIjRTBERUQ4IiwKICAgICAg
-ICAgICJzZWNvbmRhcnktZGFyayI6ICIjOEE4QThBIiwKICAgICAgICB9LAog
-ICAgICAgIGFjY2VudDogewogICAgICAgICAgREVGQVVMVDogIiMzYWNjZTgi
-LAogICAgICAgICAgZGFyazogIiNFODU2M0EiLAogICAgICAgIH0sCiAgICAg
-ICAgYm9yZGVyOiB7CiAgICAgICAgICBsaWdodDogIiNFOEU2RTMiLAogICAg
-ICAgICAgZGFyazogIiMyQTJBMkEiLAogICAgICAgIH0sCiAgICAgIH0sCiAg
-ICAgIGZvbnRGYW1pbHk6IHsKICAgICAgICBib2R5OiBbJyJOb3RvIFNlcmlm
-IEpQIicsICciTm90byBTZXJpZiBTQyInLCAiR2VvcmdpYSIsICJzZXJpZiJd
-LAogICAgICAgIGhlYWRpbmc6IFsnIlNoaXBwb3JpIE1pbmNobyInLCAnIk5v
-dG8gU2VyaWYgSlAiJywgInNlcmlmIl0sCiAgICAgICAgbW9ubzogWyciSmV0
-QnJhaW5zIE1vbm8iJywgJyJGaXJhIENvZGUiJywgIm1vbm9zcGFjZSJdLAog
-ICAgICB9LAogICAgICBtYXhXaWR0aDogewogICAgICAgIGNvbnRlbnQ6ICI3
-MjBweCIsCiAgICAgICAgd2lkZTogIjEyMDBweCIsCiAgICAgIH0sCiAgICAg
-IGxpbmVIZWlnaHQ6IHsKICAgICAgICByZWxheGVkOiAiMS44IiwKICAgICAg
-fSwKICAgICAgc3BhY2luZzogewogICAgICAgIDE4OiAiNC41cmVtIiwKICAg
-ICAgICAyMjogIjUuNXJlbSIsCiAgICAgIH0sCiAgICB9LAogIH0sCiAgcGx1
-Z2luczogW10sCn07Cg==
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./layout/**/*.ejs"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        bg: {
+          light: "#FAFAF8",
+          dark: "#121212",
+        },
+        text: {
+          primary: "#1A1A1A",
+          secondary: "#6B6B6B",
+          "primary-dark": "#E0DED8",
+          "secondary-dark": "#8A8A8A",
+        },
+        accent: {
+          DEFAULT: "#3acce8",
+          dark: "#E8563A",
+        },
+        border: {
+          light: "#E8E6E3",
+          dark: "#2A2A2A",
+        },
+      },
+      fontFamily: {
+        body: ['"Noto Serif JP"', '"Noto Serif SC"', "Georgia", "serif"],
+        heading: ['"Shippori Mincho"', '"Noto Serif JP"', "serif"],
+        mono: ['"JetBrains Mono"', '"Fira Code"', "monospace"],
+      },
+      maxWidth: {
+        content: "720px",
+        wide: "1200px",
+      },
+      lineHeight: {
+        relaxed: "1.8",
+      },
+      spacing: {
+        18: "4.5rem",
+        22: "5.5rem",
+      },
+    },
+  },
+  plugins: [],
+};

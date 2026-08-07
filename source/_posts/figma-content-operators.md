@@ -1,98 +1,163 @@
-LS0tCnRpdGxlOiAiRmlnbWEg5YaF5a655pON5L2c5oqA6IO977yaZmlnbWEt
-Y29udGVudC1vcGVyYXRvciDkuI4gcmVhY3QtdG8tZmlnbWEtbWFrZSIKZGF0
-ZTogMjAyNi0wOC0wNwpkZXNjcmlwdGlvbjogIuS4pOS4qiBGaWdtYSDmioDo
-g73nmoTlronoo4XkuI7kvb/nlKjvvJrnvZHpobXlpI3liLbliLAgRmlnbWHv
-vIzku6Xlj4ogUmVhY3Qg5Luj56CB6L2sIEZpZ21hIE1ha2UiCnNsdWc6IGZp
-Z21hLWNvbnRlbnQtb3BlcmF0b3JzCnRhZ3M6IFtGaWdtYSwg5oqA6IO95a6J
-6KOFLCBVSeiuvuiuoSwgUmVhY3RdCi0tLQoKIyBGaWdtYSDlhoXlrrnmk43k
-vZzmioDog73vvJpmaWdtYS1jb250ZW50LW9wZXJhdG9yIOS4jiByZWFjdC10
-by1maWdtYS1tYWtlCgojIyDmioDog73lronoo4XlnLDlnYAKCmBgYApza2ls
-bHMvZmlnbWEtY29udGVudC1vcGVyYXRvci8Kc2tpbGxzL3JlYWN0LXRvLWZp
-Z21hLW1ha2UvCmBgYAoKPiDkuKTkuKrmioDog73lnYfmnaXoh6ogW2xpbnRl
-bmRvL0F4aHViLVNraWxsc10oaHR0cHM6Ly9naXRodWIuY29tL2xpbnRlbmRv
-L0F4aHViLVNraWxscykg5byA5rqQ5oqA6IO95bqTCgotLS0KCiMjIOS4gOOA
-geS4pOS4quaKgOiDveeahOWMuuWIqwoKfCDnibnmgKcgfCBmaWdtYS1jb250
-ZW50LW9wZXJhdG9yIHwgcmVhY3QtdG8tZmlnbWEtbWFrZSB8Cnw6LS0tLS18
-Oi0tLS0tLS0tLS0tLS0tLS0tLS0tLXw6LS0tLS0tLS0tLS0tLS0tLS0tLXwK
-fCAqKuaWueWQkSoqIHwg572R6aG1IOKGkiBGaWdtYSB8IFJlYWN0IOS7o+eg
-gSDihpIgRmlnbWEgTWFrZSB8CnwgKirljp/nkIYqKiB8IOa1j+iniOWZqOaJ
-qeWxleWkjeWItueymOi0tCB8IOS7o+eggee7k+aehOi9rOaNoiArIGNhbnZh
-cy5maWcg55Sf5oiQIHwKfCAqKui+k+WFpSoqIHwg5Lu75oSP572R6aG177yI
-SFRNTC9SZWFjdC9WdWXvvIkgfCBSZWFjdC9WaXRlL05leHQuanMvVjAg6aG5
-55uuIHwKfCAqKui+k+WHuioqIHwgRmlnbWEg55S75biD55u05o6l57KY6LS0
-IHwg5Y+v5a+85YWl55qEIC5maWcg5paH5Lu2IHwKfCAqKuaKgOacr+S+nei1
-lioqIHwgQXhodWIg5rWP6KeI5Zmo5omp5bGVICsgQ2hyb21pdW0gfCBOb2Rl
-LmpzIDIyLjE5KyArIGNhbnZhcy1maWctc3luYyDohJrmnKwgfAp8ICoq6YCC
-5ZCI5Zy65pmvKiogfCDlt7LmnInnvZHpobXorr7orqHnqL/jgIHpnIDopoHl
-vq7osIMgfCDpnIDopoHlr7zlhaUgRmlnbWEgTWFrZSDov5vooYzlj6/op4bl
-jJbnvJbovpEgfAoKLS0tCgojIyDkuozjgIFmaWdtYS1jb250ZW50LW9wZXJh
-dG9yIOS9v+eUqOivtOaYjgoKIyMjIOaguOW/g+iDveWKmwotIOajgOafpeOA
-geivu+WPluOAgeWIm+W7uuOAgee8lui+keOAgeWvvOWHuiBGaWdtYSDlhoXl
-rrkKLSDlsIbnvZHpobXlpI3liLbliLAgRmlnbWEg55S75biDCi0g6YCa6L+H
-IEZpZ3dyaWdodCBNQ1Ag5pON5L2cIEZpZ21hIOeUu+W4gwoKIyMjIOS9v+eU
-qOaWueW8jwoKIyMjIyDmlrnlvI8gQe+8mue9kemhteWkjeWItueymOi0tO+8
-iOaXoOmcgCBNQ1DvvIkKCjEuIOWuieijhSAqKkF4aHViIOa1j+iniOWZqOaJ
-qeWxlSoq77yIQ2hyb21lL0VkZ2XvvIkKMi4g5omT5byA55uu5qCH572R6aG1
-77yM54K55Ye75omp5bGV5Zu+5qCHCjMuIOeCueWHuyLlpI3liLbliLAgRmln
-bWEiCjQuIOaJk+W8gCBGaWdtYSDmoYzpnaIvQXBw77yM5Zyo55S75p2/5LiK
-IENtZC9DdHJsICsgViDnspjotLQKCiMjIyMg5pa55byPIELvvJpNQ1Ag55S7
-5biD5pON5L2c77yI6ZyA6KaBIEZpZ3dyaWdodO+8iQoKMS4g5ZyoIEZpZ21h
-IOS4reWuieijheW5tui/kOihjCAqKkRyYWZpdG8qKiDmiJYgKipGaWd3cmln
-aHQqKiDmj5Lku7YKMi4g6YCa6L+HIE1DUCDov57mjqXlkI7vvIzlj6/or7vl
-j5bjgIHnvJbovpHnlLvluIPlhoXlrrkKMy4g5pSv5oyB6K+75Y+W6YCJ5Yy6
-44CB6IqC54K55qCR44CB5YWD5pWw5o2u44CB5oiq5Zu+562JCgojIyMg5rOo
-5oSP5LqL6aG5Ci0gTUNQIOaTjeS9nOWJjemcgOWFiOivu+WPluebruagh++8
-jOWGjeWGmeWFpQotIOWIm+W7uuOAgeabtOaWsOOAgeWIoOmZpOinhuS4uuS/
-ruaUueaTjeS9nO+8jOmcgOS4peagvOmZkOWItuiMg+WbtAotIOS8mOWFiOiB
-mueEpuivu+WPlu+8jOmBv+WFjeebtOaOpeiwg+eUqCBnZXRfZG9jdW1lbnQK
-Ci0tLQoKIyMg5LiJ44CBcmVhY3QtdG8tZmlnbWEtbWFrZSDkvb/nlKjor7Tm
-mI4KCiMjIyDmoLjlv4Pog73lipsK5bCGIFJlYWN0IOmhueebrui9rOaNouS4
-uiBGaWdtYSBNYWtlIOWPr+WvvOWFpeeahCAuZmlnIOi1hOS6p++8jOS/neeV
-meiuvuiuoeezu+e7n+WSjOWPjOWFpeWPo+aetuaehOOAggoKIyMjIOWujOaV
-tOW3peS9nOa1geeoiwoKIyMjIyDnrKwgMSDmraXvvJrliIbmnpDmupDpobnn
-m64K6K+G5Yir5qGG5p6257G75Z6L77yIUmVhY3QgLyBOZXh0LmpzIC8gVjAg
-LyBBSSBTdHVkaW/vvInjgIHlhaXlj6Pnu5PmnoTjgIHmoLflvI/mlrnmoYjj
-gIHkvp3otZbliIbmnpDjgIHpnZnmgIHotYTmupDjgIIKCiMjIyMg56ysIDIg
-5q2l77ya5Yib5bu6IEZpZ21hIE1ha2Ug6aG555uu57uT5p6ECgpgYGAK6aG5
-55uuLwrilJzilIDilIAgaW5kZXgudHN4ICAgICAgICAgICAjIOS4u+WFpeWP
-owrilJzilIDilIAgc3JjL0FwcC50c3ggICAgICAgICAjIEZpZ21hIOWvvOWH
-uuiWhOWjswrilJzilIDilIAgc3JjL21haW4udHN4ICAgICAgICAjIFZpdGUg
-5oyC6L295bGCCuKUnOKUgOKUgCBzcmMvY29tcG9uZW50cy8gICAgICMg5YWx
-5Lqr57uE5Lu2CuKUnOKUgOKUgCBzcmMvc3R5bGVzLyAgICAgICAgICMg5YWo
-5bGA5qC35byPCuKUnOKUgOKUgCBjYW52YXMuZmlnICAgICAgICAgICMgRmln
-bWEg5LqM6L+b5Yi26K6+6K6h5pWw5o2uCuKUnOKUgOKUgCBtZXRhLmpzb24g
-ICAgICAgICAgICMg6aG555uu5YWD5pWw5o2uCuKUlOKUgOKUgCBpbWFnZXMv
-ICAgICAgICAgICAgICMg5Zu+54mH6LWE5rqQCmBgYAoKIyMjIyDnrKwgMyDm
-raXvvJrov4Hnp7vmupDku6PnoIEKLSDmlLbmlZvlhaXlj6PkuLrkuKTkuKro
-loTlhaXlj6MgKyDkuIDlpZflhbHkuqvnu4Tku7YKLSDnp7vpmaTmoYbmnrbn
-ibnlrprku6PnoIHvvIjlpoIgTmV4dC5qcyDnmoQgInVzZSBjbGllbnQi44CB
-bmV4dC9pbWFnZe+8iQoKIyMjIyDnrKwgNCDmraXvvJrooaXpvZDlhYPmlofk
-u7YKLSBtZXRhLmpzb24g4oCUIOmhueebruWFg+aVsOaNrgotIGFpX2NoYXQu
-anNvbiDigJQgQUkg6IGK5aSp5Y6G5Y+yCi0gcGFja2FnZS5qc29uIOKAlCBW
-aXRlIOS+nei1lu+8iOS4jeWQqyByZWFjdC9yZWFjdC1kb23vvIkKLSB2aXRl
-LmNvbmZpZy50c+OAgXRzY29uZmlnLmpzb27jgIFpbmRleC5odG1sCgojIyMj
-IOesrCA1IOatpe+8mueUn+aIkCBjYW52YXMuZmlnCgpgYGBiYXNoCiMg5qOA
-5p+l5qih5p2/Cm5vZGUgc2NyaXB0cy9jYW52YXMtZmlnLXN5bmMubWpzIGlu
-c3BlY3QgXAogIC0tZmlnIGFzc2V0cy9lbXB0eS1jYW52YXMuZmlnIFwKICAt
-LW1hbmlmZXN0IHRlbXBsYXRlLmNvZGUtbWFuaWZlc3QuanNvbgoKIyBwYWNr
-IOa6kOeggeeUn+aIkCAuZmlnCm5vZGUgc2NyaXB0cy9jYW52YXMtZmlnLXN5
-bmMubWpzIHBhY2sgXAogIC0tZmlnIGNhbnZhcy5maWcgLS1mcm9tIOa6kOeg
-geebruW9lSBcCiAgLS1wcnVuZS1taXNzaW5nIC0tc2FuaXRpemUtZm9yLWV4
-cG9ydApgYGAKCiMjIyMg56ysIDYg5q2l77ya6aqM6K+BCi0g57uT5p6E6aqM
-6K+B77ya5YWl5Y+j5paH5Lu26IGM6LSj5rOo6YeK5a6M5pW0Ci0g5YWD5paH
-5Lu26aqM6K+B77yabWV0YS5qc29u44CBYWlfY2hhdC5qc29uIOetieWtmOWc
-qAotIOa4suafk+mqjOivge+8mm5wbSBydW4gZGV2IOaXoOaKpemUmQoKLS0t
-CgojIyDlm5vjgIHlnLrmma/pgInmi6nmjIfljZcKCnwg5oiR55qE5oOF5Ya1
-IHwg5o6o6I2Q5oqA6IO9IHwKfDotLS0tLS0tLS18Oi0tLS0tLS0tLXwKfCDm
-nInkuIDkuKrlgZrlpb3nmoTnvZHpobXvvIzmg7PmkKzov5sgRmlnbWEgfCBm
-aWdtYS1jb250ZW50LW9wZXJhdG9yIHwKfCDmnIkgUmVhY3Qg5Luj56CB77yM
-5oOz55Sf5oiQIC5maWcg5a+85YWlIHwgcmVhY3QtdG8tZmlnbWEtbWFrZSB8
-Cnwg5oOz5ZyoIEZpZ21hIOS4iuebtOaOpeivu+WPli/nvJbovpHorr7orqEg
-fCBmaWdtYS1jb250ZW50LW9wZXJhdG9yICsgRmlnd3JpZ2h0IE1DUCB8Cnwg
-5oOz5oqK6K6+6K6h56i/6L2s5oiQIFJlYWN0IOS7o+eggSB8IOmcgOimgeWF
-tuS7luW3peWFt+mFjeWQiCB8CgotLS0KCiMjIOS6lOOAgeWPguiAg+i1hOa6
-kAoKLSBBeGh1Yi1Ta2lsbHMg5LuT5bqT77yaaHR0cHM6Ly9naXRodWIuY29t
-L2xpbnRlbmRvL0F4aHViLVNraWxscwotIEZpZ3dyaWdodCBNQ1DvvJpodHRw
-czovL2dpdGh1Yi5jb20vbmlja2hzaGFycC9maWd3cmlnaHQKLSBGaWdtYSBN
-YWtlIOWumOaWueaWh+ahowoKLS0tCgoq5pys5paH55SxIEFJIOWKqeaJi+aV
-tOeQhu+8jOaKgOiDveadpeiHqiBBeGh1YiDlvIDmupDmioDog73lupMqCg==
+---
+title: "Figma 内容操作技能：figma-content-operator 与 react-to-figma-make"
+date: 2026-08-06
+description: "两个 Figma 技能的安装与使用：网页复制到 Figma，以及 React 代码转 Figma Make"
+slug: figma-content-operators
+tags: [Figma, 技能安装, UI设计, React]
+---
+
+# Figma 内容操作技能：figma-content-operator 与 react-to-figma-make
+
+## 技能安装地址
+
+skills/figma-content-operator/
+skills/react-to-figma-make/
+
+两个技能均来自 lintendo/Axhub-Skills 开源技能库
+
+## 一、两个技能的区别
+
+...（完整内容如下）
+
+## 二、figma-content-operator 使用说明
+
+### 核心能力
+- 检查、读取、创建、编辑、导出 Figma 内容
+- 将网页复制到 Figma 画布
+- 通过 Figwright MCP 操作 Figma 画布
+
+### 使用方式
+
+#### 方式 A：网页复制粘贴（无需 MCP）
+
+1. 安装 Axhub 浏览器扩展（Chrome/Edge）
+2. 打开目标网页，点击扩展图标
+3. 点击"复制到 Figma"
+4. 打开 Figma 桌面/App，在画板上 Cmd/Ctrl + V 粘贴
+
+#### 方式 B：MCP 画布操作（需要 Figwright）
+
+1. 在 Figma 中安装并运行 Drafito 或 Figwright 插件
+2. 通过 MCP 连接后，可读取、编辑画布内容
+3. 支持读取选区、节点树、元数据、截图等
+
+### 注意事项
+- MCP 操作前需先读取目标，再写入
+- 创建、更新、删除视为修改操作，需严格限制范围
+- 优先聚焦读取，避免直接调用 get_document
+
+### MCP 连接启动完整流程
+
+#### 前提条件确认
+
+| 条件 | 要求 |
+|------|------|
+| Node.js | 22.19+ |
+| MCP 技能 | figma-content-operator |
+| Figma 插件 | Drafito 或 Figwright（选一） |
+
+#### 第 1 步：启动 Relay（保持运行）
+
+npx figma-content-operator relay
+
+#### 第 2 步：验证连接
+
+npx figma-content-operator ping
+
+#### 第 3 步：获取 Figma 文件 URL
+
+在 Figma 桌面端或网页端打开目标文件，复制 URL，格式：
+
+https://www.figma.com/design/xxxxxxxxxxxx/项目名称
+
+#### 第 4 步：启动插件
+
+npx figma-content-operator launch-url --file-url "你的Figma文件URL"
+
+#### 第 5 步：在 Figma 中运行插件
+
+1. 在 Figma 中打开对应文件
+2. 点击左侧边栏 Plugins → Drafito 或 Figwright
+3. 粘贴启动链接，运行插件
+4. 插件加载完成后即可开始操作
+
+#### 第 6 步：验证操作
+
+npx figma-content-operator profile
+npx figma-content-operator get_document
+
+#### 连接成功后可执行的操作
+
+- 读取 选中元素、节点树、样式、元数据
+- 创建/编辑 画布元素
+- 管理 样式、变量、组件
+- 导出 设计资源
+
+#### Figma 插件安装（如尚未安装）
+
+方案 A：Drafito（推荐）
+配合 Axhub 浏览器扩展使用，Drafito 已内置其中。
+
+方案 B：Figwright
+1. 下载：https://github.com/awdr74100/figwright/releases/latest
+2. Figma Desktop → Plugins → Development → Import plugin from manifest…
+3. 选择下载包中的 manifest.json
+
+## 三、react-to-figma-make 使用说明
+
+### 核心能力
+将 React 项目转换为 Figma Make 可导入的 .fig 资产，保留设计系统和双入口架构。
+
+### 完整工作流程
+
+#### 第 1 步：分析源项目
+识别框架类型（React / Next.js / V0 / AI Studio）、入口结构、样式方案、依赖分析、静态资源。
+
+#### 第 2 步：创建 Figma Make 项目结构
+
+项目/
+├── index.tsx           # 主入口
+├── src/App.tsx         # Figma 导出薄壳
+├── src/main.tsx        # Vite 挂载层
+├── src/components/     # 共享组件
+├── src/styles/         # 全局样式
+├── canvas.fig          # Figma 二进制设计数据
+├── meta.json           # 项目元数据
+└── images/             # 图片资源
+
+#### 第 3 步：迁移源代码
+- 收敛入口为两个薄入口 + 一套共享组件
+- 移除框架特定代码（如 Next.js 的 "use client"、next/image）
+
+#### 第 4 步：补齐元文件
+- meta.json — 项目元数据
+- ai_chat.json — AI 聊天历史
+- package.json — Vite 依赖（不含 react/react-dom）
+- vite.config.ts、tsconfig.json、index.html
+
+#### 第 5 步：生成 canvas.fig
+
+node scripts/canvas-fig-sync.mjs inspect --fig assets/empty-canvas.fig --manifest template.code-manifest.json
+node scripts/canvas-fig-sync.mjs pack --fig canvas.fig --from 源码目录 --prune-missing --sanitize-for-export
+
+#### 第 6 步：验证
+- 结构验证：入口文件职责注释完整
+- 元文件验证：meta.json、ai_chat.json 等存在
+- 渲染验证：npm run dev 无报错
+
+## 四、场景选择指南
+
+| 我的情况 | 推荐技能 |
+|:---------|:---------|
+| 有一个做好的网页，想搬进 Figma | figma-content-operator |
+| 有 React 代码，想生成 .fig 导入 | react-to-figma-make |
+| 想在 Figma 上直接读取/编辑设计 | figma-content-operator + Figwright MCP |
+| 想把设计稿转成 React 代码 | 需要其他工具配合 |
+
+## 五、参考资源
+
+- Axhub-Skills 仓库：https://github.com/lintendo/Axhub-Skills
+- Figwright MCP：https://github.com/nickhsharp/figwright
+- Figma Make 官方文档
+
+*本文由 AI 助手整理，技能来自 Axhub 开源技能库*

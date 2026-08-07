@@ -1,18 +1,19 @@
-PCUgdmFyIHNob3J0bmFtZSA9IHRoZW1lLmNvbW1lbnRzLmRpc3F1cyAmJiB0
-aGVtZS5jb21tZW50cy5kaXNxdXMuc2hvcnRuYW1lID8gdGhlbWUuY29tbWVu
-dHMuZGlzcXVzLnNob3J0bmFtZSA6IGNvbmZpZy5kaXNxdXNfc2hvcnRuYW1l
-OyAlPgo8JSBpZiAoc2hvcnRuYW1lKSB7ICU+CjxkaXYgaWQ9ImRpc3F1c190
-aHJlYWQiPjwvZGl2Pgo8c2NyaXB0PgogIHZhciBkaXNxdXNfc2hvcnRuYW1l
-ID0gJzwlPSBzaG9ydG5hbWUgJT4nOwogIHZhciBkaXNxdXNfY29uZmlnID0g
-ZnVuY3Rpb24gKCkgewogICAgdGhpcy5wYWdlLnVybCA9ICc8JT0gcGFnZS5w
-ZXJtYWxpbmsgJT4nOwogICAgdGhpcy5wYWdlLmlkZW50aWZpZXIgPSAnPCU9
-IHBhZ2UucGF0aCAlPic7CiAgfTsKICAoZnVuY3Rpb24oKSB7CiAgICB2YXIg
-ZCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgZC50
-eXBlID0gJ3RleHQvamF2YXNjcmlwdCc7CiAgICBkLmFzeW5jID0gdHJ1ZTsK
-ICAgIGQuc3JjID0gJy8vJyArIGRpc3F1c19zaG9ydG5hbWUgKyAnLmRpc3F1
-cy5jb20vZW1iZWQuanMnOwogICAgKGRvY3VtZW50LmhlYWQgfHwgZG9jdW1l
-bnQuYm9keSkuYXBwZW5kQ2hpbGQoZCk7CiAgfSkoKTsKPC9zY3JpcHQ+Cjxu
-b3NjcmlwdD5QbGVhc2UgZW5hYmxlIEphdmFTY3JpcHQgdG8gdmlldyB0aGUg
-PGEgaHJlZj0iaHR0cHM6Ly9kaXNxdXMuY29tLz9yZWZfbm9zY3JpcHQiPmNv
-bW1lbnRzIHBvd2VyZWQgYnkgRGlzcXVzLjwvYT48L25vc2NyaXB0Pgo8JSB9
-ICU+Cg==
+<% var shortname = theme.comments.disqus && theme.comments.disqus.shortname ? theme.comments.disqus.shortname : config.disqus_shortname; %>
+<% if (shortname) { %>
+<div id="disqus_thread"></div>
+<script>
+  var disqus_shortname = '<%= shortname %>';
+  var disqus_config = function () {
+    this.page.url = '<%= page.permalink %>';
+    this.page.identifier = '<%= page.path %>';
+  };
+  (function() {
+    var d = document.createElement('script');
+    d.type = 'text/javascript';
+    d.async = true;
+    d.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.head || document.body).appendChild(d);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<% } %>

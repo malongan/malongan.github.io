@@ -1,37 +1,33 @@
-PCUgaWYgKHRoZW1lLmNvbW1lbnRzLmdpc2N1cyAmJiB0aGVtZS5jb21tZW50
-cy5naXNjdXMucmVwbykgeyAlPgo8c2NyaXB0PgooZnVuY3Rpb24oKSB7CiAg
-dmFyIGlzRGFyayA9IGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5jbGFzc0xp
-c3QuY29udGFpbnMoJ2RhcmsnKTsKICB2YXIgc2NyaXB0ID0gZG9jdW1lbnQu
-Y3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7CiAgc2NyaXB0LnNyYyA9ICdodHRw
-czovL2dpc2N1cy5hcHAvY2xpZW50LmpzJzsKICBzY3JpcHQuc2V0QXR0cmli
-dXRlKCdkYXRhLXJlcG8nLCAnPCU9IHRoZW1lLmNvbW1lbnRzLmdpc2N1cy5y
-ZXBvICU+Jyk7CiAgc2NyaXB0LnNldEF0dHJpYnV0ZSgnZGF0YS1yZXBvLWlk
-JywgJzwlPSB0aGVtZS5jb21tZW50cy5naXNjdXMucmVwb19pZCAlPicpOwog
-IHNjcmlwdC5zZXRBdHRyaWJ1dGUoJ2RhdGEtY2F0ZWdvcnknLCAnPCU9IHRo
-ZW1lLmNvbW1lbnRzLmdpc2N1cy5jYXRlZ29yeSAlPicpOwogIHNjcmlwdC5z
-ZXRBdHRyaWJ1dGUoJ2RhdGEtY2F0ZWdvcnktaWQnLCAnPCU9IHRoZW1lLmNv
-bW1lbnRzLmdpc2N1cy5jYXRlZ29yeV9pZCAlPicpOwogIHNjcmlwdC5zZXRB
-dHRyaWJ1dGUoJ2RhdGEtbWFwcGluZycsICc8JT0gdGhlbWUuY29tbWVudHMu
-Z2lzY3VzLm1hcHBpbmcgfHwgInBhdGhuYW1lIiAlPicpOwogIHNjcmlwdC5z
-ZXRBdHRyaWJ1dGUoJ2RhdGEtcmVhY3Rpb25zLWVuYWJsZWQnLCAnPCU9IHRo
-ZW1lLmNvbW1lbnRzLmdpc2N1cy5yZWFjdGlvbnNfZW5hYmxlZCB8fCAxICU+
-Jyk7CiAgc2NyaXB0LnNldEF0dHJpYnV0ZSgnZGF0YS1lbWl0LW1ldGFkYXRh
-JywgJzwlPSB0aGVtZS5jb21tZW50cy5naXNjdXMuZW1pdF9tZXRhZGF0YSB8
-fCAwICU+Jyk7CiAgc2NyaXB0LnNldEF0dHJpYnV0ZSgnZGF0YS1pbnB1dC1w
-b3NpdGlvbicsICd0b3AnKTsKICBzY3JpcHQuc2V0QXR0cmlidXRlKCdkYXRh
-LXRoZW1lJywgaXNEYXJrID8gJ2RhcmsnIDogJ2xpZ2h0Jyk7CiAgc2NyaXB0
-LnNldEF0dHJpYnV0ZSgnZGF0YS1sYW5nJywgJzwlPSBjb25maWcubGFuZ3Vh
-Z2UgfHwgImVuIiAlPicpOwogIHNjcmlwdC5zZXRBdHRyaWJ1dGUoJ2Nyb3Nz
-b3JpZ2luJywgJ2Fub255bW91cycpOwogIHNjcmlwdC5hc3luYyA9IHRydWU7
-CiAgZG9jdW1lbnQuY3VycmVudFNjcmlwdC5wYXJlbnRFbGVtZW50LmFwcGVu
-ZENoaWxkKHNjcmlwdCk7CgogIG5ldyBNdXRhdGlvbk9ic2VydmVyKGZ1bmN0
-aW9uKCkgewogICAgdmFyIGRhcmsgPSBkb2N1bWVudC5kb2N1bWVudEVsZW1l
-bnQuY2xhc3NMaXN0LmNvbnRhaW5zKCdkYXJrJyk7CiAgICB2YXIgaWZyYW1l
-ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignaWZyYW1lLmdpc2N1cy1mcmFt
-ZScpOwogICAgaWYgKGlmcmFtZSkgewogICAgICBpZnJhbWUuY29udGVudFdp
-bmRvdy5wb3N0TWVzc2FnZSgKICAgICAgICB7IGdpc2N1czogeyBzZXRDb25m
-aWc6IHsgdGhlbWU6IGRhcmsgPyAnZGFyaycgOiAnbGlnaHQnIH0gfSB9LAog
-ICAgICAgICdodHRwczovL2dpc2N1cy5hcHAnCiAgICAgICk7CiAgICB9CiAg
-fSkub2JzZXJ2ZShkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQsIHsgYXR0cmli
-dXRlczogdHJ1ZSwgYXR0cmlidXRlRmlsdGVyOiBbJ2NsYXNzJ10gfSk7Cn0p
-KCk7Cjwvc2NyaXB0Pgo8JSB9ICU+Cg==
+<% if (theme.comments.giscus && theme.comments.giscus.repo) { %>
+<script>
+(function() {
+  var isDark = document.documentElement.classList.contains('dark');
+  var script = document.createElement('script');
+  script.src = 'https://giscus.app/client.js';
+  script.setAttribute('data-repo', '<%= theme.comments.giscus.repo %>');
+  script.setAttribute('data-repo-id', '<%= theme.comments.giscus.repo_id %>');
+  script.setAttribute('data-category', '<%= theme.comments.giscus.category %>');
+  script.setAttribute('data-category-id', '<%= theme.comments.giscus.category_id %>');
+  script.setAttribute('data-mapping', '<%= theme.comments.giscus.mapping || "pathname" %>');
+  script.setAttribute('data-reactions-enabled', '<%= theme.comments.giscus.reactions_enabled || 1 %>');
+  script.setAttribute('data-emit-metadata', '<%= theme.comments.giscus.emit_metadata || 0 %>');
+  script.setAttribute('data-input-position', 'top');
+  script.setAttribute('data-theme', isDark ? 'dark' : 'light');
+  script.setAttribute('data-lang', '<%= config.language || "en" %>');
+  script.setAttribute('crossorigin', 'anonymous');
+  script.async = true;
+  document.currentScript.parentElement.appendChild(script);
+
+  new MutationObserver(function() {
+    var dark = document.documentElement.classList.contains('dark');
+    var iframe = document.querySelector('iframe.giscus-frame');
+    if (iframe) {
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: dark ? 'dark' : 'light' } } },
+        'https://giscus.app'
+      );
+    }
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+<% } %>

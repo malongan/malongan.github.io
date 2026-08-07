@@ -1,15 +1,20 @@
-LyogaGV4by10aGVtZS1wcmV0ZXh0IGN1c3RvbSBoZWxwZXJzICovCgoidXNl
-IHN0cmljdCI7CgpoZXhvLmV4dGVuZC5oZWxwZXIucmVnaXN0ZXIoInN0cmlw
-X2h0bWwiLCBmdW5jdGlvbiAoY29udGVudCkgewogIHJldHVybiBjb250ZW50
-ID8gY29udGVudC5yZXBsYWNlKC88W14+XSo+L2csICIiKSA6ICIiOwp9KTsK
-CmhleG8uZXh0ZW5kLmhlbHBlci5yZWdpc3RlcigicmVhZGluZ190aW1lIiwg
-ZnVuY3Rpb24gKGNvbnRlbnQpIHsKICB2YXIgdGV4dCA9IGNvbnRlbnQgPyBj
-b250ZW50LnJlcGxhY2UoLzxbXj5dKj4vZywgIiIpIDogIiI7CiAgdmFyIGNq
-ayA9ICh0ZXh0Lm1hdGNoKC9bXHU0ZTAwLVx1OWZmZlx1MzA0MC1cdTMwOWZc
-dTMwYTAtXHUzMGZmXS9nKSB8fCBbXSkKICAgIC5sZW5ndGg7CiAgdmFyIHdv
-cmRzID0gdGV4dAogICAgLnJlcGxhY2UoL1tcdTRlMDAtXHU5ZmZmXHUzMDQw
-LVx1MzA5Zlx1MzBhMC1cdTMwZmZdL2csICIgIikKICAgIC5zcGxpdCgvXHMr
-LykKICAgIC5maWx0ZXIoQm9vbGVhbikubGVuZ3RoOwogIC8vIENKSzogfjMw
-MCBjaGFycy9taW4sIExhdGluOiB+MjAwIHdvcmRzL21pbgogIHZhciBtaW51
-dGVzID0gTWF0aC5jZWlsKGNqayAvIDMwMCArIHdvcmRzIC8gMjAwKTsKICBy
-ZXR1cm4gTWF0aC5tYXgoMSwgbWludXRlcyk7Cn0pOwo=
+/* hexo-theme-pretext custom helpers */
+
+"use strict";
+
+hexo.extend.helper.register("strip_html", function (content) {
+  return content ? content.replace(/<[^>]*>/g, "") : "";
+});
+
+hexo.extend.helper.register("reading_time", function (content) {
+  var text = content ? content.replace(/<[^>]*>/g, "") : "";
+  var cjk = (text.match(/[\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ff]/g) || [])
+    .length;
+  var words = text
+    .replace(/[\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ff]/g, " ")
+    .split(/\s+/)
+    .filter(Boolean).length;
+  // CJK: ~300 chars/min, Latin: ~200 words/min
+  var minutes = Math.ceil(cjk / 300 + words / 200);
+  return Math.max(1, minutes);
+});

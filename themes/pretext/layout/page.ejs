@@ -1,25 +1,37 @@
-PCUKICAvLyBDaGVjayBpZiB0aGlzIGlzIGEgY2F0ZWdvcmllcyBvciB0YWdz
-IGluZGV4IHBhZ2UKICBpZiAocGFnZS50eXBlID09PSAnY2F0ZWdvcmllcycp
-IHsKJT4KPCUtIHBhcnRpYWwoJ2NhdGVnb3J5JykgJT4KPCUKICB9IGVsc2Ug
-aWYgKHBhZ2UudHlwZSA9PT0gJ3RhZ3MnKSB7CiU+CjwlLSBwYXJ0aWFsKCd0
-YWcnKSAlPgo8JQogIH0gZWxzZSB7CiU+CjxhcnRpY2xlIGNsYXNzPSJtYXgt
-dy1jb250ZW50IG14LWF1dG8iPgogIDxoZWFkZXIgY2xhc3M9Im1iLTggc206
-bWItMTIiPgogICAgPGgxIGNsYXNzPSJmb250LWhlYWRpbmcgdGV4dC0zeGwg
-c206dGV4dC00eGwgZm9udC1tZWRpdW0gbGVhZGluZy10aWdodCI+CiAgICAg
-IDwlPSBwYWdlLnRpdGxlICU+CiAgICA8L2gxPgogIDwvaGVhZGVyPgogIDxk
-aXYgY2xhc3M9InByb3NlIHByb3NlLWxnIGRhcms6cHJvc2UtaW52ZXJ0IG1h
-eC13LW5vbmUKICAgIHByb3NlLWhlYWRpbmdzOmZvbnQtaGVhZGluZyBwcm9z
-ZS1oZWFkaW5nczpmb250LW1lZGl1bQogICAgcHJvc2UtYTp0ZXh0LWFjY2Vu
-dCBkYXJrOnByb3NlLWE6dGV4dC1hY2NlbnQtZGFyayBwcm9zZS1hOm5vLXVu
-ZGVybGluZSBob3Zlcjpwcm9zZS1hOnVuZGVybGluZQogICAgcHJvc2UtaW1n
-OnJvdW5kZWQgcHJvc2UtaW1nOm14LWF1dG8KICAgIHByb3NlLWNvZGU6Zm9u
-dC1tb25vIHByb3NlLWNvZGU6dGV4dC1zbQogICAgcHJvc2UtcHJlOmJnLWdy
-YXktNTAgZGFyazpwcm9zZS1wcmU6YmctZ3JheS05MDAgcHJvc2UtcHJlOnJv
-dW5kZWQtbGcKICAgIHByb3NlLWJsb2NrcXVvdGU6Ym9yZGVyLWFjY2VudCBk
-YXJrOnByb3NlLWJsb2NrcXVvdGU6Ym9yZGVyLWFjY2VudC1kYXJrIj4KICAg
-IDwlLSBwYWdlLmNvbnRlbnQgJT4KICA8L2Rpdj4KPC9hcnRpY2xlPgo8JQog
-IH0KJT4KCjwlIGlmICh0aGVtZS5jb21tZW50cyAmJiB0aGVtZS5jb21tZW50
-cy5wcm92aWRlciAmJiBwYWdlLmNvbW1lbnRzICE9PSBmYWxzZSkgeyAlPgo8
-ZGl2IGNsYXNzPSJtYXgtdy1jb250ZW50IG14LWF1dG8gbXQtMTIiPgogIDwl
-LSBwYXJ0aWFsKCdfcGFydGlhbC9jb21tZW50L2luZGV4JykgJT4KPC9kaXY+
-CjwlIH0gJT4K
+<%
+  // Check if this is a categories or tags index page
+  if (page.type === 'categories') {
+%>
+<%- partial('category') %>
+<%
+  } else if (page.type === 'tags') {
+%>
+<%- partial('tag') %>
+<%
+  } else {
+%>
+<article class="max-w-content mx-auto">
+  <header class="mb-8 sm:mb-12">
+    <h1 class="font-heading text-3xl sm:text-4xl font-medium leading-tight">
+      <%= page.title %>
+    </h1>
+  </header>
+  <div class="prose prose-lg dark:prose-invert max-w-none
+    prose-headings:font-heading prose-headings:font-medium
+    prose-a:text-accent dark:prose-a:text-accent-dark prose-a:no-underline hover:prose-a:underline
+    prose-img:rounded prose-img:mx-auto
+    prose-code:font-mono prose-code:text-sm
+    prose-pre:bg-gray-50 dark:prose-pre:bg-gray-900 prose-pre:rounded-lg
+    prose-blockquote:border-accent dark:prose-blockquote:border-accent-dark">
+    <%- page.content %>
+  </div>
+</article>
+<%
+  }
+%>
+
+<% if (theme.comments && theme.comments.provider && page.comments !== false) { %>
+<div class="max-w-content mx-auto mt-12">
+  <%- partial('_partial/comment/index') %>
+</div>
+<% } %>

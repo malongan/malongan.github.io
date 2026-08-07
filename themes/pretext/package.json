@@ -1,14 +1,30 @@
-ewogICJuYW1lIjogImhleG8tdGhlbWUtcHJldGV4dCIsCiAgInZlcnNpb24i
-OiAiMS4wLjAiLAogICJkZXNjcmlwdGlvbiI6ICJBIG1pbmltYWwgSGV4byBi
-bG9nIHRoZW1lIHdpdGggQVNDSUkgYW5pbWF0aW9ucyBwb3dlcmVkIGJ5IEBj
-aGVuZ2xvdS9wcmV0ZXh0IiwKICAibWFpbiI6ICJpbmRleC5qcyIsCiAgImtl
-eXdvcmRzIjogWwogICAgImhleG8iLAogICAgImhleG8tdGhlbWUiLAogICAg
-ImJsb2ciLAogICAgIm1pbmltYWwiLAogICAgInByZXRleHQtYW5pbWF0aW9u
-IiwKICAgICJhc2NpaSIsCiAgICAicHJldGV4dCIKICBdLAogICJhdXRob3Ii
-OiAiIiwKICAibGljZW5zZSI6ICJNSVQiLAogICJyZXBvc2l0b3J5Ijogewog
-ICAgInR5cGUiOiAiZ2l0IiwKICAgICJ1cmwiOiAiIgogIH0sCiAgInBlZXJE
-ZXBlbmRlbmNpZXMiOiB7CiAgICAiaGV4byI6ICI+PTUuMC4wIiwKICAgICJo
-ZXhvLXJlbmRlcmVyLWVqcyI6ICI+PTIuMC4wIgogIH0sCiAgImRldkRlcGVu
-ZGVuY2llcyI6IHsKICAgICJhdXRvcHJlZml4ZXIiOiAiXjEwLjQuMjciLAog
-ICAgInBvc3Rjc3MiOiAiXjguNS44IiwKICAgICJ0YWlsd2luZGNzcyI6ICJe
-My40LjE5IgogIH0KfQo=
+{
+  "name": "hexo-theme-pretext",
+  "version": "1.0.0",
+  "description": "A minimal Hexo blog theme with ASCII animations powered by @chenglou/pretext",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "hexo-theme",
+    "blog",
+    "minimal",
+    "pretext-animation",
+    "ascii",
+    "pretext"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "peerDependencies": {
+    "hexo": ">=5.0.0",
+    "hexo-renderer-ejs": ">=2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  }
+}

@@ -1,5 +1,7 @@
-PCUtIHBhcnRpYWwoJ19wYXJ0aWFsL2FydGljbGUtZnVsbCcpICU+Cgo8JSBp
-ZiAodGhlbWUuY29tbWVudHMgJiYgdGhlbWUuY29tbWVudHMucHJvdmlkZXIp
-IHsgJT4KPGRpdiBjbGFzcz0ibWF4LXctY29udGVudCBteC1hdXRvIG10LTEy
-Ij4KICA8JS0gcGFydGlhbCgnX3BhcnRpYWwvY29tbWVudC9pbmRleCcpICU+
-CjwvZGl2Pgo8JSB9ICU+Cg==
+<%- partial('_partial/article-full') %>
+
+<% if (theme.comments && theme.comments.provider) { %>
+<div class="max-w-content mx-auto mt-12">
+  <%- partial('_partial/comment/index') %>
+</div>
+<% } %>

@@ -1,166 +1,237 @@
-LS0tCnRpdGxlOiBUdVppIEFQSSDnlJ/lm77kvb/nlKjop4TojIMKZGF0ZTog
-MjAyNi0wNy0xNCAxODowMDowMAp0YWdzOgogIC0gVHVaaQogIC0gQVBJCiAg
-LSDnlJ/lm74KY2F0ZWdvcmllczoKICAtIOW3peWFt+aVmeeoiwotLS0KClR1
-WmkgQVBJIOeUn+WbvuS9v+eUqOinhOiMgwo+IOeJiOacrO+8mnYxLjAgfCDn
-lKjpgJTvvJrpgJrnlKjnlJ/lm74gQVBJIOWPguiAg+aWh+ahowoKMS4gQVBJ
-IOWfuuacrOS/oeaBrwp8IOmhueebriB8IOWAvCB8CnwtLS0tLS18LS0tLS18
-Cnwg5Z+656GAIFVSTCB8IGBodHRwczovL2FwaS50dS16aS5jb21gIHwKfCDn
-lJ/lm77nq6/ngrkgfCBgUE9TVCAvdjEvaW1hZ2VzL2dlbmVyYXRpb25zYCB8
-Cnwg57yW6L6R56uv54K5IHwgYFBPU1QgL3YxL2ltYWdlcy9lZGl0c2AgfAp8
-IOaOpeWPo+WNj+iuriB8IFJFU1RmdWwgfAp8IOiupOivgeaWueW8jyB8IEJl
-YXJlciBUb2tlbu+8iOivt+axguWktCBgQXV0aG9yaXphdGlvbjogQmVhcmVy
-IHtBUElfS0VZfWDvvIkgfArlj6/nlKjmqKHlnosKfCDmqKHlnosgSUQgfCDn
-lKjpgJQgfCDpgILnlKjlnLrmma8gfAp8LS0tLS0tLS0tfC0tLS0tLXwtLS0t
-LS0tLS18CnwgYGdwdC1pbWFnZS0yYCB8IOagh+WHhueUn+WbviB8IOS4gOiI
-rOmjjuagvOOAgeW/q+mAn+WHuuWbviB8CnwgYGdwdC1pbWFnZS0yLXZpcGAg
-fCDpq5jnsr7luqbnlJ/lm74gfCDlpI3mnYLpo47moLzjgIHlk4HniYxLVuOA
-gUlQ6KeS6ImyIHwKKirlu7rorq7vvJoqKiDorr7orqHnsbvku7vliqHvvIhJ
-UC9LVi/lk4HniYzmtbfmiqXvvInkvJjlhYjkvb/nlKggYGdwdC1pbWFnZS0y
-LXZpcGDjgIIKCjIuIOivt+axguWPguaVsAoyLjEg5Y+C5pWw5YiX6KGoCmBg
-YGpzb24KewogICJtb2RlbCI6ICJncHQtaW1hZ2UtMiB8IGdwdC1pbWFnZS0y
-LXZpcCIsCiAgInByb21wdCI6ICJzdHJpbmfvvIjlv4XloavvvIzoi7Hmlofk
-uLrkuLvvvIkiLAogICJpbWFnZSI6IFsidXJsMSIsICJ1cmwyIl3vvIjlj6/p
-gInvvIzlj4LogIPlm77mlbDnu4TvvIzmlK/mjIFVUkzmiJZiYXNlNjTvvIki
-LAogICJuIjogMe+8iOWPr+mAie+8jOeUn+aIkOaVsOmHj++8jOm7mOiupDHv
-vIksCiAgInNpemUiOiAiMTAyNHgxMDI0Iu+8iOWPr+mAie+8jOWwuuWvuO+8
-iSwKICAicXVhbGl0eSI6ICJzdGFuZGFyZCB8IGhkIu+8iOWPr+mAie+8iSwK
-ICAic3R5bGUiOiAidml2aWQgfCBuYXR1cmFsIu+8iOWPr+mAie+8iSwKICAi
-cmVzcG9uc2VfZm9ybWF0IjogInVybCB8IGI2NF9qc29uIu+8iOWPr+mAie+8
-jOm7mOiupHVybO+8iSwKICAib3V0cHV0X2Zvcm1hdCI6ICJwbmcgfCBqcGVn
-IHwgd2VicCLvvIjlj6/pgInvvIksCiAgIm1vZGVyYXRpb24iOiAibG93IHwg
-YXV0byLvvIjlj6/pgInvvIkKfQpgYGAKMi4yIOWwuuWvuOinhOiMgwrlsLrl
-r7jpmZDliLYKLSAqKuacgOWkp+i+uemVvyoq77ya4omkIDM4NDBweAotICoq
-5oC75YOP57SgKirvvJriiaQgOCwyOTAsMDAw77yI57qmODI55LiH5YOP57Sg
-77yJCi0gKirlrr3pq5gqKu+8muW/hemhu+aYrzE255qE5YCN5pWwCuW4uOeU
-qOWwuuWvuAp8IOeUqOmAlCB8IOavlOS+iyB8IOWwuuWvuCB8CnwtLS0tLS18
-LS0tLS0tfC0tLS0tLXwKfCDnlLXllYbnq5bniYggfCAzOjQgfCAyNDQ4w5cz
-MjY0IC8gMjE2MMOXMjg4MCB8Cnwg56S+5Lqk5aqS5L2T56uW54mIIHwgOTox
-NiB8IDIxNjDDlzM4NDAgfAp8IOaoqueJiOa1t+aKpSB8IDE2OjkgfCAzODQw
-w5cyMTYwIC8gMjA0OMOXMTE1MiB8Cnwg5q2j5pa55b2iIHwgMToxIHwgMjg2
-NMOXMjg2NCB8CgozLiDlj4LogIPlm77kvb/nlKjop4TojIMKMy4xIOS8oOWP
-guaWueW8jwrpgJrov4cgYGltYWdlYCDlj4LmlbDkvKDlhaXlj4LogIPlm77v
-vIjmlbDnu4TmoLzlvI/vvInvvJoKYGBgcHl0aG9uCnJlcXVlc3RzLnBvc3Qo
-CiAgICAiaHR0cHM6Ly9hcGkudHUtemkuY29tL3YxL2ltYWdlcy9nZW5lcmF0
-aW9ucyIsCiAgICBoZWFkZXJzPXsiQXV0aG9yaXphdGlvbiI6IGYiQmVhcmVy
-IHtBUElfS0VZfSJ9LAogICAganNvbj17CiAgICAgICAgIm1vZGVsIjogImdw
-dC1pbWFnZS0yLXZpcCIsCiAgICAgICAgInByb21wdCI6ICIuLi4iLAogICAg
-ICAgICJpbWFnZSI6IFsKICAgICAgICAgICAgImh0dHBzOi8vZXhhbXBsZS5j
-b20vcmVmZXJlbmNlMS53ZWJwIiwKICAgICAgICAgICAgImh0dHBzOi8vZXhh
-bXBsZS5jb20vcmVmZXJlbmNlMi5wbmciCiAgICAgICAgXSwKICAgICAgICAi
-biI6IDEsCiAgICAgICAgInNpemUiOiAiMjQ0OHgzMjY0IgogICAgfQopCmBg
-YAozLjIg5Y+C6ICD5Zu+6KaB5rGCCnwg6KaB5rGCIHwg6K+05piOIHwKfC0t
-LS0tLXwtLS0tLS18CnwgVVJMIHwg5b+F6aG75Y+v5YWs5byA6K6/6Zeu77yI
-5Zu+5bqKL0dpdEh1YiBQYWdlcy9DRE7vvIkgfAp8IOagvOW8jyB8IHdlYnAg
-LyBwbmcgLyBqcGcg5Z2H5Y+vIHwKfCBCYXNlNjQgfCDkuI3otoXov4cxTULv
-vIzlkKbliJnotoXml7bpo47pmanpq5ggfAozLjMg5aSa5Y+C6ICD5Zu+562W
-55Wl77yI6YeN6KaB77yJCioq5Lik5byg5Y+C6ICD5Zu+5ZCM5pe25Lyg5YWl
-5pe277yM6aG65bqP5bu66K6u77yaKioKfCDntKLlvJUgfCDnsbvlnosgfCDn
-lKjpgJQgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgYGltYWdlWzBdYCB8
-IElQL+inkuiJsuWPguiAg+WbviB8IOeUqOS6juS/neaMgeinkuiJsuW9ouix
-oeS4gOiHtOaApyB8CnwgYGltYWdlWzFdYCB8IOmjjuagvC/lnLrmma/lj4Lo
-gIPlm74gfCDnlKjkuo7mjIflrprnlLvpnaLmsJvlm7Tpo47moLwgfAo+IOKa
-oO+4jyDlpJrlm77kuI3kv53or4Hmr4/kuKrlj4LogIPlm77pg73ooqvlrozl
-hajkvb/nlKjvvIzmqKHlnovkvJoi5Yib6YCg5oCn55CG6KejIuWQhOWPguiA
-g+WbvueJueW+geOAggoKNC4gUHJvbXB0IOe8luWGmeinhOiMgwo0LjEg5qC4
-5b+D5Y6f5YiZCmBgYArinIUg5YaZ77ya6KGo5oOF44CB5Yqo5L2c44CB5pyN
-6KOF44CB5Zy65pmv44CB5rCb5Zu044CB5p6E5Zu+CuKdjCDkuI3lhpnvvIjm
-nInlj4LogIPlm77ml7bvvInvvJrkupTlrpjjgIHlj5HlnovjgIHogqToibLj
-gIHouqvlvaLjgIHpopzoibLnrYnooqvlj4LogIPlm77opobnm5bnmoTnibnl
-voEKYGBgCjQuMiDluKblj4LogIPlm77ml7bnmoTop4TliJkKfCDlnLrmma8g
-fCDlj6/lhpkgfCDnpoHmraLlhpkgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS0t
-LXwKfCDkurrnialJUOinkuiJsiB8IOihqOaDhShoYXBweS9leGNpdGVkKeOA
-geWKqOS9nCh3YXZpbmcvanVtcGluZynjgIHmnI3oo4Uob3V0Zml0L2Nvc3R1
-bWUpIHwg5LqU5a6Y44CB5Y+R5Z6L44CB6IKk6Imy44CB6Lqr5b2i44CB5aS0
-L+i6q+WtkC/miYsv6ISa562J6Lqr5L2T6YOo5L2NIHwKfCDllYblk4Ev5Lqn
-5ZOBIHwg5rCb5Zu0KGZyZXNoL2ljeSnjgIHlnLrmma8oc3VubGl0L3N0dWRp
-bykgfCDmnZDotKjjgIHpopzoibLjgIHmna/lnovjgIHljIXoo4XlpJbop4Ln
-rYnop4bop4nnibnlvoEgfAp8IOmjjuagvOWPguiAg+WbviB8IOeUu+mdouWK
-qOaAgeOAgeaehOWbvuOAgeWFieW9sSB8IOKAlCB8CjQuMyDlm7rlrprlj6UK
-5Lq654mpSVDnlJ/miJDml7blv4XpobvliqDku6XkuIvlm7rlrprlj6XvvJoK
-YGBgCk1haW50YWluIElQIGlkZW50aXR5IGFuZCBjb25zaXN0ZW5jeSB0aHJv
-dWdob3V0LgpgYGAKNC40IOaOqOiNkCBQcm9tcHQg57uT5p6ECmBgYAp75qC4
-5b+D6aOO5qC8L+awm+WbtOaPj+i/sH3vvIx75Zy65pmv6IOM5pmvfe+8jHvo
-p5LoibLliqjkvZzooajmg4V977yMe+mBk+WFty/lhYPntKB944CCCuW4g+Wx
-gO+8mnvmloflrZfkvY3nva5977yaInvkuLvmoIfpoph9IgrngrnnvIDvvJp7
-5bCP5YWD57SgfQrlnLrmma86IHvkuK3mloflnLrmma/mj4/ov7B9CuS4u+S9
-k+WKqOS9nDoge+S4reaWh+WKqOS9nOaPj+i/sH0K6YGT5YW3OiB75Lit5paH
-6YGT5YW35o+P6L+wfQpTdHlsZToge+mjjuagvOaPj+i/sH0Ke+WbuuWumuWP
-pX0KYGBgCjQuNSDnpLrkvosKYGBgCmFjaWQtbGltZSBncmVlbiAzRCBzdHJl
-ZXR3ZWFyIGxhYiBzY2VuZSwgY29uY2VydCBzdGFnZSBhdG1vc3BoZXJlIHdp
-dGgKc3BvdGxpZ2h0IGJlYW1zLCBnbG93aW5nIGxpZ2h0IHN0aWNrcyBzZWEs
-IGdpYW50IFRWIHNjcmVlbnMgaW4gYmFja2dyb3VuZC4KQSBjdXRlIG1hc2Nv
-dCBjaGFyYWN0ZXIgc3RhbmRpbmcgYXQgY2VudGVyIHN0YWdlLCBtYWtpbmcg
-dmljdG9yeSBnZXN0dXJlLAp3ZWFyaW5nIHN1bmdsYXNzZXMgYW5kIGhvbGRp
-bmcgZ29sZGVuIG1pY3JvcGhvbmUsIGhhcHB5IGV4cHJlc3Npb24uCkxlZnQg
-c2lkZSBtYXNzaXZlIGJsYWNrIGJvbGQgdGV4dDogIuiKkuaenOiKgueLguas
-oui0rSIKU21hbGwgYWNjZW50IHN0aWNrZXJzOiAi6IqS5p6cVFbkvJrlkZjl
-ubTljaE5OeWFgyIKU3R5bGU6IGFjaWQtbGltZSAzRCBzdHJlZXR3ZWFyIGxh
-YiwgZXhwZXJpbWVudGFsIGRlc2lnbiwgYm9sZCB0eXBvZ3JhcGh5Ck1haW50
-YWluIElQIGlkZW50aXR5IGFuZCBjb25zaXN0ZW5jeSB0aHJvdWdob3V0Lgpg
-YGAKCjUuIOWTjeW6lOagvOW8jwrmiJDlip/lk43lupQKYGBganNvbgp7CiAg
-ImRhdGEiOiBbCiAgICB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlvc3Mu
-Li4vaW1hZ2UucG5nIiwKICAgICAgInJldmlzZWRfcHJvbXB0IjogIuiHquWK
-qOS8mOWMlueahOWujOaVtHByb21wdCIKICAgIH0KICBdCn0KYGBgCumUmeiv
-r+WTjeW6lApgYGBqc29uCnsKICAiZXJyb3IiOiB7CiAgICAibWVzc2FnZSI6
-ICLplJnor6/mj4/ov7AiLAogICAgInR5cGUiOiAi6ZSZ6K+v57G75Z6LIiwK
-ICAgICJjb2RlIjogIumUmeivr+eggSIKICB9Cn0KYGBgCgo2LiDluLjop4Hp
-lJnor6/kuI7lpITnkIYKfCDplJnor68gfCDljp/lm6AgfCDlpITnkIYgfAp8
-LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgYDQwMCBzaXplIGludmFsaWRgIHwg
-5bC65a+45LiN5pivMTbnmoTlgI3mlbDmiJbotoXpmZDliLYgfCDmo4Dmn6Xl
-rr3pq5jmmK/lkKbkuLoxNuWAjeaVsO+8jOaAu+WDj+e0oOKJpDgyOeS4hyB8
-CnwgYDUwMCBjb252ZXJ0X3JlcXVlc3RfZmFpbGVkYCB8IOWPguiAg+WbvuS4
-i+i9veWksei0pSB8IOajgOafpeWPguiAg+WbvlVSTOaYr+WQpuWPr+iuv+mX
-riB8CnwgYHJhdGUgbGltaXQgZXhjZWVkZWRgIHwg6K+35rGC6L+H5b+rIHwg
-562J5b6F5ZCO6YeN6K+VIHwKfCBgdXBzdHJlYW0gc2VydmljZSB1bmF2YWls
-YWJsZWAgfCDkuIrmuLjmnI3liqHppbHlkowgfCDnrYnlvoUzMC02MOenkuWQ
-jumHjeivlSB8Cgo3LiDlrozmlbTosIPnlKjnpLrkvosKUHl0aG9u77yI5o6o
-6I2Q77yJCmBgYHB5dGhvbgppbXBvcnQgcmVxdWVzdHMKQVBJX0tFWSA9ICJ5
-b3VyX2FwaV9rZXlfaGVyZSIKcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KAog
-ICAgImh0dHBzOi8vYXBpLnR1LXppLmNvbS92MS9pbWFnZXMvZ2VuZXJhdGlv
-bnMiLAogICAgaGVhZGVycz17CiAgICAgICAgIkF1dGhvcml6YXRpb24iOiBm
-IkJlYXJlciB7QVBJX0tFWX0iLAogICAgICAgICJDb250ZW50LVR5cGUiOiAi
-YXBwbGljYXRpb24vanNvbiIKICAgIH0sCiAgICBqc29uPXsKICAgICAgICAi
-bW9kZWwiOiAiZ3B0LWltYWdlLTItdmlwIiwKICAgICAgICAicHJvbXB0Ijog
-cHJvbXB0X3RleHQsCiAgICAgICAgImltYWdlIjogWwogICAgICAgICAgICAi
-aHR0cHM6Ly95b3VyLWltYWdlLWhvc3QuY29tL3JlZmVyZW5jZTEud2VicCIs
-CiAgICAgICAgICAgICJodHRwczovL3lvdXItaW1hZ2UtaG9zdC5jb20vcmVm
-ZXJlbmNlMi5wbmciCiAgICAgICAgXSwKICAgICAgICAibiI6IDEsCiAgICAg
-ICAgInNpemUiOiAiMjQ0OHgzMjY0IgogICAgfSwKICAgIHRpbWVvdXQ9MzAw
-CikKaWYgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMjAwOgogICAgaW1hZ2Vf
-dXJsID0gcmVzcG9uc2UuanNvbigpWyJkYXRhIl1bMF1bInVybCJdCiAgICBw
-cmludChmIueUn+aIkOaIkOWKnzoge2ltYWdlX3VybH0iKQplbHNlOgogICAg
-cHJpbnQoZiLlpLHotKU6IHtyZXNwb25zZS50ZXh0fSIpCmBgYApjVVJMCmBg
-YGJhc2gKY3VybCAtWCBQT1NUICJodHRwczovL2FwaS50dS16aS5jb20vdjEv
-aW1hZ2VzL2dlbmVyYXRpb25zIiBcCiAgLUggIkF1dGhvcml6YXRpb246IEJl
-YXJlciBZT1VSX0FQSV9LRVkiIFwKICAtSCAiQ29udGVudC1UeXBlOiBhcHBs
-aWNhdGlvbi9qc29uIiBcCiAgLWQgJ3sKICAgICJtb2RlbCI6ICJncHQtaW1h
-Z2UtMi12aXAiLAogICAgInByb21wdCI6ICJhIGN1dGUgbWFzY290IGNoYXJh
-Y3RlciBvbiBjb25jZXJ0IHN0YWdlIiwKICAgICJpbWFnZSI6IFsiaHR0cHM6
-Ly9leGFtcGxlLmNvbS9yZWZlcmVuY2Uud2VicCJdLAogICAgIm4iOiAxLAog
-ICAgInNpemUiOiAiMjQ0OHgzMjY0IgogIH0nCmBgYAoKOC4g5pyA5L2z5a6e
-6Le1CjguMSDnlJ/lm77mo4Dmn6XmuIXljZUKYGBgCuKWoSDmqKHlnovpgInm
-i6nmmK/lkKbmraPnoa7vvIjmoIflh4ZncHQtaW1hZ2UtMiAvIOWkjeadgmdw
-dC1pbWFnZS0yLXZpcO+8iQrilqEg5bC65a+45piv5ZCm56ym5ZCIQVBJ6ZmQ
-5Yi277yIMTblgI3mlbDvvIziiaQ4MjnkuIflg4/ntKDvvIkK4pahIOWPguiA
-g+WbvlVSTOaYr+WQpuWPr+WFrOW8gOiuv+mXrgrilqEgcHJvbXB05piv5ZCm
-6YG15b6q6KeE5YiZ77yI5pyJ5Y+C6ICD5Zu+5pe26YG/5YWN5aSW6LKM5o+P
-6L+w77yJCuKWoSDkurrnialJUOaYr+WQpuWKoOS6huWbuuWumuWPpQrilqEg
-5piv5ZCm6K6+572u5LqG5ZCI55CG55qEdGltZW91dO+8iOW7uuiurjMwMOen
-ku+8iQrilqEg5piv5ZCm6ZyA6KaB6YeN6K+V6YC76L6RCmBgYAo4LjIg5Lq6
-54mp5LiA6Ie05oCn5L+d6ZqcCjEuICoq5b+F6aG75LygSVDlj4LogIPlm74q
-KiDigJQg6KeS6Imy5LiA6Ie05oCn5L6d6LWW5Y+C6ICD5Zu+CjIuICoqcHJv
-bXB05LiN5YaZ5aSW6LKMKiog4oCUIOiuqeaooeWei+iHquW3seS7juWPguiA
-g+WbvuWtpuS5oOeJueW+gQozLiAqKuWKoOWbuuWumuWPpSoqIOKAlCBgTWFp
-bnRhaW4gSVAgaWRlbnRpdHkgYW5kIGNvbnNpc3RlbmN5IHRocm91Z2hvdXQu
-YAo0LiAqKuWPjOWbvuWcuuaZryoqIOKAlCBJUOWPguiAg+WbviArIOmjjuag
-vOWPguiAg+WbvuWQjOaXtuS8oOWFpQo4LjMg5aSx6LSl6YeN6K+V562W55Wl
-CmBgYHB5dGhvbgppbXBvcnQgdGltZQptYXhfcmV0cmllcyA9IDMKZm9yIGkg
-aW4gcmFuZ2UobWF4X3JldHJpZXMpOgogICAgcmVzcG9uc2UgPSByZXF1ZXN0
-cy5wb3N0KC4uLikKICAgIGlmIHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDIw
-MDoKICAgICAgICBicmVhawogICAgZWxpZiByZXNwb25zZS5zdGF0dXNfY29k
-ZSBpbiBbNTAyLCA1MDMsIDUwNF06CiAgICAgICAgdGltZS5zbGVlcCgzMCAq
-IChpICsgMSkpICAjIOmAkuWinuetieW+hQogICAgICAgIGNvbnRpbnVlCiAg
-ICBlbHNlOgogICAgICAgIGJyZWFrCmBgYAoKPiAqKuazqOaEj++8mioqIOac
-rOaWh+aho+S4jeWMheWQq+S7u+S9leWFt+S9k+eahCBBUEkgS2V544CBVG9r
-ZW7jgIHotKbmiLdJROetieaVj+aEn+S/oeaBr+OAgkFQSSBLZXkg6ZyA5LuO
-546v5aKD5Y+Y6YeP5oiW5a6J5YWo6YWN572u5Lit6I635Y+W44CC
+---
+title: TuZi API 生图使用规范
+date: 2026-07-14 18:00:00
+tags:
+  - TuZi
+  - API
+  - 生图
+categories:
+  - 工具教程
+---
+
+TuZi API 生图使用规范
+> 版本：v1.0 | 用途：通用生图 API 参考文档
+
+1. API 基本信息
+| 项目 | 值 |
+|------|-----|
+| 基础 URL | `https://api.tu-zi.com` |
+| 生图端点 | `POST /v1/images/generations` |
+| 编辑端点 | `POST /v1/images/edits` |
+| 接口协议 | RESTful |
+| 认证方式 | Bearer Token（请求头 `Authorization: Bearer {API_KEY}`） |
+可用模型
+| 模型 ID | 用途 | 适用场景 |
+|---------|------|---------|
+| `gpt-image-2` | 标准生图 | 一般风格、快速出图 |
+| `gpt-image-2-vip` | 高精度生图 | 复杂风格、品牌KV、IP角色 |
+**建议：** 设计类任务（IP/KV/品牌海报）优先使用 `gpt-image-2-vip`。
+
+2. 请求参数
+2.1 参数列表
+```json
+{
+  "model": "gpt-image-2 | gpt-image-2-vip",
+  "prompt": "string（必填，英文为主）",
+  "image": ["url1", "url2"]（可选，参考图数组，支持URL或base64）",
+  "n": 1（可选，生成数量，默认1）,
+  "size": "1024x1024"（可选，尺寸）,
+  "quality": "standard | hd"（可选）,
+  "style": "vivid | natural"（可选）,
+  "response_format": "url | b64_json"（可选，默认url）,
+  "output_format": "png | jpeg | webp"（可选）,
+  "moderation": "low | auto"（可选）
+}
+```
+2.2 尺寸规范
+尺寸限制
+- **最大边长**：≤ 3840px
+- **总像素**：≤ 8,290,000（约829万像素）
+- **宽高**：必须是16的倍数
+常用尺寸
+| 用途 | 比例 | 尺寸 |
+|------|------|------|
+| 电商竖版 | 3:4 | 2448×3264 / 2160×2880 |
+| 社交媒体竖版 | 9:16 | 2160×3840 |
+| 横版海报 | 16:9 | 3840×2160 / 2048×1152 |
+| 正方形 | 1:1 | 2864×2864 |
+
+3. 参考图使用规范
+3.1 传参方式
+通过 `image` 参数传入参考图（数组格式）：
+```python
+requests.post(
+    "https://api.tu-zi.com/v1/images/generations",
+    headers={"Authorization": f"Bearer {API_KEY}"},
+    json={
+        "model": "gpt-image-2-vip",
+        "prompt": "...",
+        "image": [
+            "https://example.com/reference1.webp",
+            "https://example.com/reference2.png"
+        ],
+        "n": 1,
+        "size": "2448x3264"
+    }
+)
+```
+3.2 参考图要求
+| 要求 | 说明 |
+|------|------|
+| URL | 必须可公开访问（图床/GitHub Pages/CDN） |
+| 格式 | webp / png / jpg 均可 |
+| Base64 | 不超过1MB，否则超时风险高 |
+3.3 多参考图策略（重要）
+**两张参考图同时传入时，顺序建议：**
+| 索引 | 类型 | 用途 |
+|------|------|------|
+| `image[0]` | IP/角色参考图 | 用于保持角色形象一致性 |
+| `image[1]` | 风格/场景参考图 | 用于指定画面氛围风格 |
+> ⚠️ 多图不保证每个参考图都被完全使用，模型会"创造性理解"各参考图特征。
+
+4. Prompt 编写规范
+4.1 核心原则
+```
+✅ 写：表情、动作、服装、场景、氛围、构图
+❌ 不写（有参考图时）：五官、发型、肤色、身形、颜色等被参考图覆盖的特征
+```
+4.2 带参考图时的规则
+| 场景 | 可写 | 禁止写 |
+|------|------|--------|
+| 人物IP角色 | 表情(happy/excited)、动作(waving/jumping)、服装(outfit/costume) | 五官、发型、肤色、身形、头/身子/手/脚等身体部位 |
+| 商品/产品 | 氛围(fresh/icy)、场景(sunlit/studio) | 材质、颜色、杯型、包装外观等视觉特征 |
+| 风格参考图 | 画面动态、构图、光影 | — |
+4.3 固定句
+人物IP生成时必须加以下固定句：
+```
+Maintain IP identity and consistency throughout.
+```
+4.4 推荐 Prompt 结构
+```
+{核心风格/氛围描述}，{场景背景}，{角色动作表情}，{道具/元素}。
+布局：{文字位置}："{主标题}"
+点缀：{小元素}
+场景: {中文场景描述}
+主体动作: {中文动作描述}
+道具: {中文道具描述}
+Style: {风格描述}
+{固定句}
+```
+4.5 示例
+```
+acid-lime green 3D streetwear lab scene, concert stage atmosphere with
+spotlight beams, glowing light sticks sea, giant TV screens in background.
+A cute mascot character standing at center stage, making victory gesture,
+wearing sunglasses and holding golden microphone, happy expression.
+Left side massive black bold text: "芒果节狂欢购"
+Small accent stickers: "芒果TV会员年卡99元"
+Style: acid-lime 3D streetwear lab, experimental design, bold typography
+Maintain IP identity and consistency throughout.
+```
+
+5. 响应格式
+成功响应
+```json
+{
+  "data": [
+    {
+      "url": "https://apioss.../image.png",
+      "revised_prompt": "自动优化的完整prompt"
+    }
+  ]
+}
+```
+错误响应
+```json
+{
+  "error": {
+    "message": "错误描述",
+    "type": "错误类型",
+    "code": "错误码"
+  }
+}
+```
+
+6. 常见错误与处理
+| 错误 | 原因 | 处理 |
+|------|------|------|
+| `400 size invalid` | 尺寸不是16的倍数或超限制 | 检查宽高是否为16倍数，总像素≤829万 |
+| `500 convert_request_failed` | 参考图下载失败 | 检查参考图URL是否可访问 |
+| `rate limit exceeded` | 请求过快 | 等待后重试 |
+| `upstream service unavailable` | 上游服务饱和 | 等待30-60秒后重试 |
+
+7. 完整调用示例
+Python（推荐）
+```python
+import requests
+API_KEY = "your_api_key_here"
+response = requests.post(
+    "https://api.tu-zi.com/v1/images/generations",
+    headers={
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json"
+    },
+    json={
+        "model": "gpt-image-2-vip",
+        "prompt": prompt_text,
+        "image": [
+            "https://your-image-host.com/reference1.webp",
+            "https://your-image-host.com/reference2.png"
+        ],
+        "n": 1,
+        "size": "2448x3264"
+    },
+    timeout=300
+)
+if response.status_code == 200:
+    image_url = response.json()["data"][0]["url"]
+    print(f"生成成功: {image_url}")
+else:
+    print(f"失败: {response.text}")
+```
+cURL
+```bash
+curl -X POST "https://api.tu-zi.com/v1/images/generations" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "gpt-image-2-vip",
+    "prompt": "a cute mascot character on concert stage",
+    "image": ["https://example.com/reference.webp"],
+    "n": 1,
+    "size": "2448x3264"
+  }'
+```
+
+8. 最佳实践
+8.1 生图检查清单
+```
+□ 模型选择是否正确（标准gpt-image-2 / 复杂gpt-image-2-vip）
+□ 尺寸是否符合API限制（16倍数，≤829万像素）
+□ 参考图URL是否可公开访问
+□ prompt是否遵循规则（有参考图时避免外貌描述）
+□ 人物IP是否加了固定句
+□ 是否设置了合理的timeout（建议300秒）
+□ 是否需要重试逻辑
+```
+8.2 人物一致性保障
+1. **必须传IP参考图** — 角色一致性依赖参考图
+2. **prompt不写外貌** — 让模型自己从参考图学习特征
+3. **加固定句** — `Maintain IP identity and consistency throughout.`
+4. **双图场景** — IP参考图 + 风格参考图同时传入
+8.3 失败重试策略
+```python
+import time
+max_retries = 3
+for i in range(max_retries):
+    response = requests.post(...)
+    if response.status_code == 200:
+        break
+    elif response.status_code in [502, 503, 504]:
+        time.sleep(30 * (i + 1))  # 递增等待
+        continue
+    else:
+        break
+```
+
+> **注意：** 本文档不包含任何具体的 API Key、Token、账户ID等敏感信息。API Key 需从环境变量或安全配置中获取。

@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build output
+public/
+db.json
+.deploy_git/
+
+# OS / editor
+.DS_Store
+*.log
+
+# Env / secrets
+.env
+.env.*
