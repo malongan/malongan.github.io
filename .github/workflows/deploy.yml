@@ -31,14 +31,10 @@ jobs:
           node-version: '20'
       - name: Clone butterfly theme
         run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-      - name: Install hexo v7
-        run: npm install hexo@7 --force
-      - name: Check hexo
+      - name: Try npx hexo
         run: |
-          ls -la node_modules/hexo/bin/
-          wc -c node_modules/hexo/bin/hexo
-      - name: Generate site
-        run: node node_modules/hexo/bin/hexo generate
+          npx --yes hexo@6.3.0 --version
+          npx --yes hexo@6.3.0 generate
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
