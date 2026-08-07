@@ -33,22 +33,14 @@ jobs:
         run: git clone --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
       - name: Install hexo
         run: npm install hexo@5
-      - name: Debug hexo
+      - name: Debug
         run: |
-          echo "=== which hexo ==="
-          which hexo || echo "NOT FOUND"
-          echo "=== npx ==="
-          which npx
-          echo "=== ls node_modules/.bin/hexo* ==="
-          ls -la node_modules/.bin/hexo* 2>&1 || echo "NOT FOUND"
+          echo "=== npm ls hexo ==="
+          npm ls hexo 2>&1 || true
           echo "=== ls node_modules/hexo ==="
-          ls node_modules/hexo/ 2>&1 || echo "NOT FOUND"
-          echo "=== cat node_modules/hexo/package.json | grep version ==="
-          cat node_modules/hexo/package.json 2>&1 | grep version || echo "NOT FOUND"
-          echo "=== node node_modules/hexo/bin/hexo.js version ==="
-          node node_modules/hexo/bin/hexo.js version 2>&1 || echo "FAILED"
-          echo "=== node node_modules/hexo/bin/hexo.js help ==="
-          node node_modules/hexo/bin/hexo.js help 2>&1 | head -20
+          ls -la node_modules/hexo/ 2>&1 || echo "NOT FOUND"
+          echo "=== cat node_modules/hexo/package.json | grep -E version.name.bin ==="
+          cat node_modules/hexo/package.json 2>&1 | grep -E '"version"|"name"|"bin"' || echo "NOT FOUND"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
