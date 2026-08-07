@@ -1,120 +1,60 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo
-
-# Site
-title: malongan
-subtitle: ''
-description: ''
-keywords: []
-author: malongan
-language: en
-timezone: ''
-
-# URL
-## Set your site URL here. For example, if you use GitHub Pages, set url to 'https://username.github.io'
-url: https://malongan.github.io
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true
-  trailing_html: true
-
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-i18n_dir: :lang
-skip_render:
-
-# Writing
-new_post_name: :title.md
-default_layout: post
-titlecase: false
-external_link:
-  enable: true
-  field: site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
-
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# pagination_dir: Pagination directory name. (default = 'page')
-index_generator:
-  per_page: 10
-  pagination_dir: page
-
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
-
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta: true
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-## updated_option supports 'mtime', 'date', 'empty'
-updated_option: mtime
-
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
-
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: butterfly
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/malongan/malongan.github.io.git
-  branch: gh-pages
-
-# Feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -date
-
-# Sitemap
-sitemap:
-  path: sitemap.xml
+IyBIZXhvIENvbmZpZ3VyYXRpb24KIyMgRG9jczogaHR0cHM6Ly9oZXhvLmlv
+L2RvY3MvY29uZmlndXJhdGlvbi5odG1sCgojIyBTaXRlCnRpdGxlOiBtYWxv
+bmdhbgpzdWJ0aXRsZTog5oqA5pyv5Y2a5a6i77yM6K6w5b2V5oiQ6ZW/5LiO
+5YiG5LqrCmRlc2NyaXB0aW9uOiDkuKrkurrmioDmnK/ljZrlrqLvvIzorrDl
+vZXmiJDplb/kuI7liIbkuqsKa2V5d29yZHM6IOWNmuWuoizmioDmnK8s5YmN
+56uvLOWQjuerryzliIbkuqsKYXV0aG9yOiBtYWxvbmdhbgpsYW5ndWFnZTog
+emgtQ04KdGltZXpvbmU6IEFzaWEvU2hhbmdoYWkKCiMjIFVSTAojIyBJZiB5
+b3VyIHNpdGUgaXMgcHV0IGluIGEgc3ViZGlyZWN0b3J5LCBzZXQgdXJsIGFz
+ICdodHRwczovL3VzZXJuYW1lLmdpdGh1Yi5pby9ibG9nJyBhbmQgcm9vdCBh
+cyAnL2Jsb2cvJwp1cmw6IGh0dHBzOi8vbWFsb25nYW4uZ2l0aHViLmlvCnJv
+b3Q6IC8KcGVybWFsaW5rOiA6eWVhci86bW9udGgvOmRheS86dGl0bGUvCnBl
+cm1hbGlua19kZWZhdWx0czoKcHJldHR5X3VybHM6CiAgdHJhaWxpbmdfaW5k
+ZXg6IHRydWUKICB0cmFpbGluZ19odG1sOiB0cnVlCgojIyBEaXJlY3RvcnkK
+c291cmNlX2Rpcjogc291cmNlCnB1YmxpY19kaXI6IHB1YmxpYwp0YWdfZGly
+OiB0YWdzCmFyY2hpdmVfZGlyOiBhcmNoaXZlcwpjYXRlZ29yeV9kaXI6IGNh
+dGVnb3JpZXMKY29kZV9kaXI6IGRvd25sb2Fkcy9jb2RlCmkxOG5fZGlyOiA6
+bGFuZwpza2lwX3JlbmRlcjogW10KCiMjIFdyaXRpbmcKbmV3X3Bvc3RfbmFt
+ZTogOnRpdGxlLm1kCmRlZmF1bHRfbGF5b3V0OiBwb3N0CnRpdGxlY2FzZTog
+ZmFsc2UKZXh0ZXJuYWxfbGluazoKICBlbmFibGU6IHRydWUKICBmaWVsZDog
+c2l0ZQogIGV4Y2x1ZGU6ICcnCmZpbGVuYW1lX2Nhc2U6IDAKcmVuZGVyX2Ry
+YWZ0czogZmFsc2UKcG9zdF9hc3NldF9mb2xkZXI6IHRydWUKcmVsYXRpdmVf
+bGluazogZmFsc2UKZnV0dXJlOiB0cnVlCnN5bnRheF9oaWdobGlnaHRlcjog
+aGlnaGxpZ2h0LmpzCmhpZ2hsaWdodDoKICBsaW5lX251bWJlcjogdHJ1ZQog
+IGF1dG9fZGV0ZWN0OiB0cnVlCiAgdGFiX3JlcGxhY2U6ICcnCiAgd3JhcDog
+dHJ1ZQogIGhsanM6IGZhbHNlCnByaXNtanM6CiAgcHJlcHJvY2VzczogdHJ1
+ZQogIGxpbmVfbnVtYmVyOiB0cnVlCiAgdGFiX3JlcGxhY2U6ICcnCgojIyBI
+b21lIHBhZ2Ugc2V0dGluZwppbmRleF9nZW5lcmF0b3I6CiAgcGF0aDogJycK
+ICBwZXJfcGFnZTogMTAKICBvcmRlcl9ieTogLWRhdGUKCiMjIENhdGVnb3J5
+ICYgVGFnCmRlZmF1bHRfY2F0ZWdvcnk6IHVuY2F0ZWdvcml6ZWQKY2F0ZWdv
+cnlfbWFwOgp0YWdfbWFwOgoKIyMgTWV0YWRhdGEgZWxlbWVudHMKbWV0YV9n
+ZW5lcmF0b3I6IHRydWUKCiMjIERhdGUgLyBUaW1lIGZvcm1hdApkYXRlX2Zv
+cm1hdDogWVlZWS1NTS1ERAp0aW1lX2Zvcm1hdDogSEg6bW06c3MKdXBkYXRl
+ZF9vcHRpb246IG10aW1lCgojIyBQYWdpbmF0aW9uCnBlcl9wYWdlOiAxMApw
+YWdpbmF0aW9uX2RpcjogcGFnZQoKIyMgRXh0ZW5zaW9ucwojIyBQbHVnaW5z
+OiBodHRwczovL2hleG8uaW8vcGx1Z2lucy8KdGhlbWU6IHByZXRleHQKCiMj
+IERlcGxveW1lbnQKIyMgRG9jczogaHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25l
+LWNvbW1hbmQtZGVwbG95bWVudC5odG1sCmRlcGxveToKICB0eXBlOiBnaXQK
+ICByZXBvOiBodHRwczovL2dpdGh1Yi5jb20vbWFsb25nYW4vbWFsb25nYW4u
+Z2l0aHViLmlvLmdpdAogIGJyYW5jaDogbWFpbgogIG1lc3NhZ2U6ICdTaXRl
+IHVwZGF0ZWQ6IHt7IG5vdygiWVlZWS1NTS1ERCBISDptbTpzcyIpIH19Jwog
+ICMgdG9rZW46ICR7R0lUSFVCX1RPS0VOfSAgIyDpgJrov4fnjq/looPlj5jp
+h4/ms6jlhaXvvIzkuI3opoHnoaznvJbnoIEKCiMjIE1hcmtkb3duCiMjIERv
+Y3M6IGh0dHBzOi8vaGV4by5pby9kb2NzL21hcmtkb3duLmh0bWwKbWFya2Rv
+d246CiAgcmVuZGVyOgogICAgaHRtbDogdHJ1ZQogICAgeGh0bWxPdXQ6IGZh
+bHNlCiAgICBicmVha3M6IHRydWUKICAgIGxpbmtpZnk6IHRydWUKICAgIHR5
+cG9ncmFwaGVyOiB0cnVlCiAgICBxdW90ZXM6ICfigJzigJ3igJjigJknCiAg
+cGx1Z2luczoKICAgIC0gaGV4by1maWx0ZXItbm9mb2xsb3cKICAgIC0gaGV4
+by1maWx0ZXItbm9mb2xsb3ctZXh0ZXJuYWwKCiMjIEZlZWQKZmVlZDoKICB0
+eXBlOiBhdG9tCiAgcGF0aDogYXRvbS54bWwKICBsaW1pdDogMjAKICBodWI6
+CiAgY29udGVudDoKICBjb250ZW50X2xpbWl0OiAxNDAKICBjb250ZW50X2xp
+bWl0X2RlbGltOiAnICcKICBvcmRlcl9ieTogLWRhdGUKICBpY29uOiBpY29u
+LnBuZwogIGF1dG9kaXNjb3Zlcnk6IHRydWUKICB0ZW1wbGF0ZToKCiMjIFNp
+dGVtYXAKc2l0ZW1hcDoKICBwYXRoOiBzaXRlbWFwLnhtbAogIHRlbXBsYXRl
+OiAKICByZWw6IGZhbHNlCiAgdGFnczogdHJ1ZQogIGNhdGVnb3JpZXM6IHRy
+dWUKCiMjIFNlYXJjaApzZWFyY2g6CiAgcGF0aDogc2VhcmNoLnhtbAogIGZp
+ZWxkOiBwb3N0CiAgZm9ybWF0OiBodG1sCiAgbGltaXQ6IDEwMDAwCgojIyBK
+U09OIENvbnRlbnQgQVBJCmpzb25Db250ZW50OgogIG1ldGE6IHRydWUKICBr
+ZXl3b3JkczogZmFsc2UKICBwb3N0czoKICAgIHRpdGxlOiB0cnVlCiAgICBk
+YXRlOiB0cnVlCiAgICBwYXRoOiB0cnVlCiAgICBleGNlcnB0OiB0cnVlCiAg
+ICBjb3ZlcjogZmFsc2UKICBwYWdlczogdHJ1ZQo=
