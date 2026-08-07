@@ -35,14 +35,20 @@ jobs:
         run: npm install hexo@5
       - name: Debug hexo
         run: |
-          which hexo || echo "no hexo in PATH"
+          echo "=== which hexo ==="
+          which hexo || echo "NOT FOUND"
+          echo "=== npx ==="
           which npx
-          ls -la node_modules/.bin/ | head -20
-          ls node_modules/ | grep hexo
-          ./node_modules/.bin/hexo version 2>&1 || echo "failed"
-          ./node_modules/.bin/hexo --version 2>&1 || echo "failed"
-          ./node_modules/.bin/hexo help 2>&1 | head -20
-          PATH="./node_modules/.bin:$PATH" ./node_modules/.bin/hexo generate 2>&1 | head -20
+          echo "=== ls node_modules/.bin/hexo* ==="
+          ls -la node_modules/.bin/hexo* 2>&1 || echo "NOT FOUND"
+          echo "=== ls node_modules/hexo ==="
+          ls node_modules/hexo/ 2>&1 || echo "NOT FOUND"
+          echo "=== cat node_modules/hexo/package.json | grep version ==="
+          cat node_modules/hexo/package.json 2>&1 | grep version || echo "NOT FOUND"
+          echo "=== node node_modules/hexo/bin/hexo.js version ==="
+          node node_modules/hexo/bin/hexo.js version 2>&1 || echo "FAILED"
+          echo "=== node node_modules/hexo/bin/hexo.js help ==="
+          node node_modules/hexo/bin/hexo.js help 2>&1 | head -20
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
