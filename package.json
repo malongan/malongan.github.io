@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npx hexo generate",
+    "build": "node node_modules/hexo-cli/bin/hexo generate",
     "clean": "npx hexo clean",
     "deploy": "npx hexo deploy",
     "server": "npx hexo server"
