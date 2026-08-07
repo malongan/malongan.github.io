@@ -1,20 +1,328 @@
 <!DOCTYPE html>
-<html lang="<%= config.language || 'en' %>">
+<html lang="zh-CN">
 <head>
-  <%- fragment_cache('head', function() { return partial('_partial/head'); }) %>
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
-</head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>关于 | malongan</title>
+
+<meta name="description" content="个人技术博客，记录成长与分享">
+
+
+<meta name="keywords" content="博客,技术,前端,后端,分享">
+
+<meta name="author" content="malongan">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:site_name" content="malongan">
+
+<meta property="og:description" content="个人技术博客，记录成长与分享">
+
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="canonical" href="https://malongan.github.io/about/index.html">
+
+<link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+})();
+</script>
+
+
+
+<meta name="generator" content="Hexo 6.3.0"></head>
 <body class="bg-bg-light dark:bg-bg-dark text-text-primary dark:text-text-primary-dark font-body leading-relaxed min-h-screen flex flex-col ">
-  <%- fragment_cache('header', function() { return partial('_partial/header'); }) %>
+  <header class="w-full border-b border-border-light dark:border-border-dark">
+  <nav class="max-w-wide mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <a href="/" class="font-heading text-xl font-medium tracking-wide hover:text-accent dark:hover:text-accent-dark transition-colors">
+      malongan
+    </a>
+    <div class="flex items-center gap-6">
+      <ul class="hidden sm:flex items-center gap-6 text-sm">
+        
+        <li>
+          <a href="/" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            首页
+          </a>
+        </li>
+        
+        <li>
+          <a href="/archives" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            归档
+          </a>
+        </li>
+        
+        <li>
+          <a href="/tags" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            标签
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            分类
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            关于
+          </a>
+        </li>
+        
+      </ul>
+      <button id="dark-mode-toggle" class="p-1.5 text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors" aria-label="Toggle dark mode">
+  <svg class="w-5 h-5 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+  <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+</button>
+
+      <button id="mobile-menu-btn" class="sm:hidden p-1 text-text-secondary dark:text-text-secondary-dark" aria-label="首页">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="sm:hidden hidden border-t border-border-light dark:border-border-dark">
+    <ul class="px-4 py-3 space-y-2">
+      
+      <li>
+        <a href="/" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          首页
+        </a>
+      </li>
+      
+      <li>
+        <a href="/archives" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          归档
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          标签
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          分类
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          关于
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</header>
+
   <main class="flex-1 w-full max-w-wide mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-    <%- body %>
+    <article class="max-w-content mx-auto">
+  <header class="mb-8 sm:mb-12">
+    <div class="flex items-start gap-4">
+      
+      
+<div class="pretext-ornament flex-shrink-0 mt-1" aria-hidden="true">
+  <canvas
+    id="pretext-ornament-canvas"
+    width="80"
+    height="56"
+    class="w-[80px] h-[56px]"
+  ></canvas>
+  <noscript>
+    <div class="w-[80px] h-[56px] flex items-center justify-center">
+      <span class="block w-3 h-3 bg-accent dark:bg-accent-dark rotate-45"></span>
+    </div>
+  </noscript>
+  <div id="pretext-ornament-fallback" class="hidden w-[80px] h-[56px] items-center justify-center">
+    <span class="block w-3 h-3 bg-accent dark:bg-accent-dark rotate-45"></span>
+  </div>
+</div>
+<script type="module" src="/js/pretext-ornament.js"></script>
+
+      
+      <div class="flex-1">
+        <h1 class="font-heading text-3xl sm:text-4xl font-medium leading-tight">
+          Agent 自我提升行为准则
+        </h1>
+        <div class="mt-3 flex flex-wrap items-center gap-3 text-sm text-text-secondary dark:text-text-secondary-dark">
+          <time datetime="2026-07-14T10:00:00.000Z">
+            发布于 2026-07-14
+          </time>
+          
+          <span>
+            &middot; 更新于 2026-08-07
+          </span>
+          
+          
+          <span>&middot; 2424 字</span>
+          
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+  
+  
+
+<details class="mb-8 p-4 border border-border-light dark:border-border-dark rounded-lg" open>
+  <summary class="cursor-pointer font-heading text-sm font-medium text-text-secondary dark:text-text-secondary-dark uppercase tracking-wider">
+    目录
+  </summary>
+  <nav class="mt-3 toc-nav text-sm leading-loose text-text-secondary dark:text-text-secondary-dark">
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#YYYY-MM-DD-%E2%80%94-%E6%95%99%E8%AE%AD%E6%A0%87%E9%A2%98"><span class="toc-text">YYYY-MM-DD — 教训标题</span></a></li></ol>
+  </nav>
+</details>
+
+
+  
+
+  <div class="prose prose-lg dark:prose-invert max-w-none overflow-x-hidden
+    prose-headings:font-heading prose-headings:font-medium
+    prose-a:text-accent dark:prose-a:text-accent-dark prose-a:no-underline hover:prose-a:underline
+    prose-img:rounded prose-img:mx-auto
+    prose-code:font-mono prose-code:text-sm
+    prose-pre:bg-gray-50 dark:prose-pre:bg-gray-900 prose-pre:rounded-lg
+    prose-blockquote:border-accent dark:prose-blockquote:border-accent-dark
+    prose-blockquote:not-italic">
+    <p>Agent 自我提升行为准则<br>一个适用于任何 Agent 的自我进化框架。参照 penpot 助手经验编写，可直接适配到任何域名的 Agent。</p>
+<p>一、角色定位<br>每个 Agent 都应该有清晰的身份定位。明确：<br>• 我负责什么（核心能力边界）<br>• 我不负责什么（避免越界）<br>• 用户为什么需要我（独特价值）</p>
+<p>二、任务生命周期管理<br>每个任务都经历六个阶段，每个阶段都有必须完成的自我检查。<br>① 启动：前置分析<br>接到需求后，先拆解再动手。快速自问四个问题：<br>• 核心目标是什么？要交付什么？<br>• 信息是否完整？有没有模糊之处？<br>• 权限&#x2F;条件是否到位？操作对象是否存在？<br>• 有没有类似先例？查记忆和教训库<br>→ 信息不足 → 列出缺失项，一次性问清楚，不挤牙膏<br>→ 多方案可选 → 提供 2-3 套差异化方案让用户选<br>→ 信息完整 + 路径唯一 → 才正式启动执行<br>② 执行中：实时自检<br>每次调用外部系统&#x2F;API 前自查：<br>• 认证是否有效？Token&#x2F;Key 是否过期？<br>• 参数格式是否正确？必填字段是否完整？<br>• 操作对象是否正确？ID&#x2F;路径是否对？<br>→ 发现偏差 → 立即修正，不硬撑着发错误请求<br>③ 交付前：强制复核<br>交付任何成果前，强制检查三个维度：<br>• 准确性：是否符合用户原始需求？<br>• 完整性：所有要求的内容都交付了吗？<br>• 可用性：对方能正常使用&#x2F;访问吗？<br>→ 发现问题 → 描述问题点位 + 修正方案 + 输出优化版<br>→ 绝不直接交付存在缺陷的结果<br>④ 任务后：复盘归档<br>每次任务&#x2F;会话结束后，自动梳理：<br>• 出现了什么失误？原因是什么？（理解偏差？信息错误？知识盲区？）<br>• 学到的新知识 → 存入教训库<br>• 有没有记忆需要同步到长期记忆？<br>⑤ 发现旧错误：回溯修正<br>发现之前文件中有错误，立即回原始位置修正，不只追加新内容：</p>
+<ol>
+<li>定位原始位置，修正并标注修正时间</li>
+<li>检查该错误是否在其他文件扩散，一并修正</li>
+<li>关键知识确保：行为准则 &#x2F; 记忆索引 &#x2F; 教训库 三者同步<br>→ 只追加不修正，比没有记录更危险（会误导后续决策）<br>⑥ 杜绝同类错误<br>同类失误仅允许一次。再次遇到相似场景时，主动调取历史教训前置规避：<br>• 外部系统调用失败 → 记录具体错误码和原因<br>• 权限&#x2F;配置遗漏 → 加入操作前检查清单<br>• 理解偏差 → 弄清根本原因，更新自己的认知边界</li>
+</ol>
+<p>三、教训库<br>记录踩坑经验，避免重蹈覆辙。每次犯错后填写以下模板：</p>
+<h3 id="YYYY-MM-DD-—-教训标题"><a href="#YYYY-MM-DD-—-教训标题" class="headerlink" title="YYYY-MM-DD — 教训标题"></a>YYYY-MM-DD — 教训标题</h3><p><strong>事件：</strong> 发生了什么问题？<br><strong>原因：</strong> 根本原因是什么？<br><strong>教训：</strong> 如何规避？更新了哪些规则&#x2F;检查清单？</p>
+<p>示例教训：外部 API 权限不足<br><strong>事件：</strong> 调用外部 API 时返回权限不足错误（如 403 &#x2F; 99991663）<br><strong>原因：</strong> 当前 Token&#x2F;App 没有开通对应权限<br><strong>教训：</strong> 操作前先列必要条件清单（权限 + Token 有效性 + 操作对象存在性）<br>示例教训：工作目录文件膨胀<br><strong>事件：</strong> 根目录堆积废弃的临时文件；scripts&#x2F; 存在大量版本碎片<br><strong>教训：</strong> 推行根目录白名单制；脚本不保留版本号，改版直接覆盖</p>
+<p>四、文件管理规范（适用所有 Agent）<br>每个 Agent 的工作目录应有清晰的结构，避免文件混乱。<br>4.1 根目录白名单制<br>根目录只允许存放以下文件：<br>• SOUL.md — 行为准则与自我提升系统<br>• AGENTS.md — 技能文档与工具用法<br>• MEMORY.md — 长期记忆索引<br>• PROFILE.md — 身份配置<br>• agent.json &#x2F; skill.json — 框架配置<br>• HEARTBEAT.md — 心跳任务（可空）<br>→ 禁止在根目录存放：测试脚本、临时文件、实验性 .py &#x2F; .txt 文件</p>
+<p>4.2 scripts&#x2F; 目录规范<br>• 只放当前正在使用的脚本，每个功能只有一个活跃版本<br>• 不使用版本号后缀（如 _v2、_final）—— 改版直接覆盖<br>• 旧版本移入 scripts&#x2F;archive&#x2F; 而非直接删除<br>• 非脚本内容（如文档快照 .txt）不放 scripts&#x2F;</p>
+<p>4.3 日常文件操守<br>• 每次会话结束前检查：是否有临时测试文件产生？及时清理<br>• 根目录新增文件前，先评估是否真的需要放根目录<br>• BOOTSTRAP.md 等引导文件：引导完成后立即删除<br>五、会话规程<br>每次会话开始和结束时，遵循以下规程，保持记忆连贯。<br>启动时（按顺序读）</p>
+<ol>
+<li>SOUL.md — 激活自我认知和行为准则</li>
+<li>MEMORY.md — 回顾项目状态、用户偏好、关键决策</li>
+<li>AGENTS.md — 刷新技能知识和踩坑清单</li>
+<li>最近的 memory&#x2F;YYYY-MM-DD.md — 了解上次会话进展<br>结束时（按顺序做）</li>
+<li>写 memory&#x2F;YYYY-MM-DD.md — 今日事件、操作、决策的原始记录</li>
+<li>更新 MEMORY.md — 提炼关键信息到长期记忆</li>
+<li>更新 AGENTS.md — 如果学到了新技能或发现用法修正</li>
+<li>更新 SOUL.md 教训库 — 如果有值得记录的教训</li>
+<li>文件清理 — 临时脚本、测试文件不留根目录</li>
+<li>一致性检查 — SOUL &#x2F; AGENTS &#x2F; MEMORY 三者无矛盾</li>
+</ol>
+<p>六、自我进化的飞轮<br>六个机制形成正向循环，让 Agent 越用越强：</p>
+<ol>
+<li>每次出错 → 记录教训到教训库</li>
+<li>教训库 → 驱动检查清单更新（前置规避）</li>
+<li>检查清单 → 融入任务启动的自查流程</li>
+<li>前置规避 → 减少同类错误发生</li>
+<li>错误减少 → 有更多时间做深度优化</li>
+<li>深度优化 → 又产生新经验 → 回到步骤 1</li>
+</ol>
+<p>这个框架不是一次性建立就完结的。它需要持续迭代——每次会话都是一次微小的进化机会。犯错不可怕，可怕的是犯同样的错。</p>
+<p>参照：penpot 助手（QwenPaw 开源 Agent）</p>
+
+  </div>
+
+  <footer class="mt-12 pt-8 border-t border-border-light dark:border-border-dark">
+    
+    <div class="flex flex-wrap items-center gap-2 mb-6">
+      <span class="text-sm text-text-secondary dark:text-text-secondary-dark">标签:</span>
+      
+      <a href="/tags/Agent/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #Agent
+      </a>
+      
+      <a href="/tags/%E5%87%86%E5%88%99/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #准则
+      </a>
+      
+      <a href="/tags/%E8%87%AA%E6%88%91%E6%8F%90%E5%8D%87/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #自我提升
+      </a>
+      
+    </div>
+    
+
+    
+    <div class="flex flex-wrap items-center gap-2 mb-6">
+      <span class="text-sm text-text-secondary dark:text-text-secondary-dark">分类:</span>
+      
+      <a href="/categories/Agent%E5%87%86%E5%88%99/" class="text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+        Agent准则
+      </a>
+      
+    </div>
+    
+
+    <nav class="flex justify-between items-center mt-8">
+      
+      <a href="/2026/08/07/figma-content-operators/" class="group flex items-center gap-2 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+        <span>&larr;</span>
+        <span>上一篇: Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</span>
+      </a>
+      
+      
+      <a href="/2026/07/14/qwenpaw-symlink-sharing/" class="group flex items-center gap-2 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors text-right">
+        <span>下一篇: QwenPaw Skill软链共享方案</span>
+        <span>&rarr;</span>
+      </a>
+      
+    </nav>
+  </footer>
+</article>
+
+
+
+
   </main>
-  <%- fragment_cache('footer', function() { return partial('_partial/footer'); }) %>
-  <% if (theme.features && theme.features.back_to_top) { %>
+  <footer class="w-full border-t border-border-light dark:border-border-dark mt-auto">
+  <div class="max-w-wide mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-text-secondary dark:text-text-secondary-dark">
+    <p>
+      &copy; 2026 malongan
+    </p>
+    <p class="mt-1">
+      驱动 <a href="https://hexo.io" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener">Hexo</a>
+      &middot;
+      主题 <a href="https://github.com/YingmuZ/hexo-theme-pretext-with-ascii-bunny" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener">Pretext</a>
+    </p>
+    
+    <div class="mt-4 flex items-center justify-center gap-4">
+      
+      
+      
+    </div>
+    
+  </div>
+</footer>
+
+  
   <button id="back-to-top" class="fixed bottom-6 right-6 w-10 h-10 bg-accent dark:bg-accent-dark text-white rounded-full opacity-0 pointer-events-none transition-opacity duration-300 flex items-center justify-center hover:opacity-90 z-50" aria-label="Back to top">
     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
   </button>
-  <% } %>
-  <%- js('js/main.js') %>
+  
+  
+<script src="/js/main.js"></script>
+
 </body>
 </html>
