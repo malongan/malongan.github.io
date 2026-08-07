@@ -46,62 +46,115 @@ skills/react-to-figma-make/
 - 创建、更新、删除视为修改操作，需严格限制范围
 - 优先聚焦读取，避免直接调用 get_document
 
-### MCP 连接启动完整流程
+### 工具与 Figma 链接完整流程（MCP 连接）
 
-#### 前提条件确认
+> 本流程用于把 `figma-content-operator` 工具与你的 Figma 画布建立实时连接。
+> 核心思路：**本地启动 Relay（中继）→ Figma 内运行插件 → 双向连通**。
+> 整个连接依赖 `@figwright/mcp` 的插件中继，服务器启动 ≠ 插件已连通，必须以 `ping`/`profile` 结果为准。
 
-| 条件 | 要求 |
-|------|------|
-| Node.js | 22.19+ |
-| MCP 技能 | figma-content-operator |
-| Figma 插件 | Drafito 或 Figwright（选一） |
+#### 前置条件确认
 
-#### 第 1 步：启动 Relay（保持运行）
+| 条件 | 要求 | 检查命令 |
+|------|------|---------|
+| Node.js | 22.19+ | `node -v` |
+| npx | 可用且在 PATH 中 | `npx -v` |
+| Figma 插件 | Drafito 或 Figwright（选一） | 见下方插件安装 |
 
+#### 第 0 步：运行环境体检
+
+先运行 `doctor`，自动检查 Node/npx 版本与 MCP 依赖是否就绪；有缺失先解决，避免后续步骤反复失败。
+
+```bash
+npx figma-content-operator doctor
+```
+
+#### 第 1 步：启动 Relay 中继（保持运行，勿关闭）
+
+在**独立终端**启动任务级 Relay，它是工具与 Figma 之间的 WebSocket 中继：
+
+```bash
 npx figma-content-operator relay
+```
 
-#### 第 2 步：验证连接
+⚠️ Relay 必须保持运行到任务结束；不要在 Relay 启动前就让用户运行插件，否则会连不上。
 
-npx figma-content-operator ping
+#### 第 2 步：获取目标 Figma 文件 URL
 
-#### 第 3 步：获取 Figma 文件 URL
+在 Figma 桌面端或网页端打开目标设计文件，从地址栏复制 URL（需包含 `/design/<文件ID>/` 或 `/file/<文件ID>/`）：
 
-在 Figma 桌面端或网页端打开目标文件，复制 URL，格式：
-
+```
 https://www.figma.com/design/xxxxxxxxxxxx/项目名称
+```
 
-#### 第 4 步：启动插件
+#### 第 3 步：生成插件启动链接
 
-npx figma-content-operator launch-url --file-url "你的Figma文件URL"
+```bash
+npx figma-content-operator launch-url "https://www.figma.com/design/xxxxxxxxxxxx/项目名称"
+```
 
-#### 第 5 步：在 Figma 中运行插件
+该命令会生成一个可点击的插件启动链接。
 
-1. 在 Figma 中打开对应文件
-2. 点击左侧边栏 Plugins → Drafito 或 Figwright
-3. 粘贴启动链接，运行插件
-4. 插件加载完成后即可开始操作
+#### 第 4 步：在 Figma 中运行插件
 
-#### 第 6 步：验证操作
+1. 确认 Figma 中已打开第 2 步的目标文件
+2. 点击启动链接，或手动进入 Plugins → 选择 **Drafito**（或 Figwright）
+3. 在弹出的 **Run Drafito** 对话框确认运行
+4. **等用户明确表示插件已运行**，再进入下一步（不要抢跑）
 
+#### 第 5 步：验证双向连通（关键！）
+
+依次运行，确认连接真正建立：
+
+```bash
+npx figma-content-operator ping
 npx figma-content-operator profile
-npx figma-content-operator get_document
+```
 
-#### 连接成功后可执行的操作
+**成功标准**（缺一不可）：
+- `ping` 返回 `hop: "e2e"` 且包含 `plugin` 对象（说明链路是端到端，而非仅服务器存活）
+- `profile` 返回 `profile: "figwright-full"`（说明插件已加载完整工具注册表）
 
-- 读取 选中元素、节点树、样式、元数据
-- 创建/编辑 画布元素
-- 管理 样式、变量、组件
-- 导出 设计资源
+如果 `ping` 返回 `hop: "server-only"`，说明 Relay 与插件没连上，见下方故障排查。
+
+#### 第 6 步：开始操作画布
+
+连接建立后即可读写画布。操作前先读取目标确认范围：
+
+```bash
+npx figma-content-operator get_selection
+npx figma-content-operator get_node
+```
+
+> 安全建议：优先聚焦读取，避免直接调用 `get_document`；创建/编辑/删除属于修改操作，严格限制在用户指定范围。
+
+#### 任务结束：停止 Relay
+
+任务完成、取消或失败后，回到启动 Relay 的终端按 `Ctrl+C` 停止该进程。不要尝试替用户关闭 Figma 插件本身。
+
+---
+
+#### 常见故障排查
+
+| 现象 | 原因 | 处理 |
+|------|------|------|
+| `ping` 返回 `server-only` | 插件与 Relay 未连通 | 确认 Relay 已就绪、插件已在 Figma 中运行、中继地址为 `ws://127.0.0.1:3055`，然后重新生成启动链接 |
+| 连接时断时续 | `localhost` 解析为 IPv6 `::1`，而中继仅监听 IPv4 | 确认插件中继 URL 使用 `ws://127.0.0.1:3055`，不要用 `localhost` |
+| 启动期间连接关闭 | npm registry 访问异常 / 代理配置 | 测试 `@figwright/mcp` 固定版本包的 npm 访问，检查 registry 或代理 |
+| `doctor` 报 Node 版本过低 | Node < 22.19 | 升级 Node.js 到 22.19+ 并确保 bin 目录在 PATH |
+| 写入后改错了文件 | 多文件/多插件会话 | 立即停止，运行 `ping` 和 `get_selection` 聚焦目标文件，验证后再纠正 |
+
+---
 
 #### Figma 插件安装（如尚未安装）
 
-方案 A：Drafito（推荐）
-配合 Axhub 浏览器扩展使用，Drafito 已内置其中。
+**方案 A：Drafito（推荐）**
+配合 Axhub 浏览器扩展使用，Drafito 已内置其中，无需单独下载。
 
-方案 B：Figwright
+**方案 B：上游 Figwright 开发插件**
 1. 下载：https://github.com/awdr74100/figwright/releases/latest
-2. Figma Desktop → Plugins → Development → Import plugin from manifest…
-3. 选择下载包中的 manifest.json
+2. Figma Desktop → Menu → Plugins → Development → **Import plugin from manifest…**
+3. 选择下载包中的 `manifest.json`
+4. 之后从 Plugins → Development → Figwright 启动（无需 Community 版，只导入一次即可）
 
 ## 三、react-to-figma-make 使用说明
 
