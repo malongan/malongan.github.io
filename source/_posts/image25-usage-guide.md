@@ -11,7 +11,7 @@ categories:
 
 > 作者：Punk（[原文链接](https://x.com/AdrianPunk115/status/2098055380857143807)）｜中科大管理学硕士｜AI 提示词与 AI 小白教程作者｜Punk 系列 Skills 作者
 
-![Image2.5 玩法全公开封面](/images/image25-guide/media/cover.jpg)
+![Image2.5 玩法全公开封面](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/cover.jpg)
 
 这篇文章，对照着官方发布的文档，结合自己做图的经验，一点点手搓出来的。每一个方案都是亲测多轮的结果，希望能够帮助到大家。
 
@@ -31,7 +31,7 @@ categories:
 
 我会先从贴纸式弹跳动画开始，让同一张素材动起来。这样不必逐帧重新生成角色。当然，这只是演示，可以做更多有趣的动作，直接可以做表情包！
 
-![贴纸式弹跳动画演示](/images/image25-guide/media/sticker-demo-preview.jpg)
+![贴纸式弹跳动画演示](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/sticker-demo-preview.jpg)
 
 **第一步：生成贴纸素材**
 
@@ -81,9 +81,9 @@ ChatGPT 官方模版里有一套九宫格表情包提示词，【图片（已更
 
 我也分享一套自用的：
 
-![九宫格表情包示例 1](/images/image25-guide/media/img01.jpg)
-![九宫格表情包示例 2](/images/image25-guide/media/img02.jpg)
-![九宫格表情包示例 3](/images/image25-guide/media/img03.jpg)
+![九宫格表情包示例 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img01.jpg)
+![九宫格表情包示例 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img02.jpg)
+![九宫格表情包示例 3](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img03.jpg)
 
 > 九宫格提示词：
 
@@ -101,7 +101,7 @@ Create a Meme sticker pack based on the images attached, remixing with 😎😛�
 
 **第二步：6 帧动作图 → 一个可播放的 GIF**
 
-![六帧动作序列图](/images/image25-guide/media/img04.jpg)
+![六帧动作序列图](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img04.jpg)
 
 > 六帧动作提示词：
 
@@ -133,7 +133,7 @@ Create a Meme sticker pack based on the images attached, remixing with 😎😛�
 提供一个独立的 GIF 文件链接。
 ```
 
-![表情包 GIF 动画演示](/images/image25-guide/media/emoji-gif-demo-preview.jpg)
+![表情包 GIF 动画演示](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/emoji-gif-demo-preview.jpg)
 
 {% asset_img emoji-gif-demo.mp4 表情包 GIF 动画 %}
 
@@ -171,7 +171,7 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 完成后请实际读取生成的 GIF 文件进行检查，确认 GIF 包含 18 帧，每帧约 120 毫秒，并且已经设置无限循环。
 ```
 
-![商品慢扫光动态广告演示](/images/image25-guide/media/product-sweep-preview.jpg)
+![商品慢扫光动态广告演示](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/product-sweep-preview.jpg)
 
 {% asset_img product-sweep.mp4 商品慢扫光动态广告 %}
 
@@ -185,12 +185,12 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 
 官方在精确编辑部分明确举出了替换商品、背景或文案，同时保留周围构图与品牌处理的场景。
 
-![模板换款示例 1](/images/image25-guide/media/img05.jpg)
-![模板换款示例 2](/images/image25-guide/media/img06.jpg)
-![模板换款示例 3](/images/image25-guide/media/img07.jpg)
-![模板换款示例 4](/images/image25-guide/media/img08.jpg)
-![模板换款效果 1](/images/image25-guide/media/img09.jpg)
-![模板换款效果 2](/images/image25-guide/media/img10.jpg)
+![模板换款示例 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img05.jpg)
+![模板换款示例 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img06.jpg)
+![模板换款示例 3](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img07.jpg)
+![模板换款示例 4](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img08.jpg)
+![模板换款效果 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img09.jpg)
+![模板换款效果 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img10.jpg)
 
 > 通用提示词：
 
@@ -221,9 +221,9 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 
 我会把"透光区域有没有残留旧背景"作为其中一个检查项。
 
-![透明商品换场景 1](/images/image25-guide/media/img11.jpg)
-![透明商品换场景 2](/images/image25-guide/media/img12.jpg)
-![透明商品换场景 3](/images/image25-guide/media/img13.jpg)
+![透明商品换场景 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img11.jpg)
+![透明商品换场景 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img12.jpg)
+![透明商品换场景 3](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img13.jpg)
 
 > 提示词：
 
@@ -242,8 +242,8 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 
 上传一张人物半身照，再上传一张能拿在手里的商品照。目标是让照片中的人自然拿起那件商品，同时保住人脸、商品包装、手部接触关系。
 
-![人物商品模特 1](/images/image25-guide/media/img14.jpg)
-![人物商品模特 2](/images/image25-guide/media/img15.jpg)
+![人物商品模特 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img14.jpg)
+![人物商品模特 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img15.jpg)
 
 > 提示词：
 
@@ -266,8 +266,8 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 
 我会先用同系列、实物尺寸接近的商品测试，减少图片无法提供真实尺度带来的歧义。
 
-![多商品组合主图 1](/images/image25-guide/media/img16.jpg)
-![多商品组合主图 2](/images/image25-guide/media/img17.jpg)
+![多商品组合主图 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img16.jpg)
+![多商品组合主图 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img17.jpg)
 
 > 提示词：
 
@@ -292,9 +292,9 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 
 上传：带有清晰折线、裁切线和完整印刷内容的纸盒展开稿。
 
-![包装展开稿 1](/images/image25-guide/media/img18.jpg)
-![包装展开稿 2](/images/image25-guide/media/img19.jpg)
-![包装立体效果](/images/image25-guide/media/img20.jpg)
+![包装展开稿 1](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img18.jpg)
+![包装展开稿 2](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img19.jpg)
+![包装立体效果](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pageshttps://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/image25-guide/media/img20.jpg)
 
 ---
 
