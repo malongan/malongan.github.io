@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<title>关于 | malongan</title>
+<title>malongan</title>
 
 <meta name="description" content="个人技术博客，记录成长与分享">
 
@@ -12,13 +12,13 @@
 
 <meta name="author" content="malongan">
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
+<meta property="og:title" content="malongan">
 <meta property="og:site_name" content="malongan">
 
 <meta property="og:description" content="个人技术博客，记录成长与分享">
 
 <link rel="icon" href="/favicon.png" type="image/png">
-<link rel="canonical" href="https://malongan.github.io/about/index.html">
+<link rel="canonical" href="https://malongan.github.io/archives/index.html">
 
 <link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
 
@@ -173,7 +173,7 @@
           </span>
           
           
-          <span>&middot; 4775 字</span>
+          <span>&middot; 4773 字</span>
           
         </div>
       </div>
@@ -216,10 +216,8 @@
 
 <h2 id="一、个人玩法"><a href="#一、个人玩法" class="headerlink" title="一、个人玩法"></a>一、个人玩法</h2><h3 id="1、上传一张图，让它变成会蹦跶的-GIF"><a href="#1、上传一张图，让它变成会蹦跶的-GIF" class="headerlink" title="1、上传一张图，让它变成会蹦跶的 GIF"></a>1、上传一张图，让它变成会蹦跶的 GIF</h3><p>自拍、宠物、卡通头像、玩具、日常物品，都可以作为输入。</p>
 <p>我会先从贴纸式弹跳动画开始，让同一张素材动起来。这样不必逐帧重新生成角色。当然，这只是演示，可以做更多有趣的动作，直接可以做表情包！</p>
-<p><img src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/sticker-demo-preview.jpg" alt="贴纸式弹跳动画演示"></p>
 <p><strong>第一步：生成贴纸素材</strong></p>
-
-
+<p><video src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/sticker-demo.mp4" controls="true" width="100%"></video></p>
 <blockquote>
 <p>提示词：</p>
 </blockquote>
@@ -293,9 +291,9 @@
 
 提供一个独立的 GIF 文件链接。</code></pre>
 
-<p><img src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/emoji-gif-demo-preview.jpg" alt="表情包 GIF 动画演示"></p>
 
 
+<p><video src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/emoji-gif-demo.mp4" controls="true" width="100%"></video></p>
 <hr>
 <h2 id="二、电商玩法"><a href="#二、电商玩法" class="headerlink" title="二、电商玩法"></a>二、电商玩法</h2><h3 id="1、商品慢扫光动态广告"><a href="#1、商品慢扫光动态广告" class="headerlink" title="1、商品慢扫光动态广告"></a>1、商品慢扫光动态广告</h3><p>关于商品慢扫光动态广告，我尝试了先生成 6 帧、10 帧分镜头，再通过 Python 制作 GIF。但是，测试发现 GIF 有明显抖动，原因在于：源关键帧本身的一致性问题。</p>
 <p>所以，后面我采用 1 张商品底图 + Python 扫光的方式，解决最大的三个问题：<strong>瓶身不动、Logo 不动、文字不动。</strong></p>
@@ -319,9 +317,9 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 
 完成后请实际读取生成的 GIF 文件进行检查，确认 GIF 包含<span class="number"> 18 </span>帧，每帧约<span class="number"> 120 </span>毫秒，并且已经设置无限循环。</code></pre>
 
-<p><img src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/product-sweep-preview.jpg" alt="商品慢扫光动态广告演示"></p>
 
 
+<p><video src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/product-sweep.mp4" controls="true" width="100%"></video></p>
 <hr>
 <h3 id="2、上传一张定稿海报，再上传自己的商品：换款不动模板"><a href="#2、上传一张定稿海报，再上传自己的商品：换款不动模板" class="headerlink" title="2、上传一张定稿海报，再上传自己的商品：换款不动模板"></a>2、上传一张定稿海报，再上传自己的商品：换款不动模板</h3><p>参与方式：图 1 是可使用的广告模板，图 2 是自己的商品。</p>
 <p>实际用途很明确：同一系列换颜色、换包装、换新品，沿用已经确定的广告版式。模板最好使用通用文案，避免残留旧商品专属的型号、参数或价格。</p>

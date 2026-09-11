@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://malongan.github.io/2026/07/14/agent-self-improvement/</loc>
-    
-    <lastmod>2026-09-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://malongan.github.io/2026/08/06/figma-content-operators/</loc>
     
     <lastmod>2026-09-11</lastmod>
@@ -83,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://malongan.github.io/about/index.html</loc>
+    <loc>https://malongan.github.io/archives/index.html</loc>
     
     <lastmod>2026-09-11</lastmod>
     
@@ -101,7 +92,16 @@
   </url>
   
   <url>
-    <loc>https://malongan.github.io/archives/index.html</loc>
+    <loc>https://malongan.github.io/about/index.html</loc>
+    
+    <lastmod>2026-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://malongan.github.io/2026/07/14/agent-self-improvement/</loc>
     
     <lastmod>2026-09-11</lastmod>
     
