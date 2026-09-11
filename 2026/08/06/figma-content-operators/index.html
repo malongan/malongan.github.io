@@ -1,120 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  
-  
-  <title>Figma 内容操作技能：figma-content-operator 与 react-to-figma-make | malongan</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="两个 Figma 技能的安装与使用：网页复制到 Figma，以及 React 代码转 Figma Make">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Figma 内容操作技能：figma-content-operator 与 react-to-figma-make">
-<meta property="og:url" content="https://malongan.github.io/2026/08/06/figma-content-operators/index.html">
-<meta property="og:site_name" content="malongan">
-<meta property="og:description" content="两个 Figma 技能的安装与使用：网页复制到 Figma，以及 React 代码转 Figma Make">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2026-08-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2026-08-07T02:22:02.669Z">
-<meta property="article:author" content="malongan">
-<meta property="article:tag" content="Figma">
-<meta property="article:tag" content="技能安装">
-<meta property="article:tag" content="UI设计">
-<meta property="article:tag" content="React">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>关于 | malongan</title>
 
-  
-  
+<meta name="description" content="个人技术博客，记录成长与分享">
+
+
+<meta name="keywords" content="博客,技术,前端,后端,分享">
+
+<meta name="author" content="malongan">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:site_name" content="malongan">
+
+<meta property="og:description" content="个人技术博客，记录成长与分享">
+
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="canonical" href="https://malongan.github.io/about/index.html">
+
+<link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
 <link rel="stylesheet" href="/css/style.css">
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
-  
+
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+})();
+</script>
+
+
+
 <meta name="generator" content="Hexo 6.3.0"></head>
+<body class="bg-bg-light dark:bg-bg-dark text-text-primary dark:text-text-primary-dark font-body leading-relaxed min-h-screen flex flex-col ">
+  <header class="w-full border-b border-border-light dark:border-border-dark">
+  <nav class="max-w-wide mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <a href="/" class="font-heading text-xl font-medium tracking-wide hover:text-accent dark:hover:text-accent-dark transition-colors">
+      malongan
+    </a>
+    <div class="flex items-center gap-6">
+      <ul class="hidden sm:flex items-center gap-6 text-sm">
+        
+        <li>
+          <a href="/" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            首页
+          </a>
+        </li>
+        
+        <li>
+          <a href="/archives" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            归档
+          </a>
+        </li>
+        
+        <li>
+          <a href="/tags" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            标签
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            分类
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            关于
+          </a>
+        </li>
+        
+      </ul>
+      <button id="dark-mode-toggle" class="p-1.5 text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors" aria-label="Toggle dark mode">
+  <svg class="w-5 h-5 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+  <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+</button>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">malongan</a>
-      </h1>
+      <button id="mobile-menu-btn" class="sm:hidden p-1 text-text-secondary dark:text-text-secondary-dark" aria-label="首页">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="sm:hidden hidden border-t border-border-light dark:border-border-dark">
+    <ul class="px-4 py-3 space-y-2">
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://malongan.github.io"></form>
-      </div>
-    </div>
+      <li>
+        <a href="/" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          首页
+        </a>
+      </li>
+      
+      <li>
+        <a href="/archives" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          归档
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          标签
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          分类
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          关于
+        </a>
+      </li>
+      
+    </ul>
   </div>
 </header>
 
-      <div class="outer">
-        <section id="main"><article id="post-figma-content-operators" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/08/06/figma-content-operators/" class="article-date">
-  <time class="dt-published" datetime="2026-08-05T16:00:00.000Z" itemprop="datePublished">2026-08-06</time>
-</a>
-    
+  <main class="flex-1 w-full max-w-wide mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    <article class="max-w-content mx-auto">
+  <header class="mb-8 sm:mb-12">
+    <div class="flex items-start gap-4">
+      
+      
+<div class="pretext-ornament flex-shrink-0 mt-1" aria-hidden="true">
+  <canvas
+    id="pretext-ornament-canvas"
+    width="80"
+    height="56"
+    class="w-[80px] h-[56px]"
+  ></canvas>
+  <noscript>
+    <div class="w-[80px] h-[56px] flex items-center justify-center">
+      <span class="block w-3 h-3 bg-accent dark:bg-accent-dark rotate-45"></span>
+    </div>
+  </noscript>
+  <div id="pretext-ornament-fallback" class="hidden w-[80px] h-[56px] items-center justify-center">
+    <span class="block w-3 h-3 bg-accent dark:bg-accent-dark rotate-45"></span>
   </div>
-  <div class="article-inner">
+</div>
+<script type="module" src="/js/pretext-ornament.js"></script>
+
+      
+      <div class="flex-1">
+        <h1 class="font-heading text-3xl sm:text-4xl font-medium leading-tight">
+          Figma 内容操作技能：figma-content-operator 与 react-to-figma-make
+        </h1>
+        <div class="mt-3 flex flex-wrap items-center gap-3 text-sm text-text-secondary dark:text-text-secondary-dark">
+          <time datetime="2026-08-06T04:00:00.000Z">
+            发布于 2026-08-06
+          </time>
+          
+          <span>
+            &middot; 更新于 2026-09-11
+          </span>
+          
+          
+          <span>&middot; 7000 字</span>
+          
+        </div>
+      </div>
+    </div>
     
-    
-      <header class="article-header">
-        
+  </header>
+
   
-    <h1 class="p-name article-title" itemprop="headline name">
-      Figma 内容操作技能：figma-content-operator 与 react-to-figma-make
-    </h1>
   
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="Figma-内容操作技能：figma-content-operator-与-react-to-figma-make"><a href="#Figma-内容操作技能：figma-content-operator-与-react-to-figma-make" class="headerlink" title="Figma 内容操作技能：figma-content-operator 与 react-to-figma-make"></a>Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</h1><h2 id="技能安装地址"><a href="#技能安装地址" class="headerlink" title="技能安装地址"></a>技能安装地址</h2><p>skills&#x2F;figma-content-operator&#x2F;<br>skills&#x2F;react-to-figma-make&#x2F;</p>
-<p>两个技能均来自 lintendo&#x2F;Axhub-Skills 开源技能库</p>
-<h2 id="一、两个技能的区别"><a href="#一、两个技能的区别" class="headerlink" title="一、两个技能的区别"></a>一、两个技能的区别</h2><p>…（完整内容如下）</p>
-<h2 id="二、figma-content-operator-使用说明"><a href="#二、figma-content-operator-使用说明" class="headerlink" title="二、figma-content-operator 使用说明"></a>二、figma-content-operator 使用说明</h2><h3 id="核心能力"><a href="#核心能力" class="headerlink" title="核心能力"></a>核心能力</h3><ul>
+<details class="mb-8 p-4 border border-border-light dark:border-border-dark rounded-lg" open>
+  <summary class="cursor-pointer font-heading text-sm font-medium text-text-secondary dark:text-text-secondary-dark uppercase tracking-wider">
+    目录
+  </summary>
+  <nav class="mt-3 toc-nav text-sm leading-loose text-text-secondary dark:text-text-secondary-dark">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Figma-%E5%86%85%E5%AE%B9%E6%93%8D%E4%BD%9C%E6%8A%80%E8%83%BD%EF%BC%9Afigma-content-operator-%E4%B8%8E-react-to-figma-make"><span class="toc-text">Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85"><span class="toc-text">一、技能安装</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%80%E8%83%BD%E5%AE%8C%E6%95%B4%E5%9C%B0%E5%9D%80"><span class="toc-text">技能完整地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%98%E6%96%B9%E5%AE%89%E8%A3%85%E6%8F%90%E7%A4%BA%E8%AF%8D"><span class="toc-text">官方安装提示词</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E9%A1%B9%E7%9B%AE"><span class="toc-text">相关项目</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%A4%E4%B8%AA%E6%8A%80%E8%83%BD%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">二、两个技能的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81figma-content-operator-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="toc-text">三、figma-content-operator 使用说明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B"><span class="toc-text">核心能力</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-text">使用方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">注意事项</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81Figma-%E6%8F%92%E4%BB%B6%E9%80%89%E6%8B%A9%EF%BC%9ADrafito-vs-Figwright"><span class="toc-text">四、Figma 插件选择：Drafito vs Figwright</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%B7%A5%E5%85%B7%E4%B8%8E-Figma-%E9%93%BE%E6%8E%A5%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B%EF%BC%88MCP-%E8%BF%9E%E6%8E%A5%EF%BC%89"><span class="toc-text">五、工具与 Figma 链接完整流程（MCP 连接）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E7%BD%AE%E6%9D%A1%E4%BB%B6%E7%A1%AE%E8%AE%A4"><span class="toc-text">前置条件确认</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-0-%E6%AD%A5%EF%BC%9A%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%E4%BD%93%E6%A3%80"><span class="toc-text">第 0 步：运行环境体检</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-1-%E6%AD%A5%EF%BC%9A%E5%90%AF%E5%8A%A8-Relay-%E4%B8%AD%E7%BB%A7%EF%BC%88%E4%BF%9D%E6%8C%81%E8%BF%90%E8%A1%8C%EF%BC%8C%E5%8B%BF%E5%85%B3%E9%97%AD%EF%BC%89"><span class="toc-text">第 1 步：启动 Relay 中继（保持运行，勿关闭）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-2-%E6%AD%A5%EF%BC%9A%E8%8E%B7%E5%8F%96%E7%9B%AE%E6%A0%87-Figma-%E6%96%87%E4%BB%B6-URL"><span class="toc-text">第 2 步：获取目标 Figma 文件 URL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-3-%E6%AD%A5%EF%BC%9A%E7%94%9F%E6%88%90%E6%8F%92%E4%BB%B6%E5%90%AF%E5%8A%A8%E9%93%BE%E6%8E%A5"><span class="toc-text">第 3 步：生成插件启动链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-4-%E6%AD%A5%EF%BC%9A%E5%9C%A8-Figma-%E4%B8%AD%E8%BF%90%E8%A1%8C%E6%8F%92%E4%BB%B6"><span class="toc-text">第 4 步：在 Figma 中运行插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-5-%E6%AD%A5%EF%BC%9A%E9%AA%8C%E8%AF%81%E5%8F%8C%E5%90%91%E8%BF%9E%E9%80%9A%EF%BC%88%E5%85%B3%E9%94%AE%EF%BC%81%EF%BC%89"><span class="toc-text">第 5 步：验证双向连通（关键！）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC-6-%E6%AD%A5%EF%BC%9A%E5%BC%80%E5%A7%8B%E6%93%8D%E4%BD%9C%E7%94%BB%E5%B8%83"><span class="toc-text">第 6 步：开始操作画布</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E7%BB%93%E6%9D%9F%EF%BC%9A%E5%81%9C%E6%AD%A2-Relay"><span class="toc-text">任务结束：停止 Relay</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%B8%B8%E8%A7%81%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5"><span class="toc-text">六、常见故障排查</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E3%80%81Figma-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%EF%BC%88%E5%A6%82%E5%B0%9A%E6%9C%AA%E5%AE%89%E8%A3%85%EF%BC%89"><span class="toc-text">七、Figma 插件安装（如尚未安装）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88-A%EF%BC%9ADrafito%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="toc-text">方案 A：Drafito（推荐）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88-B%EF%BC%9A%E4%B8%8A%E6%B8%B8-Figwright-%E5%BC%80%E5%8F%91%E6%8F%92%E4%BB%B6"><span class="toc-text">方案 B：上游 Figwright 开发插件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AB%E3%80%81react-to-figma-make-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="toc-text">八、react-to-figma-make 使用说明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B-1"><span class="toc-text">核心能力</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8C%E6%95%B4%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B"><span class="toc-text">完整工作流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E5%87%BA%E7%89%A9"><span class="toc-text">产出物</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E5%9C%BA%E6%99%AF%E9%80%89%E6%8B%A9%E6%8C%87%E5%8D%97"><span class="toc-text">九、场景选择指南</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E3%80%81%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90"><span class="toc-text">十、参考资源</span></a></li></ol></li></ol>
+  </nav>
+</details>
+
+
+  
+
+  <div class="prose prose-lg dark:prose-invert max-w-none overflow-x-hidden
+    prose-headings:font-heading prose-headings:font-medium
+    prose-a:text-accent dark:prose-a:text-accent-dark prose-a:no-underline hover:prose-a:underline
+    prose-img:rounded prose-img:mx-auto
+    prose-code:font-mono prose-code:text-sm
+    prose-pre:bg-gray-50 dark:prose-pre:bg-gray-900 prose-pre:rounded-lg
+    prose-blockquote:border-accent dark:prose-blockquote:border-accent-dark
+    prose-blockquote:not-italic">
+    <h1 id="Figma-内容操作技能：figma-content-operator-与-react-to-figma-make"><a href="#Figma-内容操作技能：figma-content-operator-与-react-to-figma-make" class="headerlink" title="Figma 内容操作技能：figma-content-operator 与 react-to-figma-make"></a>Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</h1><blockquote>
+<p>本文介绍两个来自 <a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills">lintendo&#x2F;Axhub-Skills</a> 开源技能库的 Figma 技能：<br><strong>figma-content-operator</strong>（操作 Figma 内容）与 <strong>react-to-figma-make</strong>（React 代码转 Figma Make），<br>覆盖从安装、插件选择、画布连接到完整使用流程。</p>
+</blockquote>
+<hr>
+<h2 id="一、技能安装"><a href="#一、技能安装" class="headerlink" title="一、技能安装"></a>一、技能安装</h2><h3 id="技能完整地址"><a href="#技能完整地址" class="headerlink" title="技能完整地址"></a>技能完整地址</h3><table>
+<thead>
+<tr>
+<th align="left">技能</th>
+<th align="left">仓库路径</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">figma-content-operator</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills/tree/main/skills/figma-content-operator">https://github.com/lintendo/Axhub-Skills/tree/main/skills/figma-content-operator</a></td>
+</tr>
+<tr>
+<td align="left">react-to-figma-make</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills/tree/main/skills/react-to-figma-make">https://github.com/lintendo/Axhub-Skills/tree/main/skills/react-to-figma-make</a></td>
+</tr>
+</tbody></table>
+<h3 id="官方安装提示词"><a href="#官方安装提示词" class="headerlink" title="官方安装提示词"></a>官方安装提示词</h3><p>向 AI 助手发送以下提示词即可安装对应技能：</p>
+<pre><code class="highlight text">请从 https://github.com/lintendo/Axhub-Skills/tree/main/skills/figma-content-operator 安装 figma-content-operator 这个技能。</code></pre>
+
+<pre><code class="highlight text">请从 https://github.com/lintendo/Axhub-Skills/tree/main/skills/react-to-figma-make 安装 react-to-figma-make 这个技能。</code></pre>
+
+<blockquote>
+<p>建议每次只安装当前任务需要的一个技能，避免上下文被无关工具污染。</p>
+</blockquote>
+<h3 id="相关项目"><a href="#相关项目" class="headerlink" title="相关项目"></a>相关项目</h3><table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">地址</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Axhub-Skills</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills">https://github.com/lintendo/Axhub-Skills</a></td>
+<td align="left">技能库本体（本文两个技能的来源）</td>
+</tr>
+<tr>
+<td align="left">Axhub-Make</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Make">https://github.com/lintendo/Axhub-Make</a></td>
+<td align="left">原型生产、批注、评审与交付工作台</td>
+</tr>
+<tr>
+<td align="left">Figwright MCP</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://github.com/awdr74100/figwright">https://github.com/awdr74100/figwright</a></td>
+<td align="left">双向 Figma MCP 服务器（428★）</td>
+</tr>
+<tr>
+<td align="left">Figma Make</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.figma.com/make/">https://www.figma.com/make/</a></td>
+<td align="left">Figma 官方 AI 设计工具</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="二、两个技能的区别"><a href="#二、两个技能的区别" class="headerlink" title="二、两个技能的区别"></a>二、两个技能的区别</h2><table>
+<thead>
+<tr>
+<th align="left">特性</th>
+<th align="left">figma-content-operator</th>
+<th align="left">react-to-figma-make</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>方向</strong></td>
+<td align="left">网页 &#x2F; 画布 → Figma</td>
+<td align="left">React 代码 → Figma Make</td>
+</tr>
+<tr>
+<td align="left"><strong>原理</strong></td>
+<td align="left">浏览器扩展复制粘贴 &#x2F; Figwright MCP 画布读写</td>
+<td align="left">代码结构转换 + canvas.fig 生成</td>
+</tr>
+<tr>
+<td align="left"><strong>输入</strong></td>
+<td align="left">任意网页（HTML&#x2F;React&#x2F;Vue）或 Figma 画布</td>
+<td align="left">React &#x2F; Vite &#x2F; Next.js &#x2F; V0 &#x2F; AI Studio 项目</td>
+</tr>
+<tr>
+<td align="left"><strong>输出</strong></td>
+<td align="left">Figma 画布直接粘贴 &#x2F; 读取结果</td>
+<td align="left">可导入 Figma Make 的 .fig 文件</td>
+</tr>
+<tr>
+<td align="left"><strong>技术依赖</strong></td>
+<td align="left">Axhub 浏览器扩展 + Chromium &#x2F; Node.js 22.19+</td>
+<td align="left">Node.js 22.19+ + canvas-fig-sync 脚本</td>
+</tr>
+<tr>
+<td align="left"><strong>适合场景</strong></td>
+<td align="left">已有网页设计稿、需要微调或读取画布</td>
+<td align="left">需要导入 Figma Make 进行可视化编辑</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="三、figma-content-operator-使用说明"><a href="#三、figma-content-operator-使用说明" class="headerlink" title="三、figma-content-operator 使用说明"></a>三、figma-content-operator 使用说明</h2><h3 id="核心能力"><a href="#核心能力" class="headerlink" title="核心能力"></a>核心能力</h3><ul>
 <li>检查、读取、创建、编辑、导出 Figma 内容</li>
 <li>将网页复制到 Figma 画布</li>
 <li>通过 Figwright MCP 操作 Figma 画布</li>
 </ul>
 <h3 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h3><h4 id="方式-A：网页复制粘贴（无需-MCP）"><a href="#方式-A：网页复制粘贴（无需-MCP）" class="headerlink" title="方式 A：网页复制粘贴（无需 MCP）"></a>方式 A：网页复制粘贴（无需 MCP）</h4><ol>
-<li>安装 Axhub 浏览器扩展（Chrome&#x2F;Edge）</li>
+<li>安装 <strong>Axhub 浏览器扩展</strong>（Chrome&#x2F;Edge）</li>
 <li>打开目标网页，点击扩展图标</li>
 <li>点击”复制到 Figma”</li>
 <li>打开 Figma 桌面&#x2F;App，在画板上 Cmd&#x2F;Ctrl + V 粘贴</li>
 </ol>
-<h4 id="方式-B：MCP-画布操作（需要-Figwright）"><a href="#方式-B：MCP-画布操作（需要-Figwright）" class="headerlink" title="方式 B：MCP 画布操作（需要 Figwright）"></a>方式 B：MCP 画布操作（需要 Figwright）</h4><ol>
-<li>在 Figma 中安装并运行 Drafito 或 Figwright 插件</li>
+<h4 id="方式-B：MCP-画布操作（需要-Figma-插件）"><a href="#方式-B：MCP-画布操作（需要-Figma-插件）" class="headerlink" title="方式 B：MCP 画布操作（需要 Figma 插件）"></a>方式 B：MCP 画布操作（需要 Figma 插件）</h4><ol>
+<li>在 Figma 中安装并运行 <strong>Drafito</strong> 或 <strong>Figwright</strong> 插件</li>
 <li>通过 MCP 连接后，可读取、编辑画布内容</li>
 <li>支持读取选区、节点树、元数据、截图等</li>
 </ol>
@@ -123,54 +323,180 @@
 <li>创建、更新、删除视为修改操作，需严格限制范围</li>
 <li>优先聚焦读取，避免直接调用 get_document</li>
 </ul>
-<h3 id="MCP-连接启动完整流程"><a href="#MCP-连接启动完整流程" class="headerlink" title="MCP 连接启动完整流程"></a>MCP 连接启动完整流程</h3><h4 id="前提条件确认"><a href="#前提条件确认" class="headerlink" title="前提条件确认"></a>前提条件确认</h4><table>
+<hr>
+<h2 id="四、Figma-插件选择：Drafito-vs-Figwright"><a href="#四、Figma-插件选择：Drafito-vs-Figwright" class="headerlink" title="四、Figma 插件选择：Drafito vs Figwright"></a>四、Figma 插件选择：Drafito vs Figwright</h2><p>两个插件都提供相同的 104 个工具契约（由 <code>@figwright/mcp</code> 驱动），但适用场景不同：</p>
+<table>
+<thead>
+<tr>
+<th align="left">对比项</th>
+<th align="left">Drafito</th>
+<th align="left">Figwright</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>获取方式</strong></td>
+<td align="left">内置在 Axhub 浏览器扩展中，无需单独安装</td>
+<td align="left">从 GitHub Releases 手动下载，导入开发版 manifest</td>
+</tr>
+<tr>
+<td align="left"><strong>适合人群</strong></td>
+<td align="left">已在用 Axhub 浏览器扩展的用户（推荐）</td>
+<td align="left">偏好上游开源插件、或 Drafito 不可用时</td>
+</tr>
+<tr>
+<td align="left"><strong>安装步骤</strong></td>
+<td align="left">无（扩展自带）</td>
+<td align="left">下载 → Figma 导入 manifest.json → 从 Development 启动</td>
+</tr>
+<tr>
+<td align="left"><strong>工具契约</strong></td>
+<td align="left">完整 104 工具（figwright-full）</td>
+<td align="left">完整 104 工具（figwright-full）</td>
+</tr>
+<tr>
+<td align="left"><strong>社区版本</strong></td>
+<td align="left">不适用</td>
+<td align="left">无 Community 版，仅开发版导入</td>
+</tr>
+<tr>
+<td align="left"><strong>与 Axhub 联动</strong></td>
+<td align="left">完美（同生态，可与 axhub-commentary 批注配合）</td>
+<td align="left">独立运行，不关联 Axhub 生态</td>
+</tr>
+</tbody></table>
+<p><strong>选型建议：</strong></p>
+<ul>
+<li>已安装 <strong>Axhub 浏览器扩展</strong> → 直接用 <strong>Drafito</strong>（零成本，推荐）</li>
+<li>不想装 Axhub 扩展、只想要纯 MCP → 用 <strong>Figwright</strong> 开发插件</li>
+</ul>
+<hr>
+<h2 id="五、工具与-Figma-链接完整流程（MCP-连接）"><a href="#五、工具与-Figma-链接完整流程（MCP-连接）" class="headerlink" title="五、工具与 Figma 链接完整流程（MCP 连接）"></a>五、工具与 Figma 链接完整流程（MCP 连接）</h2><blockquote>
+<p>本流程用于把 <code>figma-content-operator</code> 工具与你的 Figma 画布建立实时连接。<br>核心思路：<strong>本地启动 Relay（中继）→ Figma 内运行插件 → 双向连通</strong>。<br>整个连接依赖 <code>@figwright/mcp</code> 的插件中继，<strong>服务器启动 ≠ 插件已连通</strong>，必须以 <code>ping</code>&#x2F;<code>profile</code> 结果为准。</p>
+</blockquote>
+<h3 id="前置条件确认"><a href="#前置条件确认" class="headerlink" title="前置条件确认"></a>前置条件确认</h3><table>
 <thead>
 <tr>
 <th>条件</th>
 <th>要求</th>
+<th>检查命令</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>Node.js</td>
 <td>22.19+</td>
+<td><code>node -v</code></td>
 </tr>
 <tr>
-<td>MCP 技能</td>
-<td>figma-content-operator</td>
+<td>npx</td>
+<td>可用且在 PATH 中</td>
+<td><code>npx -v</code></td>
 </tr>
 <tr>
 <td>Figma 插件</td>
 <td>Drafito 或 Figwright（选一）</td>
+<td>见第四节</td>
 </tr>
 </tbody></table>
-<h4 id="第-1-步：启动-Relay（保持运行）"><a href="#第-1-步：启动-Relay（保持运行）" class="headerlink" title="第 1 步：启动 Relay（保持运行）"></a>第 1 步：启动 Relay（保持运行）</h4><p>npx figma-content-operator relay</p>
-<h4 id="第-2-步：验证连接"><a href="#第-2-步：验证连接" class="headerlink" title="第 2 步：验证连接"></a>第 2 步：验证连接</h4><p>npx figma-content-operator ping</p>
-<h4 id="第-3-步：获取-Figma-文件-URL"><a href="#第-3-步：获取-Figma-文件-URL" class="headerlink" title="第 3 步：获取 Figma 文件 URL"></a>第 3 步：获取 Figma 文件 URL</h4><p>在 Figma 桌面端或网页端打开目标文件，复制 URL，格式：</p>
-<p><a target="_blank" rel="noopener" href="https://www.figma.com/design/xxxxxxxxxxxx/%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0">https://www.figma.com/design/xxxxxxxxxxxx/项目名称</a></p>
-<h4 id="第-4-步：启动插件"><a href="#第-4-步：启动插件" class="headerlink" title="第 4 步：启动插件"></a>第 4 步：启动插件</h4><p>npx figma-content-operator launch-url –file-url “你的Figma文件URL”</p>
-<h4 id="第-5-步：在-Figma-中运行插件"><a href="#第-5-步：在-Figma-中运行插件" class="headerlink" title="第 5 步：在 Figma 中运行插件"></a>第 5 步：在 Figma 中运行插件</h4><ol>
-<li>在 Figma 中打开对应文件</li>
-<li>点击左侧边栏 Plugins → Drafito 或 Figwright</li>
-<li>粘贴启动链接，运行插件</li>
-<li>插件加载完成后即可开始操作</li>
+<h3 id="第-0-步：运行环境体检"><a href="#第-0-步：运行环境体检" class="headerlink" title="第 0 步：运行环境体检"></a>第 0 步：运行环境体检</h3><p>先运行 <code>doctor</code>，自动检查 Node&#x2F;npx 版本与 MCP 依赖是否就绪；有缺失先解决，避免后续步骤反复失败。</p>
+<pre><code class="highlight bash">npx figma-content-operator doctor</code></pre>
+
+<h3 id="第-1-步：启动-Relay-中继（保持运行，勿关闭）"><a href="#第-1-步：启动-Relay-中继（保持运行，勿关闭）" class="headerlink" title="第 1 步：启动 Relay 中继（保持运行，勿关闭）"></a>第 1 步：启动 Relay 中继（保持运行，勿关闭）</h3><p>在<strong>独立终端</strong>启动任务级 Relay，它是工具与 Figma 之间的 WebSocket 中继：</p>
+<pre><code class="highlight bash">npx figma-content-operator relay</code></pre>
+
+<p>⚠️ Relay 必须保持运行到任务结束；不要在 Relay 启动前就让用户运行插件，否则会连不上。</p>
+<h3 id="第-2-步：获取目标-Figma-文件-URL"><a href="#第-2-步：获取目标-Figma-文件-URL" class="headerlink" title="第 2 步：获取目标 Figma 文件 URL"></a>第 2 步：获取目标 Figma 文件 URL</h3><p>在 Figma 桌面端或网页端打开目标设计文件，从地址栏复制 URL（需包含 <code>/design/&lt;文件ID&gt;/</code> 或 <code>/file/&lt;文件ID&gt;/</code>）：</p>
+<pre><code class="highlight awk">https:<span class="regexp">//</span>www.figma.com<span class="regexp">/design/</span>xxxxxxxxxxxx/项目名称</code></pre>
+
+<h3 id="第-3-步：生成插件启动链接"><a href="#第-3-步：生成插件启动链接" class="headerlink" title="第 3 步：生成插件启动链接"></a>第 3 步：生成插件启动链接</h3><pre><code class="highlight bash">npx figma-content-operator launch-url <span class="string">&quot;https://www.figma.com/design/xxxxxxxxxxxx/项目名称&quot;</span></code></pre>
+
+<p>该命令会生成一个可点击的插件启动链接。</p>
+<h3 id="第-4-步：在-Figma-中运行插件"><a href="#第-4-步：在-Figma-中运行插件" class="headerlink" title="第 4 步：在 Figma 中运行插件"></a>第 4 步：在 Figma 中运行插件</h3><ol>
+<li>确认 Figma 中已打开第 2 步的目标文件</li>
+<li>点击启动链接，或手动进入 Plugins → 选择 <strong>Drafito</strong>（或 Figwright）</li>
+<li>在弹出的 <strong>Run Drafito</strong> 对话框确认运行</li>
+<li><strong>等用户明确表示插件已运行</strong>，再进入下一步（不要抢跑）</li>
 </ol>
-<h4 id="第-6-步：验证操作"><a href="#第-6-步：验证操作" class="headerlink" title="第 6 步：验证操作"></a>第 6 步：验证操作</h4><p>npx figma-content-operator profile<br>npx figma-content-operator get_document</p>
-<h4 id="连接成功后可执行的操作"><a href="#连接成功后可执行的操作" class="headerlink" title="连接成功后可执行的操作"></a>连接成功后可执行的操作</h4><ul>
-<li>读取 选中元素、节点树、样式、元数据</li>
-<li>创建&#x2F;编辑 画布元素</li>
-<li>管理 样式、变量、组件</li>
-<li>导出 设计资源</li>
+<h3 id="第-5-步：验证双向连通（关键！）"><a href="#第-5-步：验证双向连通（关键！）" class="headerlink" title="第 5 步：验证双向连通（关键！）"></a>第 5 步：验证双向连通（关键！）</h3><p>依次运行，确认连接真正建立：</p>
+<pre><code class="highlight bash">npx figma-content-operator ping
+npx figma-content-operator profile</code></pre>
+
+<p><strong>成功标准</strong>（缺一不可）：</p>
+<ul>
+<li><code>ping</code> 返回 <code>hop: &quot;e2e&quot;</code> 且包含 <code>plugin</code> 对象（说明链路是端到端，而非仅服务器存活）</li>
+<li><code>profile</code> 返回 <code>profile: &quot;figwright-full&quot;</code>（说明插件已加载完整工具注册表）</li>
 </ul>
-<h4 id="Figma-插件安装（如尚未安装）"><a href="#Figma-插件安装（如尚未安装）" class="headerlink" title="Figma 插件安装（如尚未安装）"></a>Figma 插件安装（如尚未安装）</h4><p>方案 A：Drafito（推荐）<br>配合 Axhub 浏览器扩展使用，Drafito 已内置其中。</p>
-<p>方案 B：Figwright</p>
+<p>如果 <code>ping</code> 返回 <code>hop: &quot;server-only&quot;</code>，说明 Relay 与插件没连上，见下方故障排查。</p>
+<h3 id="第-6-步：开始操作画布"><a href="#第-6-步：开始操作画布" class="headerlink" title="第 6 步：开始操作画布"></a>第 6 步：开始操作画布</h3><p>连接建立后即可读写画布。操作前先读取目标确认范围：</p>
+<pre><code class="highlight bash">npx figma-content-operator get_selection
+npx figma-content-operator get_node</code></pre>
+
+<blockquote>
+<p>安全建议：优先聚焦读取，避免直接调用 <code>get_document</code>；创建&#x2F;编辑&#x2F;删除属于修改操作，严格限制在用户指定范围。</p>
+</blockquote>
+<h3 id="任务结束：停止-Relay"><a href="#任务结束：停止-Relay" class="headerlink" title="任务结束：停止 Relay"></a>任务结束：停止 Relay</h3><p>任务完成、取消或失败后，回到启动 Relay 的终端按 <code>Ctrl+C</code> 停止该进程。不要尝试替用户关闭 Figma 插件本身。</p>
+<hr>
+<h2 id="六、常见故障排查"><a href="#六、常见故障排查" class="headerlink" title="六、常见故障排查"></a>六、常见故障排查</h2><table>
+<thead>
+<tr>
+<th>现象</th>
+<th>原因</th>
+<th>处理</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>ping</code> 返回 <code>server-only</code></td>
+<td>插件与 Relay 未连通</td>
+<td>确认 Relay 已就绪、插件已在 Figma 中运行、中继地址为 <code>ws://127.0.0.1:3055</code>，然后重新生成启动链接</td>
+</tr>
+<tr>
+<td>连接时断时续</td>
+<td><code>localhost</code> 解析为 IPv6 <code>::1</code>，而中继仅监听 IPv4</td>
+<td>确认插件中继 URL 使用 <code>ws://127.0.0.1:3055</code>，不要用 <code>localhost</code></td>
+</tr>
+<tr>
+<td>启动期间连接关闭</td>
+<td>npm registry 访问异常 &#x2F; 代理配置</td>
+<td>测试 <code>@figwright/mcp</code> 固定版本包的 npm 访问，检查 registry 或代理</td>
+</tr>
+<tr>
+<td><code>doctor</code> 报 Node 版本过低</td>
+<td>Node &lt; 22.19</td>
+<td>升级 Node.js 到 22.19+ 并确保 bin 目录在 PATH</td>
+</tr>
+<tr>
+<td>写入后改错了文件</td>
+<td>多文件&#x2F;多插件会话</td>
+<td>立即停止，运行 <code>ping</code> 和 <code>get_selection</code> 聚焦目标文件，验证后再纠正</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="七、Figma-插件安装（如尚未安装）"><a href="#七、Figma-插件安装（如尚未安装）" class="headerlink" title="七、Figma 插件安装（如尚未安装）"></a>七、Figma 插件安装（如尚未安装）</h2><h3 id="方案-A：Drafito（推荐）"><a href="#方案-A：Drafito（推荐）" class="headerlink" title="方案 A：Drafito（推荐）"></a>方案 A：Drafito（推荐）</h3><p>配合 <strong>Axhub 浏览器扩展</strong>使用，Drafito 已内置其中，无需单独下载。</p>
 <ol>
-<li>下载：<a target="_blank" rel="noopener" href="https://github.com/awdr74100/figwright/releases/latest">https://github.com/awdr74100/figwright/releases/latest</a></li>
-<li>Figma Desktop → Plugins → Development → Import plugin from manifest…</li>
-<li>选择下载包中的 manifest.json</li>
+<li>安装 Axhub 浏览器扩展（Chrome&#x2F;Edge）</li>
+<li>打开 Figma 文件，运行插件即可看到 Drafito</li>
 </ol>
-<h2 id="三、react-to-figma-make-使用说明"><a href="#三、react-to-figma-make-使用说明" class="headerlink" title="三、react-to-figma-make 使用说明"></a>三、react-to-figma-make 使用说明</h2><h3 id="核心能力-1"><a href="#核心能力-1" class="headerlink" title="核心能力"></a>核心能力</h3><p>将 React 项目转换为 Figma Make 可导入的 .fig 资产，保留设计系统和双入口架构。</p>
+<h3 id="方案-B：上游-Figwright-开发插件"><a href="#方案-B：上游-Figwright-开发插件" class="headerlink" title="方案 B：上游 Figwright 开发插件"></a>方案 B：上游 Figwright 开发插件</h3><ol>
+<li>下载最新版：<a target="_blank" rel="noopener" href="https://github.com/awdr74100/figwright/releases/latest">https://github.com/awdr74100/figwright/releases/latest</a></li>
+<li>Figma Desktop → Menu → Plugins → Development → <strong>Import plugin from manifest…</strong></li>
+<li>选择下载包中的 <code>manifest.json</code></li>
+<li>之后从 Plugins → Development → Figwright 启动（无需 Community 版，只导入一次即可）</li>
+</ol>
+<blockquote>
+<p>⚠️ 注意：不要假设上游插件存在 Community URL，也不要用非官方地址（如 nickhsharp&#x2F;figwright 已不可用）。</p>
+</blockquote>
+<hr>
+<h2 id="八、react-to-figma-make-使用说明"><a href="#八、react-to-figma-make-使用说明" class="headerlink" title="八、react-to-figma-make 使用说明"></a>八、react-to-figma-make 使用说明</h2><h3 id="核心能力-1"><a href="#核心能力-1" class="headerlink" title="核心能力"></a>核心能力</h3><p>将 React 项目转换为 Figma Make 可导入的 .fig 资产，保留设计系统和双入口架构。</p>
 <h3 id="完整工作流程"><a href="#完整工作流程" class="headerlink" title="完整工作流程"></a>完整工作流程</h3><h4 id="第-1-步：分析源项目"><a href="#第-1-步：分析源项目" class="headerlink" title="第 1 步：分析源项目"></a>第 1 步：分析源项目</h4><p>识别框架类型（React &#x2F; Next.js &#x2F; V0 &#x2F; AI Studio）、入口结构、样式方案、依赖分析、静态资源。</p>
-<h4 id="第-2-步：创建-Figma-Make-项目结构"><a href="#第-2-步：创建-Figma-Make-项目结构" class="headerlink" title="第 2 步：创建 Figma Make 项目结构"></a>第 2 步：创建 Figma Make 项目结构</h4><p>项目&#x2F;<br>├── index.tsx           # 主入口<br>├── src&#x2F;App.tsx         # Figma 导出薄壳<br>├── src&#x2F;main.tsx        # Vite 挂载层<br>├── src&#x2F;components&#x2F;     # 共享组件<br>├── src&#x2F;styles&#x2F;         # 全局样式<br>├── canvas.fig          # Figma 二进制设计数据<br>├── meta.json           # 项目元数据<br>└── images&#x2F;             # 图片资源</p>
+<h4 id="第-2-步：创建-Figma-Make-项目结构"><a href="#第-2-步：创建-Figma-Make-项目结构" class="headerlink" title="第 2 步：创建 Figma Make 项目结构"></a>第 2 步：创建 Figma Make 项目结构</h4><pre><code class="highlight nix">项目<span class="symbol">/</span>
+├── index.tsx           <span class="comment"># 主入口</span>
+├── src<span class="symbol">/App.tsx</span>         <span class="comment"># Figma 导出薄壳</span>
+├── src<span class="symbol">/main.tsx</span>        <span class="comment"># Vite 挂载层</span>
+├── src<span class="operator">/</span>components<span class="symbol">/</span>     <span class="comment"># 共享组件</span>
+├── src<span class="operator">/</span>styles<span class="symbol">/</span>         <span class="comment"># 全局样式</span>
+├── canvas.fig          <span class="comment"># Figma 二进制设计数据</span>
+├── meta.json           <span class="comment"># 项目元数据</span>
+└── images<span class="symbol">/</span>             <span class="comment"># 图片资源</span></code></pre>
+
 <h4 id="第-3-步：迁移源代码"><a href="#第-3-步：迁移源代码" class="headerlink" title="第 3 步：迁移源代码"></a>第 3 步：迁移源代码</h4><ul>
 <li>收敛入口为两个薄入口 + 一套共享组件</li>
 <li>移除框架特定代码（如 Next.js 的 “use client”、next&#x2F;image）</li>
@@ -181,13 +507,36 @@
 <li>package.json — Vite 依赖（不含 react&#x2F;react-dom）</li>
 <li>vite.config.ts、tsconfig.json、index.html</li>
 </ul>
-<h4 id="第-5-步：生成-canvas-fig"><a href="#第-5-步：生成-canvas-fig" class="headerlink" title="第 5 步：生成 canvas.fig"></a>第 5 步：生成 canvas.fig</h4><p>node scripts&#x2F;canvas-fig-sync.mjs inspect –fig assets&#x2F;empty-canvas.fig –manifest template.code-manifest.json<br>node scripts&#x2F;canvas-fig-sync.mjs pack –fig canvas.fig –from 源码目录 –prune-missing –sanitize-for-export</p>
+<h4 id="第-5-步：生成-canvas-fig"><a href="#第-5-步：生成-canvas-fig" class="headerlink" title="第 5 步：生成 canvas.fig"></a>第 5 步：生成 canvas.fig</h4><pre><code class="highlight bash"><span class="comment"># 检查模板</span>
+node scripts/canvas-fig-sync.mjs inspect \
+  --fig assets/empty-canvas.fig \
+  --manifest template.code-manifest.json
+
+<span class="comment"># pack 源码生成 .fig</span>
+node scripts/canvas-fig-sync.mjs pack \
+  --fig canvas.fig --from 源码目录 \
+  --prune-missing --sanitize-for-export</code></pre>
+
+<blockquote>
+<p>注意：<code>pack</code> 是模板节点同步器，只更新 <code>canvas.fig</code> 中已存在的 <code>CODE_FILE.logicalPath</code>；<br>首次生成前必须先 <code>inspect</code> 模板，并让导出源码路径与模板已有逻辑路径对齐。</p>
+</blockquote>
 <h4 id="第-6-步：验证"><a href="#第-6-步：验证" class="headerlink" title="第 6 步：验证"></a>第 6 步：验证</h4><ul>
 <li>结构验证：入口文件职责注释完整</li>
 <li>元文件验证：meta.json、ai_chat.json 等存在</li>
 <li>渲染验证：npm run dev 无报错</li>
 </ul>
-<h2 id="四、场景选择指南"><a href="#四、场景选择指南" class="headerlink" title="四、场景选择指南"></a>四、场景选择指南</h2><table>
+<h3 id="产出物"><a href="#产出物" class="headerlink" title="产出物"></a>产出物</h3><p>转换完成后，产物默认写入通用 artifact 目录：</p>
+<pre><code class="highlight nix">.axhub<span class="operator">/</span>make<span class="operator">/</span>artifacts<span class="operator">/</span>figma<span class="operator">/</span><span class="symbol">&lt;resource-id&gt;</span><span class="symbol">/</span>
+├── canvas.fig
+├── meta.json
+├── ai_chat.json
+├── canvas.code-manifest.json
+├── manifest.json
+├── images<span class="symbol">/</span>
+└── thumbnail.png            <span class="comment"># 可选</span></code></pre>
+
+<hr>
+<h2 id="九、场景选择指南"><a href="#九、场景选择指南" class="headerlink" title="九、场景选择指南"></a>九、场景选择指南</h2><table>
 <thead>
 <tr>
 <th align="left">我的情况</th>
@@ -210,141 +559,159 @@
 <td align="left">想把设计稿转成 React 代码</td>
 <td align="left">需要其他工具配合</td>
 </tr>
+<tr>
+<td align="left">想批量修改文字、样式、变量</td>
+<td align="left">figma-content-operator（MCP 画布操作）</td>
+</tr>
+<tr>
+<td align="left">想导出图片、PDF 或设计资料</td>
+<td align="left">figma-content-operator</td>
+</tr>
+<tr>
+<td align="left">页面需要可批注链接并关联项目目录</td>
+<td align="left">figma-content-operator + axhub-commentary</td>
+</tr>
 </tbody></table>
-<h2 id="五、参考资源"><a href="#五、参考资源" class="headerlink" title="五、参考资源"></a>五、参考资源</h2><ul>
-<li>Axhub-Skills 仓库：<a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills">https://github.com/lintendo/Axhub-Skills</a></li>
-<li>Figwright MCP：<a target="_blank" rel="noopener" href="https://github.com/nickhsharp/figwright">https://github.com/nickhsharp/figwright</a></li>
-<li>Figma Make 官方文档</li>
+<hr>
+<h2 id="十、参考资源"><a href="#十、参考资源" class="headerlink" title="十、参考资源"></a>十、参考资源</h2><ul>
+<li>Axhub-Skills 技能库：<a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills">https://github.com/lintendo/Axhub-Skills</a></li>
+<li>Axhub-Make 工作台：<a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Make">https://github.com/lintendo/Axhub-Make</a></li>
+<li>Figwright MCP：<a target="_blank" rel="noopener" href="https://github.com/awdr74100/figwright%EF%BC%88%E5%AE%98%E6%96%B9%EF%BC%8CMIT">https://github.com/awdr74100/figwright（官方，MIT</a> 协议）</li>
+<li>Figma Make 官方文档：<a target="_blank" rel="noopener" href="https://www.figma.com/make/">https://www.figma.com/make/</a></li>
+<li>Figma 开发者文档：<a target="_blank" rel="noopener" href="https://www.figma.com/developers">https://www.figma.com/developers</a></li>
 </ul>
+<hr>
 <p><em>本文由 AI 助手整理，技能来自 Axhub 开源技能库</em></p>
 
+  </div>
+
+  <footer class="mt-12 pt-8 border-t border-border-light dark:border-border-dark">
+    
+    <div class="flex flex-wrap items-center gap-2 mb-6">
+      <span class="text-sm text-text-secondary dark:text-text-secondary-dark">标签:</span>
+      
+      <a href="/tags/Figma/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #Figma
+      </a>
+      
+      <a href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #技能安装
+      </a>
+      
+      <a href="/tags/UI%E8%AE%BE%E8%AE%A1/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #UI设计
+      </a>
+      
+      <a href="/tags/React/" class="inline-block px-2.5 py-0.5 text-xs rounded-full border border-border-light dark:border-border-dark text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+        #React
+      </a>
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://malongan.github.io/2026/08/06/figma-content-operators/" data-id="cmsi5yuvr0007ikjth60vbto9" data-title="Figma 内容操作技能：figma-content-operator 与 react-to-figma-make" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Figma/" rel="tag">Figma</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/React/" rel="tag">React</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UI%E8%AE%BE%E8%AE%A1/" rel="tag">UI设计</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" rel="tag">技能安装</a></li></ul>
-
-    </footer>
-  </div>
-  
     
-<nav id="article-nav">
-  
-    <a href="/2026/08/07/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Hello World
-        
-      </div>
-    </a>
-  
-  
-</nav>
 
-  
+    
+
+    <nav class="flex justify-between items-center mt-8">
+      
+      <a href="/2026/08/08/qwenpaw-shared-secret-vault-guide/" class="group flex items-center gap-2 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+        <span>&larr;</span>
+        <span>上一篇: QwenPaw 共享密码库构建实战指南</span>
+      </a>
+      
+      
+      <a href="/2026/07/14/agent-self-improvement/" class="group flex items-center gap-2 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors text-right">
+        <span>下一篇: Agent 自我提升行为准则</span>
+        <span>&rarr;</span>
+      </a>
+      
+    </nav>
+  </footer>
 </article>
 
 
+
+<div class="max-w-content mx-auto mt-12">
+  
+<section class="mt-12 pt-8 border-t border-border-light dark:border-border-dark" id="comments">
+  <h2 class="font-heading text-xl font-medium mb-6">评论</h2>
+  
+    
+<script>
+(function() {
+  var isDark = document.documentElement.classList.contains('dark');
+  var script = document.createElement('script');
+  script.src = 'https://giscus.app/client.js';
+  script.setAttribute('data-repo', 'malongan/malongan.github.io');
+  script.setAttribute('data-repo-id', 'MDEwOlJlcG9zaXRvcnkxNjU3ODg4ODU=');
+  script.setAttribute('data-category', 'Announcements');
+  script.setAttribute('data-category-id', 'DIC_kwDOCeG81c4DBSHA');
+  script.setAttribute('data-mapping', 'pathname');
+  script.setAttribute('data-reactions-enabled', '1');
+  script.setAttribute('data-emit-metadata', '0');
+  script.setAttribute('data-input-position', 'top');
+  script.setAttribute('data-theme', isDark ? 'dark' : 'light');
+  script.setAttribute('data-lang', 'zh-CN');
+  script.setAttribute('crossorigin', 'anonymous');
+  script.async = true;
+  document.currentScript.parentElement.appendChild(script);
+
+  new MutationObserver(function() {
+    var dark = document.documentElement.classList.contains('dark');
+    var iframe = document.querySelector('iframe.giscus-frame');
+    if (iframe) {
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: dark ? 'dark' : 'light' } } },
+        'https://giscus.app'
+      );
+    }
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+
+
+  
 </section>
-        
-          <aside id="sidebar">
-  
+
+
+</div>
+
+
+  </main>
+  <footer class="w-full border-t border-border-light dark:border-border-dark mt-auto">
+  <div class="max-w-wide mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-text-secondary dark:text-text-secondary-dark">
+    <p>
+      &copy; 2026 malongan
+    </p>
+    <p class="mt-1">
+      驱动 <a href="https://hexo.io" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener">Hexo</a>
+      &middot;
+      主题 <a href="https://github.com/YingmuZ/hexo-theme-pretext-with-ascii-bunny" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener">Pretext</a>
+    </p>
     
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Figma/" rel="tag">Figma</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/React/" rel="tag">React</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UI%E8%AE%BE%E8%AE%A1/" rel="tag">UI设计</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" rel="tag">技能安装</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/Figma/" style="font-size: 10px;">Figma</a> <a href="/tags/React/" style="font-size: 10px;">React</a> <a href="/tags/UI%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">UI设计</a> <a href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" style="font-size: 10px;">技能安装</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/08/">August 2026</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2026/08/07/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2026/08/06/figma-content-operators/">Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
+    <div class="mt-4 flex items-center justify-center gap-4">
       
-      &copy; 2026 malongan<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+      <a href="https://github.com/malongan" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      
+      
+      
+      <a href="mailto:your-email@example.com" class="hover:text-accent dark:hover:text-accent-dark transition-colors" aria-label="Email">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      </a>
+      
     </div>
+    
   </div>
 </footer>
 
-    </div>
-    <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+  <button id="back-to-top" class="fixed bottom-6 right-6 w-10 h-10 bg-accent dark:bg-accent-dark text-white rounded-full opacity-0 pointer-events-none transition-opacity duration-300 flex items-center justify-center hover:opacity-90 z-50" aria-label="Back to top">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
+  </button>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-</nav>
-    
+<script src="/js/main.js"></script>
 
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
 </body>
 </html>

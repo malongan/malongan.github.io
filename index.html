@@ -1,377 +1,429 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  
-  
-  <title>malongan</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="malongan">
-<meta property="og:url" content="https://malongan.github.io/index.html">
-<meta property="og:site_name" content="malongan">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="malongan">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>关于 | malongan</title>
 
-  
-  
+<meta name="description" content="个人技术博客，记录成长与分享">
+
+
+<meta name="keywords" content="博客,技术,前端,后端,分享">
+
+<meta name="author" content="malongan">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:site_name" content="malongan">
+
+<meta property="og:description" content="个人技术博客，记录成长与分享">
+
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="canonical" href="https://malongan.github.io/about/index.html">
+
+<link rel="alternate" href="/atom.xml" title="malongan" type="application/atom+xml">
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
 <link rel="stylesheet" href="/css/style.css">
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
-  
+
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+})();
+</script>
+
+
+
 <meta name="generator" content="Hexo 6.3.0"></head>
+<body class="bg-bg-light dark:bg-bg-dark text-text-primary dark:text-text-primary-dark font-body leading-relaxed min-h-screen flex flex-col ">
+  <header class="w-full border-b border-border-light dark:border-border-dark">
+  <nav class="max-w-wide mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <a href="/" class="font-heading text-xl font-medium tracking-wide hover:text-accent dark:hover:text-accent-dark transition-colors">
+      malongan
+    </a>
+    <div class="flex items-center gap-6">
+      <ul class="hidden sm:flex items-center gap-6 text-sm">
+        
+        <li>
+          <a href="/" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            首页
+          </a>
+        </li>
+        
+        <li>
+          <a href="/archives" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            归档
+          </a>
+        </li>
+        
+        <li>
+          <a href="/tags" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            标签
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            分类
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about" class="text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+            关于
+          </a>
+        </li>
+        
+      </ul>
+      <button id="dark-mode-toggle" class="p-1.5 text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors" aria-label="Toggle dark mode">
+  <svg class="w-5 h-5 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+  <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+</button>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">malongan</a>
-      </h1>
+      <button id="mobile-menu-btn" class="sm:hidden p-1 text-text-secondary dark:text-text-secondary-dark" aria-label="首页">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="sm:hidden hidden border-t border-border-light dark:border-border-dark">
+    <ul class="px-4 py-3 space-y-2">
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://malongan.github.io"></form>
-      </div>
-    </div>
+      <li>
+        <a href="/" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          首页
+        </a>
+      </li>
+      
+      <li>
+        <a href="/archives" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          归档
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          标签
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          分类
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about" class="block py-1 text-sm text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+          关于
+        </a>
+      </li>
+      
+    </ul>
   </div>
 </header>
 
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/08/07/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2026-08-07T02:00:00.000Z" itemprop="datePublished">2026-08-07</time>
-</a>
+  <main class="flex-1 w-full max-w-wide mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
     
-  </div>
-  <div class="article-inner">
+<div class="max-w-wide mx-auto">
+  <div class="flex flex-col lg:flex-row lg:gap-6">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/08/07/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
+    <div class="order-first lg:order-last lg:flex-1 flex items-center justify-center">
       
-        <blockquote>
-<p>This blog’s source files were lost. The original articles are no longer available.<br>GitHub Actions deployment has been restored. New content coming soon.</p>
-</blockquote>
-        
-          <p class="article-more-link">
-            <a href="/2026/08/07/hello-world/#more">Read More</a>
-          </p>
-        
-      
+<div class="w-full h-full relative">
+  <canvas
+    id="pretext-hero-canvas"
+    class="w-full h-full"
+    data-font="16px JetBrains Mono"
+    data-animation="wave"
+    aria-hidden="true"
+  ></canvas>
+  <noscript>
+    <div class="flex items-center justify-center w-full h-full">
+      <pre class="font-mono text-xs sm:text-sm text-text-primary dark:text-text-primary-dark opacity-70 leading-none">(\(\
+( -.-)
+o_(")(")
+      </pre>
     </div>
-    <footer class="article-footer">
-      <a data-url="https://malongan.github.io/2026/08/07/hello-world/" data-id="cmsibobr70000sjjtadc7aj2v" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
+  </noscript>
+  <div id="pretext-hero-fallback" class="hidden items-center justify-center w-full h-full">
+    <pre class="font-mono text-xs sm:text-sm text-text-primary dark:text-text-primary-dark opacity-70 leading-none">(\(\
+( -.-)
+o_(")(")
+    </pre>
   </div>
-  
-</article>
+</div>
+<script type="module" src="/js/pretext-hero.js"></script>
 
-
-
-  
-    <article id="post-figma-content-operators" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/08/06/figma-content-operators/" class="article-date">
-  <time class="dt-published" datetime="2026-08-05T16:00:00.000Z" itemprop="datePublished">2026-08-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/08/06/figma-content-operators/">Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="Figma-内容操作技能：figma-content-operator-与-react-to-figma-make"><a href="#Figma-内容操作技能：figma-content-operator-与-react-to-figma-make" class="headerlink" title="Figma 内容操作技能：figma-content-operator 与 react-to-figma-make"></a>Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</h1><h2 id="技能安装地址"><a href="#技能安装地址" class="headerlink" title="技能安装地址"></a>技能安装地址</h2><p>skills&#x2F;figma-content-operator&#x2F;<br>skills&#x2F;react-to-figma-make&#x2F;</p>
-<p>两个技能均来自 lintendo&#x2F;Axhub-Skills 开源技能库</p>
-<h2 id="一、两个技能的区别"><a href="#一、两个技能的区别" class="headerlink" title="一、两个技能的区别"></a>一、两个技能的区别</h2><p>…（完整内容如下）</p>
-<h2 id="二、figma-content-operator-使用说明"><a href="#二、figma-content-operator-使用说明" class="headerlink" title="二、figma-content-operator 使用说明"></a>二、figma-content-operator 使用说明</h2><h3 id="核心能力"><a href="#核心能力" class="headerlink" title="核心能力"></a>核心能力</h3><ul>
-<li>检查、读取、创建、编辑、导出 Figma 内容</li>
-<li>将网页复制到 Figma 画布</li>
-<li>通过 Figwright MCP 操作 Figma 画布</li>
-</ul>
-<h3 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h3><h4 id="方式-A：网页复制粘贴（无需-MCP）"><a href="#方式-A：网页复制粘贴（无需-MCP）" class="headerlink" title="方式 A：网页复制粘贴（无需 MCP）"></a>方式 A：网页复制粘贴（无需 MCP）</h4><ol>
-<li>安装 Axhub 浏览器扩展（Chrome&#x2F;Edge）</li>
-<li>打开目标网页，点击扩展图标</li>
-<li>点击”复制到 Figma”</li>
-<li>打开 Figma 桌面&#x2F;App，在画板上 Cmd&#x2F;Ctrl + V 粘贴</li>
-</ol>
-<h4 id="方式-B：MCP-画布操作（需要-Figwright）"><a href="#方式-B：MCP-画布操作（需要-Figwright）" class="headerlink" title="方式 B：MCP 画布操作（需要 Figwright）"></a>方式 B：MCP 画布操作（需要 Figwright）</h4><ol>
-<li>在 Figma 中安装并运行 Drafito 或 Figwright 插件</li>
-<li>通过 MCP 连接后，可读取、编辑画布内容</li>
-<li>支持读取选区、节点树、元数据、截图等</li>
-</ol>
-<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
-<li>MCP 操作前需先读取目标，再写入</li>
-<li>创建、更新、删除视为修改操作，需严格限制范围</li>
-<li>优先聚焦读取，避免直接调用 get_document</li>
-</ul>
-<h3 id="MCP-连接启动完整流程"><a href="#MCP-连接启动完整流程" class="headerlink" title="MCP 连接启动完整流程"></a>MCP 连接启动完整流程</h3><h4 id="前提条件确认"><a href="#前提条件确认" class="headerlink" title="前提条件确认"></a>前提条件确认</h4><table>
-<thead>
-<tr>
-<th>条件</th>
-<th>要求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Node.js</td>
-<td>22.19+</td>
-</tr>
-<tr>
-<td>MCP 技能</td>
-<td>figma-content-operator</td>
-</tr>
-<tr>
-<td>Figma 插件</td>
-<td>Drafito 或 Figwright（选一）</td>
-</tr>
-</tbody></table>
-<h4 id="第-1-步：启动-Relay（保持运行）"><a href="#第-1-步：启动-Relay（保持运行）" class="headerlink" title="第 1 步：启动 Relay（保持运行）"></a>第 1 步：启动 Relay（保持运行）</h4><p>npx figma-content-operator relay</p>
-<h4 id="第-2-步：验证连接"><a href="#第-2-步：验证连接" class="headerlink" title="第 2 步：验证连接"></a>第 2 步：验证连接</h4><p>npx figma-content-operator ping</p>
-<h4 id="第-3-步：获取-Figma-文件-URL"><a href="#第-3-步：获取-Figma-文件-URL" class="headerlink" title="第 3 步：获取 Figma 文件 URL"></a>第 3 步：获取 Figma 文件 URL</h4><p>在 Figma 桌面端或网页端打开目标文件，复制 URL，格式：</p>
-<p><a target="_blank" rel="noopener" href="https://www.figma.com/design/xxxxxxxxxxxx/%E9%A1%B9%E7%9B%AE%E5%90%8D%E7%A7%B0">https://www.figma.com/design/xxxxxxxxxxxx/项目名称</a></p>
-<h4 id="第-4-步：启动插件"><a href="#第-4-步：启动插件" class="headerlink" title="第 4 步：启动插件"></a>第 4 步：启动插件</h4><p>npx figma-content-operator launch-url –file-url “你的Figma文件URL”</p>
-<h4 id="第-5-步：在-Figma-中运行插件"><a href="#第-5-步：在-Figma-中运行插件" class="headerlink" title="第 5 步：在 Figma 中运行插件"></a>第 5 步：在 Figma 中运行插件</h4><ol>
-<li>在 Figma 中打开对应文件</li>
-<li>点击左侧边栏 Plugins → Drafito 或 Figwright</li>
-<li>粘贴启动链接，运行插件</li>
-<li>插件加载完成后即可开始操作</li>
-</ol>
-<h4 id="第-6-步：验证操作"><a href="#第-6-步：验证操作" class="headerlink" title="第 6 步：验证操作"></a>第 6 步：验证操作</h4><p>npx figma-content-operator profile<br>npx figma-content-operator get_document</p>
-<h4 id="连接成功后可执行的操作"><a href="#连接成功后可执行的操作" class="headerlink" title="连接成功后可执行的操作"></a>连接成功后可执行的操作</h4><ul>
-<li>读取 选中元素、节点树、样式、元数据</li>
-<li>创建&#x2F;编辑 画布元素</li>
-<li>管理 样式、变量、组件</li>
-<li>导出 设计资源</li>
-</ul>
-<h4 id="Figma-插件安装（如尚未安装）"><a href="#Figma-插件安装（如尚未安装）" class="headerlink" title="Figma 插件安装（如尚未安装）"></a>Figma 插件安装（如尚未安装）</h4><p>方案 A：Drafito（推荐）<br>配合 Axhub 浏览器扩展使用，Drafito 已内置其中。</p>
-<p>方案 B：Figwright</p>
-<ol>
-<li>下载：<a target="_blank" rel="noopener" href="https://github.com/awdr74100/figwright/releases/latest">https://github.com/awdr74100/figwright/releases/latest</a></li>
-<li>Figma Desktop → Plugins → Development → Import plugin from manifest…</li>
-<li>选择下载包中的 manifest.json</li>
-</ol>
-<h2 id="三、react-to-figma-make-使用说明"><a href="#三、react-to-figma-make-使用说明" class="headerlink" title="三、react-to-figma-make 使用说明"></a>三、react-to-figma-make 使用说明</h2><h3 id="核心能力-1"><a href="#核心能力-1" class="headerlink" title="核心能力"></a>核心能力</h3><p>将 React 项目转换为 Figma Make 可导入的 .fig 资产，保留设计系统和双入口架构。</p>
-<h3 id="完整工作流程"><a href="#完整工作流程" class="headerlink" title="完整工作流程"></a>完整工作流程</h3><h4 id="第-1-步：分析源项目"><a href="#第-1-步：分析源项目" class="headerlink" title="第 1 步：分析源项目"></a>第 1 步：分析源项目</h4><p>识别框架类型（React &#x2F; Next.js &#x2F; V0 &#x2F; AI Studio）、入口结构、样式方案、依赖分析、静态资源。</p>
-<h4 id="第-2-步：创建-Figma-Make-项目结构"><a href="#第-2-步：创建-Figma-Make-项目结构" class="headerlink" title="第 2 步：创建 Figma Make 项目结构"></a>第 2 步：创建 Figma Make 项目结构</h4><p>项目&#x2F;<br>├── index.tsx           # 主入口<br>├── src&#x2F;App.tsx         # Figma 导出薄壳<br>├── src&#x2F;main.tsx        # Vite 挂载层<br>├── src&#x2F;components&#x2F;     # 共享组件<br>├── src&#x2F;styles&#x2F;         # 全局样式<br>├── canvas.fig          # Figma 二进制设计数据<br>├── meta.json           # 项目元数据<br>└── images&#x2F;             # 图片资源</p>
-<h4 id="第-3-步：迁移源代码"><a href="#第-3-步：迁移源代码" class="headerlink" title="第 3 步：迁移源代码"></a>第 3 步：迁移源代码</h4><ul>
-<li>收敛入口为两个薄入口 + 一套共享组件</li>
-<li>移除框架特定代码（如 Next.js 的 “use client”、next&#x2F;image）</li>
-</ul>
-<h4 id="第-4-步：补齐元文件"><a href="#第-4-步：补齐元文件" class="headerlink" title="第 4 步：补齐元文件"></a>第 4 步：补齐元文件</h4><ul>
-<li>meta.json — 项目元数据</li>
-<li>ai_chat.json — AI 聊天历史</li>
-<li>package.json — Vite 依赖（不含 react&#x2F;react-dom）</li>
-<li>vite.config.ts、tsconfig.json、index.html</li>
-</ul>
-<h4 id="第-5-步：生成-canvas-fig"><a href="#第-5-步：生成-canvas-fig" class="headerlink" title="第 5 步：生成 canvas.fig"></a>第 5 步：生成 canvas.fig</h4><p>node scripts&#x2F;canvas-fig-sync.mjs inspect –fig assets&#x2F;empty-canvas.fig –manifest template.code-manifest.json<br>node scripts&#x2F;canvas-fig-sync.mjs pack –fig canvas.fig –from 源码目录 –prune-missing –sanitize-for-export</p>
-<h4 id="第-6-步：验证"><a href="#第-6-步：验证" class="headerlink" title="第 6 步：验证"></a>第 6 步：验证</h4><ul>
-<li>结构验证：入口文件职责注释完整</li>
-<li>元文件验证：meta.json、ai_chat.json 等存在</li>
-<li>渲染验证：npm run dev 无报错</li>
-</ul>
-<h2 id="四、场景选择指南"><a href="#四、场景选择指南" class="headerlink" title="四、场景选择指南"></a>四、场景选择指南</h2><table>
-<thead>
-<tr>
-<th align="left">我的情况</th>
-<th align="left">推荐技能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">有一个做好的网页，想搬进 Figma</td>
-<td align="left">figma-content-operator</td>
-</tr>
-<tr>
-<td align="left">有 React 代码，想生成 .fig 导入</td>
-<td align="left">react-to-figma-make</td>
-</tr>
-<tr>
-<td align="left">想在 Figma 上直接读取&#x2F;编辑设计</td>
-<td align="left">figma-content-operator + Figwright MCP</td>
-</tr>
-<tr>
-<td align="left">想把设计稿转成 React 代码</td>
-<td align="left">需要其他工具配合</td>
-</tr>
-</tbody></table>
-<h2 id="五、参考资源"><a href="#五、参考资源" class="headerlink" title="五、参考资源"></a>五、参考资源</h2><ul>
-<li>Axhub-Skills 仓库：<a target="_blank" rel="noopener" href="https://github.com/lintendo/Axhub-Skills">https://github.com/lintendo/Axhub-Skills</a></li>
-<li>Figwright MCP：<a target="_blank" rel="noopener" href="https://github.com/nickhsharp/figwright">https://github.com/nickhsharp/figwright</a></li>
-<li>Figma Make 官方文档</li>
-</ul>
-<p><em>本文由 AI 助手整理，技能来自 Axhub 开源技能库</em></p>
-
-      
     </div>
-    <footer class="article-footer">
-      <a data-url="https://malongan.github.io/2026/08/06/figma-content-operators/" data-id="cmsi5yuvr0007ikjth60vbto9" data-title="Figma 内容操作技能：figma-content-operator 与 react-to-figma-make" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Figma/" rel="tag">Figma</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/React/" rel="tag">React</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UI%E8%AE%BE%E8%AE%A1/" rel="tag">UI设计</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" rel="tag">技能安装</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
     
 
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Figma/" rel="tag">Figma</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/React/" rel="tag">React</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UI%E8%AE%BE%E8%AE%A1/" rel="tag">UI设计</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" rel="tag">技能安装</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/Figma/" style="font-size: 10px;">Figma</a> <a href="/tags/React/" style="font-size: 10px;">React</a> <a href="/tags/UI%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">UI设计</a> <a href="/tags/%E6%8A%80%E8%83%BD%E5%AE%89%E8%A3%85/" style="font-size: 10px;">技能安装</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/08/">August 2026</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+    <div class="flex-shrink-0 lg:w-[50%] py-4">
+      <div class="relative border border-dashed border-border-light dark:border-border-dark rounded-sm">
         
-          <li>
-            <a href="/2026/08/07/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2026/08/06/figma-content-operators/">Figma 内容操作技能：figma-content-operator 与 react-to-figma-make</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+        <div class="absolute -top-3 left-4 px-2 bg-bg-light dark:bg-bg-dark font-mono text-xs text-text-secondary dark:text-text-secondary-dark">
+          &#x250C;&#x2500; recent posts &#x2500;&#x2510;
+        </div>
 
-  
-</aside>
+        <div class="px-5 pt-6 pb-4">
+          <ul class="space-y-0">
+            
+            <li class="group">
+              <a href="/2026/09/10/image25-usage-guide/" class="block py-3 border-b border-dotted border-border-light dark:border-border-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+                <div class="flex items-start gap-2.5">
+                  <span class="font-mono text-xs text-text-secondary dark:text-text-secondary-dark mt-0.5 flex-shrink-0 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">&gt;</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-2 mb-0.5">
+                      <time class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark tabular-nums flex-shrink-0" datetime="2026-09-10T06:25:00.000Z">
+                        2026-09-10
+                      </time>
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark opacity-40">&#x2502;</span>
+                      
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark flex-shrink-0">
+                        工具教程
+                      </span>
+                      
+                    </div>
+                    <h2 class="text-sm font-medium leading-snug group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
+                      Image2.5 玩法全公开，从个人到电商（附提示词教程）
+                    </h2>
+                    
+                    <p class="mt-1 text-xs text-text-secondary dark:text-text-secondary-dark line-clamp-2 leading-relaxed">
+                      
+作者：Punk（原文链接）｜中科大管理学硕士｜AI 提示词与 AI 小白教程作者｜Punk 系列 Skills 作者
+
+
+这篇文章，对照着官方发布的文档，结合自己做图的经验，一点点手搓出来的。每一个方案都是亲测多轮的结果，希望能够帮助到大
+                    </p>
+                    
+                    
+                    <div class="mt-0.5 flex flex-wrap gap-1.5">
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#AI</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#Image2.5</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#教程</span>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </a>
+            </li>
+            
+            <li class="group">
+              <a href="/2026/08/08/qwenpaw-shared-secret-vault-guide/" class="block py-3 border-b border-dotted border-border-light dark:border-border-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+                <div class="flex items-start gap-2.5">
+                  <span class="font-mono text-xs text-text-secondary dark:text-text-secondary-dark mt-0.5 flex-shrink-0 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">&gt;</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-2 mb-0.5">
+                      <time class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark tabular-nums flex-shrink-0" datetime="2026-08-08T04:00:00.000Z">
+                        2026-08-08
+                      </time>
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark opacity-40">&#x2502;</span>
+                      
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark flex-shrink-0">
+                        技术实践
+                      </span>
+                      
+                    </div>
+                    <h2 class="text-sm font-medium leading-snug group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
+                      QwenPaw 共享密码库构建实战指南
+                    </h2>
+                    
+                    
+                    <div class="mt-0.5 flex flex-wrap gap-1.5">
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#QwenPaw</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#安全</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#密钥管理</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#多智能体</span>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </a>
+            </li>
+            
+            <li class="group">
+              <a href="/2026/08/06/figma-content-operators/" class="block py-3 border-b border-dotted border-border-light dark:border-border-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+                <div class="flex items-start gap-2.5">
+                  <span class="font-mono text-xs text-text-secondary dark:text-text-secondary-dark mt-0.5 flex-shrink-0 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">&gt;</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-2 mb-0.5">
+                      <time class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark tabular-nums flex-shrink-0" datetime="2026-08-06T04:00:00.000Z">
+                        2026-08-06
+                      </time>
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark opacity-40">&#x2502;</span>
+                      
+                    </div>
+                    <h2 class="text-sm font-medium leading-snug group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
+                      Figma 内容操作技能：figma-content-operator 与 react-to-figma-make
+                    </h2>
+                    
+                    
+                    <div class="mt-0.5 flex flex-wrap gap-1.5">
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#Figma</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#技能安装</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#UI设计</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#React</span>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </a>
+            </li>
+            
+            <li class="group">
+              <a href="/2026/07/14/agent-self-improvement/" class="block py-3 border-b border-dotted border-border-light dark:border-border-dark hover:border-accent dark:hover:border-accent-dark transition-colors">
+                <div class="flex items-start gap-2.5">
+                  <span class="font-mono text-xs text-text-secondary dark:text-text-secondary-dark mt-0.5 flex-shrink-0 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">&gt;</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-2 mb-0.5">
+                      <time class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark tabular-nums flex-shrink-0" datetime="2026-07-14T10:00:00.000Z">
+                        2026-07-14
+                      </time>
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark opacity-40">&#x2502;</span>
+                      
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark flex-shrink-0">
+                        Agent准则
+                      </span>
+                      
+                    </div>
+                    <h2 class="text-sm font-medium leading-snug group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
+                      Agent 自我提升行为准则
+                    </h2>
+                    
+                    
+                    <div class="mt-0.5 flex flex-wrap gap-1.5">
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#Agent</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#准则</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#自我提升</span>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </a>
+            </li>
+            
+            <li class="group">
+              <a href="/2026/07/14/qwenpaw-symlink-sharing/" class="block py-3  hover:border-accent dark:hover:border-accent-dark transition-colors">
+                <div class="flex items-start gap-2.5">
+                  <span class="font-mono text-xs text-text-secondary dark:text-text-secondary-dark mt-0.5 flex-shrink-0 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">&gt;</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-2 mb-0.5">
+                      <time class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark tabular-nums flex-shrink-0" datetime="2026-07-14T10:00:00.000Z">
+                        2026-07-14
+                      </time>
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark opacity-40">&#x2502;</span>
+                      
+                      <span class="font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark flex-shrink-0">
+                        QwenPaw
+                      </span>
+                      
+                    </div>
+                    <h2 class="text-sm font-medium leading-snug group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">
+                      QwenPaw Skill软链共享方案
+                    </h2>
+                    
+                    
+                    <div class="mt-0.5 flex flex-wrap gap-1.5">
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#QwenPaw</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#软链</span>
+                      
+                      <span class="font-mono text-[10px] text-text-secondary dark:text-text-secondary-dark opacity-50">#技能共享</span>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </a>
+            </li>
+            
+          </ul>
+
+          <div class="mt-4 pt-3 border-t border-dashed border-border-light dark:border-border-dark">
+            <a href="/archives" class="inline-flex items-center gap-2 font-mono text-[11px] text-text-secondary dark:text-text-secondary-dark hover:text-accent dark:hover:text-accent-dark transition-colors">
+              <span>&gt;</span>
+              <span>view all archives &rarr;</span>
+            </a>
+          </div>
+        </div>
+
         
+        <div class="absolute -bottom-3 right-4 px-2 bg-bg-light dark:bg-bg-dark font-mono text-xs text-text-secondary dark:text-text-secondary-dark">
+          &#x2514;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2518;
+        </div>
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2026 malongan<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
+  </div>
+</div>
+
+  </main>
+  <footer class="w-full border-t border-border-light dark:border-border-dark mt-auto">
+  <div class="max-w-wide mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-text-secondary dark:text-text-secondary-dark">
+    <p>
+      &copy; 2026 malongan
+    </p>
+    <p class="mt-1">
+      驱动 <a href="https://hexo.io" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener">Hexo</a>
+      &middot;
+      主题 <a href="https://github.com/YingmuZ/hexo-theme-pretext-with-ascii-bunny" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener">Pretext</a>
+    </p>
+    
+    <div class="mt-4 flex items-center justify-center gap-4">
+      
+      <a href="https://github.com/malongan" class="hover:text-accent dark:hover:text-accent-dark transition-colors" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      
+      
+      
+      <a href="mailto:your-email@example.com" class="hover:text-accent dark:hover:text-accent-dark transition-colors" aria-label="Email">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      </a>
+      
+    </div>
+    
   </div>
 </footer>
 
-    </div>
-    <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+  <button id="back-to-top" class="fixed bottom-6 right-6 w-10 h-10 bg-accent dark:bg-accent-dark text-white rounded-full opacity-0 pointer-events-none transition-opacity duration-300 flex items-center justify-center hover:opacity-90 z-50" aria-label="Back to top">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
+  </button>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-</nav>
-    
+<script src="/js/main.js"></script>
 
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
 </body>
 </html>
