@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://malongan.github.io/2026/07/14/tuzi-api-guide/</loc>
+    <loc>https://malongan.github.io/2024/01/01/welcome-to-hexo-blog/</loc>
     
     <lastmod>2026-09-11</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://malongan.github.io/2024/01/01/welcome-to-hexo-blog/</loc>
+    <loc>https://malongan.github.io/2026/07/14/tuzi-api-guide/</loc>
     
     <lastmod>2026-09-11</lastmod>
     
@@ -231,27 +231,6 @@
   </url>
   
   <url>
-    <loc>https://malongan.github.io/tags/TuZi/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://malongan.github.io/tags/API/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://malongan.github.io/tags/%E7%94%9F%E5%9B%BE/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://malongan.github.io/tags/Hexo/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -267,6 +246,27 @@
   
   <url>
     <loc>https://malongan.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://malongan.github.io/tags/TuZi/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://malongan.github.io/tags/API/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://malongan.github.io/tags/%E7%94%9F%E5%9B%BE/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
