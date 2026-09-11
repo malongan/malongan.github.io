@@ -31,11 +31,9 @@ categories:
 
 我会先从贴纸式弹跳动画开始，让同一张素材动起来。这样不必逐帧重新生成角色。当然，这只是演示，可以做更多有趣的动作，直接可以做表情包！
 
-![贴纸式弹跳动画演示](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/sticker-demo-preview.jpg)
-
 **第一步：生成贴纸素材**
 
-{% asset_img sticker-demo.mp4 贴纸式弹跳动画 %}
+<video src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/sticker-demo.mp4" controls="true" width="100%"></video>
 
 > 提示词：
 
@@ -133,9 +131,9 @@ Create a Meme sticker pack based on the images attached, remixing with 😎😛�
 提供一个独立的 GIF 文件链接。
 ```
 
-![表情包 GIF 动画演示](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/emoji-gif-demo-preview.jpg)
 
-{% asset_img emoji-gif-demo.mp4 表情包 GIF 动画 %}
+
+<video src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/emoji-gif-demo.mp4" controls="true" width="100%"></video>
 
 ---
 
@@ -171,9 +169,9 @@ GIF 使用固定的往返顺序播放：1→2→3→4→5→6→7→8→9→10�
 完成后请实际读取生成的 GIF 文件进行检查，确认 GIF 包含 18 帧，每帧约 120 毫秒，并且已经设置无限循环。
 ```
 
-![商品慢扫光动态广告演示](https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/product-sweep-preview.jpg)
 
-{% asset_img product-sweep.mp4 商品慢扫光动态广告 %}
+
+<video src="https://raw.githubusercontent.com/malongan/malongan.github.io/gh-pages/images/assets25-guide/media/product-sweep.mp4" controls="true" width="100%"></video>
 
 ---
 
